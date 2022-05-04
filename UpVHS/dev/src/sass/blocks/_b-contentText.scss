@@ -1,0 +1,274 @@
+.l-contentText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 1440px;
+  margin-top: 80px;
+}
+
+.b-contentText {
+  width: 100%;
+  max-width: 1170px;
+}
+
+.l-contentCategories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.b-contentCategoriesButton {
+  width: 218px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  font-size: 21px;
+  font-family: $Inter;
+  font-weight: 500;
+  color: #27272E;
+  background: #F2FAFE;
+  border: 1px solid #18B0B6;
+  box-sizing: border-box;
+  border-radius: 5px;
+  &:hover {
+    background: linear-gradient(180deg, #AF68C2 0%, #89429C 100%);
+    color: #fff;
+    &:nth-child(2) {
+      &::before {
+        background-blend-mode: difference;
+      }
+    }
+  }
+  &:nth-child(1) {
+    &::before {
+      content: "";
+      background: url('../../../../assets/img/userfiles/contentCategoriesIcons/Grundlagen.svg'), linear-gradient(180deg, #31CDD1 0%, #169EA4 100%);
+      width: 100%;
+      max-width: 28px;
+      aspect-ratio: 1/1;
+      margin: 0px 10px 0px 25px;
+    }
+  }
+  &:nth-child(2) {
+    &::before {
+      content: "";
+      background-image: url('../../../../assets/img/userfiles/contentCategoriesIcons/Gesellschaft.svg');
+      width: 100%;
+      max-width: 28px;
+      aspect-ratio: 1/1;
+      margin: 0px 10px 0px 25px;
+    }
+  }
+  &:nth-child(3) {
+    &::before {
+      content: "";
+      background-image: url('../../../../assets/img/userfiles/contentCategoriesIcons/Sprachen.svg');
+      width: 100%;
+      max-width: 28px;
+      aspect-ratio: 1/1;
+      margin: 0px 10px 0px 25px;
+    }
+  }
+  &:nth-child(4) {
+    &::before {
+      content: "";
+      background-image: url('../../../../assets/img/userfiles/contentCategoriesIcons/Gestalten.svg');
+      width: 100%;
+      max-width: 28px;
+      aspect-ratio: 1/1;
+      margin: 0px 10px 0px 25px;
+    }
+  }
+  &:nth-child(5) {
+    &::before {
+      content: "";
+      background-image: url('../../../../assets/img/userfiles/contentCategoriesIcons/Beruf.svg');
+      width: 100%;
+      max-width: 28px;
+      aspect-ratio: 1/1;
+      margin: 0px 10px 0px 25px;
+    }
+  }
+  &:nth-child(6) {
+    &::before {
+      content: "";
+      background-image: url('../../../../assets/img/userfiles/contentCategoriesIcons/Kultur.svg');
+      width: 100%;
+      max-width: 28px;
+      aspect-ratio: 1/1;
+      margin: 0px 10px 0px 25px;
+    }
+  }
+  &:nth-child(7) {
+    &::before {
+      content: "";
+      background-image: url('../../../../assets/img/userfiles/contentCategoriesIcons/Gemeinschaft.svg');
+      width: 100%;
+      max-width: 28px;
+      aspect-ratio: 1/1;
+      margin: 0px 8px 0px 25px;
+    }
+  }
+  &:nth-child(8) {
+    &::before {
+      content: "";
+      background-image: url('../../../../assets/img/userfiles/contentCategoriesIcons/Natur.svg');
+      width: 100%;
+      max-width: 28px;
+      aspect-ratio: 1/1;
+      margin: 0px 10px 0px 25px;
+    }
+  }
+  &:nth-child(9) {
+    &::before {
+      content: "";
+      background-image: url('../../../../assets/img/userfiles/contentCategoriesIcons/Gesundheit.svg');
+      width: 100%;
+      max-width: 28px;
+      aspect-ratio: 1/1;
+      margin: 0px 10px 0px 25px;
+    }
+  }
+  &:nth-child(10) {
+    &::before {
+      content: "";
+      background-image: url('../../../../assets/img/userfiles/contentCategoriesIcons/Technik.svg');
+      width: 100%;
+      max-width: 28px;
+      aspect-ratio: 1/1;
+      margin: 0px 10px 0px 25px;
+    }
+  }
+}
+
+.l-contentNews {
+  margin-top: 90px;
+  padding: 90px 0px 90px 0px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+
+.b-contentNewsTitle {
+  font-size: 32px;
+  font-family: $Inter;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 42px;
+  color: #343434;
+  margin-bottom: 40px;
+}
+
+.l-contentNewsLeft {
+  width: 100%;
+  max-width: 550px;
+  .b-contentNewsTitle {
+    padding-bottom: 20px;
+    border-bottom: 3px solid #18B0B6;
+  }
+}
+
+.b-contentNewsLeftBlock {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+  .b-contentNewsDate {
+    font-family: $Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #8C569C;
+  }
+  h3 {
+    font-family: $Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #262626;
+    margin: 5px 0px 17px 0px;
+    width: 100%;
+    max-width: 508px;
+    text-align: left;
+  }
+  p {
+    font-family: $Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #262626;
+    margin: 0px 0px 17px 0px;
+    width: 100%;
+    max-width: 210px;
+    text-align: left;
+    &:last-child {
+      margin: 0px;
+      width: 100%;
+      max-width: 480px;
+      text-align: left;
+    }
+  }
+  &:last-child {
+    margin-bottom: 0px;
+  }
+}
+
+.l-contentNewsRight {
+  width: 100%;
+  max-width: 555px;
+  .b-contentNewsTitle {
+    padding-bottom: 20px;
+    border-bottom: 3px solid #964EA9;
+  }
+}
+
+.b-contentNewsRightBlock {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+  p {
+    font-family: $Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #515050;
+    width: 100%;
+    max-width: 510px;
+    text-align: left;
+    margin: 0px;
+  }
+  &:last-child {
+    margin-bottom: 0px;
+  }
+}
+
+.l-contentNewsRightTitleAndDate {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  h3 {
+    margin: 25px 0px 13px 0px;
+    font-family: $Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #262626;
+  }
+  .b-contentNewsDate {
+    font-family: $Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #8C569C;
+  }
+}
