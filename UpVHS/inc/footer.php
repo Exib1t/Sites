@@ -2,18 +2,27 @@
 
     <footer class="l-siteFooter">
       <div class="b-siteFooter">
-        <div class="l-bottomNavigation" role="navigation">
-          <ul class="b-bottomNavigation">
-            <li class="b-bottomNavigation__item<?php echo ( $uri == 'home' ) ? ' -state_active' : ''; ?>">
-              <a class="b-bottomNavigation__link" href="index.html">Home</a>
-            </li>
+        <div class="l-siteFooterInfo">
+          <ul class="b-siteFooterAdress">
+            <h3>Adresse</h3>
+            <li>VSV - AUPS</li>
+            <li>Bärengasse 22</li>
+            <li>8001 Zürich</li>
+          </ul>
+          <ul class="b-siteFooterContact">
+            <h3>Kontakt</h3>
+            <li>office@vhs.ch</li>
+            <li>+41 44 211 97 71</li>
+            <li>+41 44 211 97 72</li>
+          </ul>
+          <ul class="b-siteFooterQuickLinks">
+            <h3>Quick Links</h3>
+            <li>Mitglied werden</li>
+            <li>Statuten</li>
+            <li>Newsletter abonnieren</li>
           </ul>
         </div>
-
-        <address class="l-siteCopyright vcard" itemscope itemtype="http://schema.org/Organization">
-          <div class="b-siteCopyright">© <?php echo date( 'Y' ); ?> <a rel="me" itemprop="name" class="b-siteCopyright__link fn n org url work" href="<?php echo "http://" . $_SERVER['HTTP_HOST']; ?>">%clientName%</a>. Все права защищены</div>
-          <div class="b-developerCopyright">Разработано в <a class="b-developerCopyright__link" href="https://ideus.biz/" rel="friend" target="_blank">iDeus</a></div>
-        </address>
+        <div class="l-siteFooterCopyRight">© COPYRIGHT 2021. ALL RIGHTS RESERVED | IMPRESSUM</div>
       </div>
     </footer>
   </div><!--wrapper-->

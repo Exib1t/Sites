@@ -2,8 +2,80 @@
  * @section siteFooter
  */
 .l-siteFooter {
-
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(180deg, #18B0B6 0%, #0E8D92 97.65%);
 }
 .b-siteFooter {
+  width: 100%;
+  max-width: 1170px;
+  padding-top: 59px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 
+.l-siteFooterInfo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  h3 {
+    font-family: $Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0px;
+    margin-bottom: 17px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+  }
+  li {
+    font-family: $Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #FFFFFF;
+  }
+}
+
+.b-siteFooterAdress {
+  li {
+    &:first-of-type {
+      &::before {
+        content: "";
+        background: url('../../../../assets/img/userfiles/FooterIcons/phone-call.svg')
+        width: 100%;
+        max-width: 28px;
+        aspect-ratio: 1/1;
+      }
+    }
+  }
+}
+
+.b-siteFooterQuickLinks {
+  li {
+    text-decoration-line: underline;
+    text-decoration-color: #fff;
+  }
+}
+
+.l-siteFooterCopyRight {
+  font-family: $Inter;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 20px 0px;
+  border-top: 1px solid rgba($color: #fff, $alpha: 0.31);
 }
