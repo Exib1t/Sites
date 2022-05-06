@@ -43,9 +43,9 @@
             <img src="../assets/img/blocks/siteLogo/siteLogo.svg" alt="logo" class="b-siteLogo">
           </div>
           <div class="l-headerNavigationLinks">
-            <a href="#" class="b-headerNavigationLink">Kurse</a>
-            <a href="#" class="b-headerNavigationLink">Verband</a>
-            <a href="#" class="b-headerNavigationLink">Grundkompetenzen</a>
+            <span class="b-headerNavigationLink"><a href="#" class="hvr-underline-from-center">Kurse</a></span>
+            <span class="b-headerNavigationLink"><a href="#" class="hvr-underline-from-center">Verband</a></span>
+            <span class="b-headerNavigationLink"><a href="#" class="hvr-underline-from-center">Grundkompetenzen</a></span>
           </div>
         </div>
         <div class="l-headerText">

@@ -1,0 +1,13 @@
+.hvr-shutter-out-horizontal {
+  &::before {
+    border-radius: 5px;
+    background: rgba($color: #000000, $alpha: 0.21)
+  }
+}
+
+.hvr-underline-from-center {
+  &::before {
+    background: #fff;
+    height: 0.1em;
+  }
+}
