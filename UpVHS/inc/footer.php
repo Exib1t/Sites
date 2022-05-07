@@ -22,7 +22,7 @@
             <li>Newsletter abonnieren</li>
           </ul>
         </div>
-        <div class="l-siteFooterCopyRight">© COPYRIGHT 2021. ALL RIGHTS RESERVED | IMPRESSUM</div>
+        <div class="l-siteFooterCopyRight">© COPYRIGHT 2021. ALL RIGHTS RESERVED | <span>IMPRESSUM</span></div>
       </div>
     </footer>
   </div><!--wrapper-->
