@@ -10,6 +10,22 @@
   height: 500px;
   background-image: url("../../../../assets/img/userfiles/headerBG/headerBG.svg");
 }
+
+.l-siteSecondHeader {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1440px;
+  height: 270px;
+  background-image: url("../../../../assets/img/userfiles/headerBG/headerBG2.svg"),
+  linear-gradient(140.16deg, #0C9398 0.14%, #744A82 94.7%);
+  background-blend-mode: overlay;
+  .l-headerNavigation {
+    border-bottom: 0px;
+  }
+}
+
 .b-siteHeader {
   @include clearfix;
   width: 100%;
@@ -93,6 +109,9 @@
   &::placeholder {
     color: #B5B8B9;
   }
+  &:focus {
+    outline: none;
+  }
 }
 
 .b-headerSearchButton {
@@ -112,8 +131,7 @@
   color: #fff;
   font-family: $Inter;
   font-weight: 700;
-}
-
-.b-headerSearchButton:hover {
-  cursor: pointer;
+  &:hover {
+    cursor: pointer;
+  }
 }

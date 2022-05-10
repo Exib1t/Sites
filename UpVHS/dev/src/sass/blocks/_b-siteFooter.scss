@@ -63,8 +63,11 @@
 
 .b-siteFooterQuickLinks {
   li {
-    text-decoration-line: underline;
-    text-decoration-color: #fff;
+    a {
+      text-decoration-line: underline;
+      text-decoration-color: #fff;
+      color: white;
+    }
   }
 }
 

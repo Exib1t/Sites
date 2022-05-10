@@ -17,9 +17,9 @@
           </ul>
           <ul class="b-siteFooterQuickLinks">
             <h3>Quick Links</h3>
-            <li>Mitglied werden</li>
-            <li>Statuten</li>
-            <li>Newsletter abonnieren</li>
+            <li><a href="../innerPage.php">Mitglied werden</a></li>
+            <li><a href="#">Statuten</a></li>
+            <li><a href="#">Newsletter abonnieren</a></li>
           </ul>
         </div>
         <div class="l-siteFooterCopyRight">© COPYRIGHT 2021. ALL RIGHTS RESERVED | <span>IMPRESSUM</span></div>
