@@ -7,6 +7,7 @@
   justify-content: center;
   background: linear-gradient(180deg, #18B0B6 0%, #0E8D92 97.65%);
 }
+
 .b-siteFooter {
   width: 100%;
   max-width: 1170px;
@@ -77,9 +78,6 @@
   .b-siteFooterColumnPhoneNumberTop {
     text-decoration: none;
     display: flex;
-    &:hover {
-      text-decoration: underline;
-    }
     &::before {
       content: "";
       display: block;
@@ -96,9 +94,6 @@
   .b-siteFooterColumnPhoneNumberBottom {
     text-decoration: none;
     display: flex;
-    &:hover {
-      text-decoration: underline;
-    }
     &::before {
       content: "";
       display: block;
