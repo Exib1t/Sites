@@ -5,9 +5,9 @@
         <div class="l-siteFooterInfo">
           <ul class="b-siteFooterAdress">
             <h3>Adresse</h3>
-            <li>VSV - AUPS</li>
-            <li>Bärengasse 22</li>
-            <li>8001 Zürich</li>
+            <li>VSV - AUPS
+            <br> Bärengasse 22
+            <br> 8001 Zürich</li>
           </ul>
           <ul class="b-siteFooterContact">
             <h3>Kontakt</h3>

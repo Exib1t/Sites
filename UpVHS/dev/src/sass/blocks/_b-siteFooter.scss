@@ -3,7 +3,6 @@
  */
 .l-siteFooter {
   width: 100%;
-  max-width: 1440px;
   display: flex;
   justify-content: center;
   background: linear-gradient(180deg, #18B0B6 0%, #0E8D92 97.65%);
@@ -38,6 +37,8 @@
     padding: 0px;
   }
   li {
+    display: flex;
+    align-items: center;
     font-family: $Inter;
     font-style: normal;
     font-weight: 400;
@@ -53,9 +54,11 @@
       &::before {
         content: "";
         background: url('../../../../assets/img/userfiles/FooterIcons/phone-call.svg');
-        width: 100%;
-        max-width: 28px;
+        background-repeat: no-repeat;
+        width: 15px;
         aspect-ratio: 1/1;
+        margin-right: 15px;
+        align-self: flex-start;
       }
     }
   }

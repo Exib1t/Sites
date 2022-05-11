@@ -38,24 +38,31 @@
   <div class="l-wrapper">
     <header class="l-siteHeader">
       <div class="b-siteHeader">
-        <div class="l-headerNavigation">
-          <div class="l-siteLogo">
-            <img src="../assets/img/blocks/siteLogo/siteLogo.svg" alt="logo" class="b-siteLogo">
-          </div>
-          <div class="l-headerNavigationLinks">
-            <span class="b-headerNavigationLink"><a href="#" class="hvr-underline-from-center">Kurse</a></span>
-            <span class="b-headerNavigationLink"><a href="#" class="hvr-underline-from-center">Verband</a></span>
-            <span class="b-headerNavigationLink"><a href="#" class="hvr-underline-from-center">Grundkompetenzen</a></span>
-          </div>
+        <div class="l-siteLogo">
+          <?php
+            $siteLogo__tag  = $isHomepage ? 'h1' : 'div';
+            $siteLogo__link = $isHomepage ? '' : ' href="index.html"';
+          ?>
+          <<?php echo $siteLogo__tag; ?> class="b-siteLogo" itemscope itemtype="http://schema.org/Organization">
+            <a class="b-siteLogo__link"<?php echo $siteLogo__link; ?> itemprop="url">
+              <img class="b-siteLogo__icon" src="../assets/img/blocks/siteLogo/siteLogo.svg" alt="<?php echo $siteName; ?>" title="<?php echo $siteName; ?>" itemprop="logo" />
+            </a>
+          </<?php echo $siteLogo__tag; ?>>
         </div>
-        <div class="l-headerText">
-          <p class="b-headerTextLeft">Kursportal der Volkshochschulen der Schweiz | Portail des Universités Populaires Suisses</p>
-          <p class="b-headerTextRight">Portale delle Università Popolari Svizzere | Portals da las Universitads Popularas Svizras</p>
-        </div>
-        <form action="search" method="post" class="l-headerSearchForm">
-          <input type="text" placeholder="Kurse finden" class="b-headerSearchInput">
-          <button type="submit" class="b-headerSearchButton hvr-shutter-out-horizontal">Suchen</button>
-        </form>
+
+        <nav class="l-mainNavigation">
+          <ul class="b-mainNavigation">
+            <li class="b-mainNavigation__item<?php echo ( $uri == 'home' ) ? ' -state_active' : ''; ?>">
+              <a class="b-mainNavigation__link hvr-underline-from-center" href="index.html">Kurse</a>
+            </li>
+            <li class="b-mainNavigation__item<?php echo ( $uri == 'home' ) ? ' -state_active' : ''; ?>">
+              <a class="b-mainNavigation__link hvr-underline-from-center" href="index.html">Verband</a>
+            </li>
+            <li class="b-mainNavigation__item<?php echo ( $uri == 'home' ) ? ' -state_active' : ''; ?>">
+              <a class="b-mainNavigation__link hvr-underline-from-center" href="index.html">Grundkompetenzen</a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </header>
 
