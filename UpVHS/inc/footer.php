@@ -3,26 +3,34 @@
     <footer class="l-siteFooter">
       <div class="b-siteFooter">
         <div class="l-siteFooterInfo">
-          <ul class="b-siteFooterAdress">
+          <div class="b-siteFooterColumn">
             <h3>Adresse</h3>
-            <li>VSV - AUPS
-            <br> Bärengasse 22
-            <br> 8001 Zürich</li>
-          </ul>
-          <ul class="b-siteFooterContact">
+            <ul>
+              <li>
+                <p>VSV - AUPS
+                <br> Bärengasse 22
+                <br> 8001 Zürich</p>
+              </li>
+            </ul>
+          </div>
+          <div class="b-siteFooterColumn">
             <h3>Kontakt</h3>
-            <li>office@vhs.ch</li>
-            <li>+41 44 211 97 71</li>
-            <li>+41 44 211 97 72</li>
-          </ul>
-          <ul class="b-siteFooterQuickLinks">
+            <ul>
+              <li><a href="#" class="b-siteFooterColumnEmail">office@vhs.ch</a></li>
+              <li  class="b-siteFooterColumnPhoneNumberTop">+41 44 211 97 71</li>
+              <li  class="b-siteFooterColumnPhoneNumberBottom">+41 44 211 97 72</li>
+            </ul>
+          </div>
+          <div class="b-siteFooterColumn">
             <h3>Quick Links</h3>
-            <li><a href="../innerPage.php">Mitglied werden</a></li>
-            <li><a href="#">Statuten</a></li>
-            <li><a href="#">Newsletter abonnieren</a></li>
-          </ul>
+            <ul>
+              <li><a href="../innerPage.php">Mitglied werden</a></li>
+              <li><a href="#">Statuten</a></li>
+              <li><a href="#">Newsletter abonnieren</a></li>
+            </ul>
+          </div>
         </div>
-        <div class="l-siteFooterCopyRight">© COPYRIGHT 2021. ALL RIGHTS RESERVED | <span>IMPRESSUM</span></div>
+        <div class="l-siteFooterCopyRight">© COPYRIGHT 2021. ALL RIGHTS RESERVED | <a href="#">IMPRESSUM</a></div>
       </div>
     </footer>
   </div><!--wrapper-->
