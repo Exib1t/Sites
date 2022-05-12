@@ -39,5 +39,8 @@
   "author": {
     "name": "iDeus",
     "url": "https://github.com/ideus-team/html-framework"
+  },
+  "dependencies": {
+    "hamburgers": "^1.2.1"
   }
 }
