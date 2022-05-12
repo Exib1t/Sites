@@ -37,8 +37,8 @@ require( 'inc/header.php' );
     </div>
     <div class="l-contentNews">
       <div class="b-contentNews">
-        <div class="b-contentNews__left">
-          <h2 class="b-contentNews__title">Kommende Veranstaltungen</h2>
+        <div class="b-contentNews__block">
+          <h2 class="b-contentNews__title -blueBorder">Kommende Veranstaltungen</h2>
           <a href="#" class="b-articleCard">
             <span class="b-articleCard__date">Di 19.10.2021 08:30</span>
             <h3 class="b-articleCard__title">214-41711 Deutsch als Fremdsprache B2/1 - Semesterkurs</h3>
@@ -82,8 +82,8 @@ require( 'inc/header.php' );
               <p class="b-articleCard__text b-text">Der Kurs findet 2 × wöchentlich statt und erlaubt Ihnen in einem semi-intensiven Lerntempo voranzukommen. Nut...</p>
           </a>
         </div>
-        <div class="b-contentNews__right">
-          <h2 class="b-contentNews__title">Mitteilungen</h2>
+        <div class="b-contentNews__block">
+          <h2 class="b-contentNews__title -purpleBorder">Mitteilungen</h2>
           <a href="#" class="b-articleCard">
               <img class="b-articleCard__img" src="assets/img/userfiles/contentNews/CoronaSieg.svg" alt="corona">
               <div class="b-articleCard__titleAndDate">
