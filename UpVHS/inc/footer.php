@@ -2,26 +2,26 @@
 
     <footer class="l-siteFooter">
       <div class="b-siteFooter">
-        <div class="l-siteFooterInfo">
-          <div class="b-siteFooterColumn">
+        <div class="b-footerInfo">
+          <div class="b-footerInfo__column">
             <h3>Adresse</h3>
             <ul>
-              <li>
-                <p>VSV - AUPS
+              <li class="b-footerInfo__address">
+                <p class="b-footerInfo__addressText">VSV - AUPS
                 <br> Bärengasse 22
                 <br> 8001 Zürich</p>
               </li>
             </ul>
           </div>
-          <div class="b-siteFooterColumn">
+          <div class="b-footerInfo__column">
             <h3>Kontakt</h3>
             <ul>
-              <li><a href="#" class="b-siteFooterColumnEmail">office@vhs.ch</a></li>
-              <li  class="b-siteFooterColumnPhoneNumberTop">+41 44 211 97 71</li>
-              <li  class="b-siteFooterColumnPhoneNumberBottom">+41 44 211 97 72</li>
+              <li><a href="#" class="b-footerInfo__email">office@vhs.ch</a></li>
+              <li class="b-footerInfo__phoneTop">+41 44 211 97 71</li>
+              <li class="b-footerInfo__phoneBottom">+41 44 211 97 72</li>
             </ul>
           </div>
-          <div class="b-siteFooterColumn">
+          <div class="b-footerInfo__column">
             <h3>Quick Links</h3>
             <ul>
               <li><a href="../innerPage.php">Mitglied werden</a></li>
@@ -30,7 +30,7 @@
             </ul>
           </div>
         </div>
-        <div class="l-siteFooterCopyRight">© COPYRIGHT 2021. ALL RIGHTS RESERVED | <a href="#">IMPRESSUM</a></div>
+        <div class="l-siteFooter__copyRight">© COPYRIGHT 2021. ALL RIGHTS RESERVED | <a href="#">IMPRESSUM</a></div>
       </div>
     </footer>
   </div><!--wrapper-->

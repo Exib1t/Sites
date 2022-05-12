@@ -9,13 +9,15 @@ require( 'inc/header.php' );
 
   <section class="l-firstScreen"  style='background-image: url("../../../../assets/img/userfiles/headerBG/headerBG.svg")'>
     <div class="b-firstScreen">
-      <div class="l-firstScreenArticles">
-        <p class="b-firstScreenArticle">Kursportal der Volkshochschulen der Schweiz | Portail des Universités Populaires Suisses</p>
-        <p class="b-firstScreenArticle">Portale delle Università Popolari Svizzere | Portals da las Universitads Popularas Svizras</p>
+      <div class="l-firstScreen__content">
+        <p class="b-firstScreen__article">Kursportal der Volkshochschulen der Schweiz | Portail des Universités Populaires Suisses</p>
+        <p class="b-firstScreen__article">Portale delle Università Popolari Svizzere | Portals da las Universitads Popularas Svizras</p>
       </div>
-      <form class="l-firstScreenForm">
-        <input type="text" placeholder="Kurse finden" class="b-firstScreenFormInput">
-        <button type="submit" class="b-firstScreenFormButton hvr-shutter-out-horizontal">Suchen</button>
+      <form class="b-searchForm">
+        <label class="b-searchForm__label">
+          <input type="text" placeholder="Kurse finden" class="b-searchForm__input">
+        </label>
+        <button type="submit" class="b-searchForm__button hvr-shutter-out-horizontal">Suchen</button>
       </form>
     </div>
   </section>

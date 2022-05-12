@@ -30,7 +30,7 @@
   align-content: center;
 }
 
-.l-firstScreenArticles {
+.l-firstScreen__content {
   display: flex;
   justify-content: space-between;
   margin-bottom: 87px;
@@ -42,7 +42,7 @@
   }
 }
 
-.b-firstScreenArticle {
+.b-firstScreen__article {
   color: #fff;
   font-size: 30px;
   line-height: 42px;
@@ -56,7 +56,7 @@
   }
 }
 
-.l-firstScreenForm {
+.b-searchForm {
   width: 100%;
   max-width: 810px;
   align-self: center;
@@ -73,13 +73,24 @@
   }
 }
 
-.b-firstScreenFormInput {
-  font-size: 18px;
+.b-searchForm__label {
   width: 100%;
   margin-right: 20px;
+  display: block;
+
+  @media only screen and (min-width: 0px) and (max-width: 810px){
+    margin-right: 0px;
+  }
+}
+
+.b-searchForm__input {
+  font-size: 18px;
+  width: 100%;
+  box-sizing: border-box;
   border: 0px;
   border-radius: 5px;
-  padding: 14px 21px;
+  padding: 0px 21px;
+  height: 48px;
   font-family: $Inter;
   font-weight: 400;
   &::placeholder {
@@ -88,13 +99,9 @@
   &:focus {
     outline: none;
   }
-
-  @media only screen and (min-width: 0px) and (max-width: 810px){
-    margin-right: 0px;
-  }
 }
 
-.b-firstScreenFormButton {
+.b-searchForm__button {
   padding: 13px 27px 13px 31px;
   border: 0px;
   border-radius: 5px;
@@ -301,7 +308,11 @@
   color: #343434;
   margin-bottom: 40px;
 
-  @media only screen and (min-width: 0px) and (max-width: 445px){
+  @media only screen and (min-width: 0px) and (max-width: 565px){
+    font-size: 28px;
+  }
+
+  @media only screen and (min-width: 0px) and (max-width: 500px){
     font-size: 24px;
   }
 }
@@ -323,11 +334,27 @@
 .-purpleBorder {
   padding-bottom: 20px;
   border-bottom: 3px solid #964EA9;
+
+  @media only screen and (min-width: 0px) and (max-width: 565px){
+    padding-bottom: 10px;
+  }
+
+  @media only screen and (min-width: 0px) and (max-width: 500px){
+    padding-bottom: 0px;
+  }
 }
 
 .-blueBorder {
   padding-bottom: 20px;
   border-bottom: 3px solid #18B0B6;
+
+  @media only screen and (min-width: 0px) and (max-width: 565px){
+    padding-bottom: 10px;
+  }
+
+  @media only screen and (min-width: 0px) and (max-width: 500px){
+    padding-bottom: 0px;
+  }
 }
 
 .b-articleCard {
