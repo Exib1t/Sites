@@ -73,28 +73,7 @@
   }
 }
 
-.-state-close {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 20px;
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100vh;
-  background: linear-gradient(180deg, #18B0B6 0%, #0E8D92 100%);
-  animation: .5s hamAnimClose ease;
-
-  .b-mainNavigation__item {
-    border: 0px;
-    padding: 0px;
-    height: min-content;
-  }
-}
-
-.-state-open {
+.b-mainNavigation.-state-open {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -106,21 +85,29 @@
   width: 100%;
   height: 100vh;
   background: linear-gradient(180deg, #18B0B6 0%, #0E8D92 100%);
-  animation: .5s hamAnimOpen ease;
+  transition: all .3s ease-in;
+}
 
-  .b-mainNavigation__item {
-    border: 0px;
-    padding: 0px;
-    height: min-content;
+@media only screen and (min-width: 0px) and (max-width: 945px) {
+  .b-mainNavigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(180deg, #18B0B6 0%, #0E8D92 100%);
+    transition: all .3s ease-out;
+
+    .b-mainNavigation__item {
+      border: 0px;
+      padding: 0px;
+      height: min-content;
+    }
   }
 }
 
-@keyframes hamAnimOpen {
-  from {left: -100%}
-  to {left: 0}
-}
-
-@keyframes hamAnimClose {
-  from {left: 0}
-  to {left: -100%}
-}
