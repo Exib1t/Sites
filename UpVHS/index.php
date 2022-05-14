@@ -25,7 +25,7 @@ require( 'inc/header.php' );
   <div class="b-contentText">
     <div class="l-contentCategories">
       <div class="b-contentCategories">
-        <a href="#" class="b-contentCategories__link">Grundlagen</a>
+        <a href="innerPage.php" class="b-contentCategories__link">Grundlagen</a>
         <a href="#" class="b-contentCategories__link">Gesellschaft</a>
         <a href="#" class="b-contentCategories__link">Sprachen</a>
         <a href="#" class="b-contentCategories__link">Gestalten</a>
