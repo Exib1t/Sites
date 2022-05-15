@@ -30,7 +30,32 @@ require( 'inc/header.php' );
 
   <section class="l-contentInfo">
     <div class="b-contentInfo">
-
+      <div class="b-contentInfo__table">
+        <div class="b-contentInfo__cell">
+          <h4 class="b-tableBlock__title">Kursstart</h4>
+          <p class="b-tableBlock__text">Fr 22.10.2021 18:00 4x</p>
+        </div>
+        <div class="b-contentInfo__cell">
+          <h4 class="b-tableBlock__title">Kursleitung</h4>
+          <p class="b-tableBlock__text">Emmanuel Urtuzuástegui</p>
+        </div>
+        <div class="b-contentInfo__cell">
+          <h4 class="b-tableBlock__title">Kursort</h4>
+          <p class="b-tableBlock__text">Volkshochschule Bern Grabenpromenade 3 3011 Bern</p>
+        </div>
+        <div class="b-contentInfo__cell">
+          <h4 class="b-tableBlock__title">Preis</h4>
+          <p class="b-tableBlock__text">Standard 360.00</p>
+        </div>
+        <div class="b-contentInfo__cell">
+          <h4 class="b-tableBlock__title">Anzahl Plätze</h4>
+          <p class="b-tableBlock__text">2 - 5</p>
+        </div>
+      </div>
+      <div class="b-contentInfo__buttons">
+        <button class="b-contentInfo__button hvr-shutter-out-horizontal">Zurück</button>
+        <button class="b-contentInfo__button hvr-shutter-out-horizontal">Anmelden</button>
+      </div>
     </div>
   </section>
 </main>
