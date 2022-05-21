@@ -23,18 +23,24 @@
 
 .b-siteHeaderTop__button {
   border: 2px solid #E1B168;
-  background: #E1B168;
+  background: #292E36;
+  padding: 20px;
   width: 100%;
   max-width: 295px;
-  padding: 20px;
   font-size: 22px;
-  color: #292E36;
+  color: #FFFFFF;
   transition: all .3s ease;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.44px;
+  font-family: $Josefin;
 
   &:hover {
-    background: #292E36;
-    color: #FFFFFF;
+    background: #E1B168;
+    color: #292E36;
     transition: all .3s ease;
+    cursor: pointer;
   }
 }
 
@@ -44,6 +50,8 @@
   align-items: center;
   justify-content: center;
   border-top: 1px solid #5C6168;
+  position: sticky;
+  top: 20px;
 }
 
 .b-siteHeaderBottom {

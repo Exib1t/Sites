@@ -1,0 +1,84 @@
+.l-contentInfo {
+  display: flex;
+  width: 100%;
+  background: #FFF8F5;
+  justify-content: center;
+  align-items: center;
+}
+
+.b-contentInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 20px;
+  width: 100%;
+  max-width: 1400px;
+}
+
+.b-contentInfo__block {
+  width: 100%;
+  display: flex;
+  margin: 0;
+  padding: 100px 0 60px 0;
+
+  &.-location {
+    &::before {
+      content: "";
+      display: block;
+      background-image: url('../../../../assets/img/blocks/contentInfo/Location.svg');
+      width: 100%;
+      max-width: 83px;
+      aspect-ratio: 1/1;
+      margin-right: 20px;
+    }
+  }
+
+  &.-hours {
+    &::before {
+      content: "";
+      display: block;
+      background-image: url('../../../../assets/img/blocks/contentInfo/TimeOpen.svg');
+      width: 100%;
+      max-width: 83px;
+      aspect-ratio: 1/1;
+      margin-right: 20px;
+    }
+  }
+
+  &.-reservation {
+    &::before {
+      content: "";
+      display: block;
+      background-image: url('../../../../assets/img/blocks/contentInfo/Reservation.svg');
+      width: 100%;
+      max-width: 83px;
+      aspect-ratio: 1/1;
+      margin-right: 20px;
+    }
+  }
+}
+
+.b-infoBlock__title {
+  padding: 0;
+  margin: 0 0 5px 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 39px;
+  letter-spacing: 0.2px;
+  font-family: $Cormorant;
+  color: #292E36;
+}
+
+.b-infoBlock__text {
+  padding: 0;
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: $Josefin;
+  letter-spacing: 0.2px;
+  color: #555555;
+}
