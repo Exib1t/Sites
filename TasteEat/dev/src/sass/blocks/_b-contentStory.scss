@@ -1,0 +1,117 @@
+.l-contentStory {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: #FFF8F5;
+}
+
+.b-contentStory {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1400px;
+  box-sizing: border-box;
+  padding: 80px 20px 125px 20px;
+  gap: 45px;
+}
+
+.b-contentStory__img {
+  width: 100%;
+  max-width: 743px;
+  height: 100%;
+  max-height: 519px;
+}
+
+.b-contentStoryText {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+}
+
+.b-contentStoryText__title {
+  font-family: $Cormorant;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 56px;
+  letter-spacing: 0.2px;
+  color: #292E36;
+  margin: 0 0 15px 0;
+  padding: 0;
+}
+
+.b-contentStoryText__text {
+  font-family: $Josefin;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #555555;
+  margin: 0 0 25px 0;
+  padding: 0;
+}
+
+.b-contentStoryText__dates {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+.b-storyTextDates__block {
+  display: flex;
+  flex-direction: column;
+}
+
+.b-storyTextDates__date {
+  font-family: $Cormorant;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 56px;
+  letter-spacing: 0.2px;
+  color: #292E36;
+  margin: 0 0 15px 0;
+  padding: 0;
+}
+
+.b-storyTextDates__text {
+  font-family: $Josefin;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #555555;
+  margin: 0;
+  padding: 0;
+}
+
+.b-contentStory__name {
+  font-family: $Josefin;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #555555;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+.b-contentStory__signature {
+  width: 100%;
+  max-width: 200px;
+  height: 100%;
+  max-height: 110px;
+  margin: 0;
+  padding: 0;
+}
+
+

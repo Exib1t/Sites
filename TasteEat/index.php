@@ -43,6 +43,36 @@ require( 'inc/header.php' );
     </div>
   </section>
 
+  <section class="l-contentStory">
+    <div class="b-contentStory">
+
+      <img src="assets/img/blocks/contentStory/image__1.svg" alt="" class="b-contentStory__img">
+
+      <div class="b-contentStoryText">
+        <h4 class="b-contentStoryText__title">The Delicious Story</h4>
+
+        <p class="b-contentStoryText__text b-text">The people, food and the prime locations make the perfect place for the friends & family to come together and have great time.</p>
+
+        <div class="b-contentStoryText__dates">
+          <div class="b-storyTextDates__block">
+            <h5 class="b-storyTextDates__date">2018</h5>
+            <p class="b-storyTextDates__text">Plan for this restaurant to deliver healthy food.</p>
+          </div>
+
+          <div class="b-storyTextDates__block">
+            <h5 class="b-storyTextDates__date">2022</h5>
+            <p class="b-storyTextDates__text">Happily in the fourth year by fulfill the motto.</p>
+          </div>
+        </div>
+
+        <p class="b-contentStory__name">JOSEFINE</p>
+
+        <img src="assets/img/blocks/contentStory/image__2.svg" alt="" class="b-contentStory__signature">
+
+      </div>
+    </div>
+  </section>
+
 </main>
 
 <?php require( 'inc/footer.php' ); ?>
