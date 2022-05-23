@@ -73,6 +73,102 @@ require( 'inc/header.php' );
     </div>
   </section>
 
+  <section class="l-contentMenu">
+    <div class="b-contentMenu">
+      <h3 class="b-contentMenu__title">Menu</h3>
+
+      <div class="b-contentMenu__content">
+        <div class="b-contentMenu__special">
+          <h2 class="b-menuSpecial__title">Try Our Special dishes</h2>
+          <p class="b-menuSpecial__text b-text">Every time you perfectly dine with us, it should happy for great inspired food in an environment designed with individual touches unique to the local area.</p>
+          <img src="assets/img/blocks/contentMenu/image_1.svg" alt="" class="b-menuSpecial__img">
+          <button class="b-menuSpecial__button">See all dishes</button>
+        </div>
+
+        <div class="b-contentMenu__list">
+          <h3 class="b-menuList__title">Starters</h3>
+          <ul class="b-menuList__list">
+            <li class="b-menuList__item -raw_scallops">
+              <div class="b-listItem__text">
+                <h5 class="b-itemText__title">Raw Scallops from Erquy</h5>
+                <p class="b-itemText__text b-text">Shuck the scallop to that used for oysters <span>________________________</span> $40</p>
+              </div>
+            </li>
+
+            <li class="b-menuList__item -spring_roll">
+              <div class="b-listItem__text">
+                <h5 class="b-itemText__title">Spring Roll</h5>
+                <p class="b-itemText__text b-text">Add oil to a hot pan spring onion whites <span>________________________</span> $20</p>
+              </div>
+            </li>
+
+            <li class="b-menuList__item -french_onion">
+              <div class="b-listItem__text">
+                <h5 class="b-itemText__title">French Onion Soup</h5>
+                <p class="b-itemText__text b-text">Wheat flour, apple cider vinegar, bread <span>_________________________</span> $25</p>
+              </div>
+            </li>
+
+            <li class="b-menuList__item -tomato_bruschetta">
+              <div class="b-listItem__text">
+                <h5 class="b-itemText__title">Tomato Bruschetta</h5>
+                <p class="b-itemText__text b-text">Bread, olive oil, garlic, black pepper <span>____________________________</span> $30</p>
+              </div>
+            </li>
+          </ul>
+
+          <h3 class="b-menuList__title">Main Dish</h3>
+          <ul class="b-menuList__list">
+            <li class="b-menuList__item -grilled_salmon">
+              <div class="b-listItem__text">
+                <h5 class="b-itemText__title">Grilled Salmon with Dill Sauce</h5>
+                <p class="b-itemText__text b-text">Brown sugar, salmon fillet, Dijon mustard <span>________________________</span> $40</p>
+              </div>
+            </li>
+
+            <li class="b-menuList__item -roast_beef">
+              <div class="b-listItem__text">
+                <h5 class="b-itemText__title">Roast Beef with Vegetable</h5>
+                <p class="b-itemText__text b-text">Green beans, rib eye, olive oil, beef <span>_____________________________</span> $20</p>
+              </div>
+            </li>
+
+            <li class="b-menuList__item -marrkesh_curruy">
+              <div class="b-listItem__text">
+                <h5 class="b-itemText__title">Marrkesh Vegetetarian Curruy</h5>
+                <p class="b-itemText__text b-text">Sweet potato, eggplant, garbanzo bean <span>_________________________</span> $25</p>
+              </div>
+            </li>
+
+            <li class="b-menuList__item -spicy_potato">
+              <div class="b-listItem__text">
+                <h5 class="b-itemText__title">Spicy Vegan Potato Curry</h5>
+                <p class="b-itemText__text b-text">Coconut milk, beans, potatoes, curry powder <span>______________________</span> $35</p>
+              </div>
+            </li>
+          </ul>
+
+          <h3 class="b-menuList__title">Dessert</h3>
+          <ul class="b-menuList__list">
+            <li class="b-menuList__item -apple_pie">
+              <div class="b-listItem__text">
+                <h5 class="b-itemText__title">Apple Pie with Cream</h5>
+                <p class="b-itemText__text b-text">Whipping cream, egg white, cinnamon <span>___________________________</span> $15</p>
+              </div>
+            </li>
+
+            <li class="b-menuList__item -lemon_pie">
+              <div class="b-listItem__text">
+                <h5 class="b-itemText__title">Lemon Meringue Pie</h5>
+                <p class="b-itemText__text b-text">Frozen pie crust, meringue, lemon <span>______________________________</span> $30</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
 </main>
 
 <?php require( 'inc/footer.php' ); ?>

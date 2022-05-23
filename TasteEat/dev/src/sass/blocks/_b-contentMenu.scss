@@ -1,0 +1,224 @@
+.l-contentMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: #FFFFFF;
+}
+
+.b-contentMenu {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1400px;
+  box-sizing: border-box;
+  padding: 145px 20px 200px 20px;
+  margin: 0;
+
+  &__title {
+    font-family: $Josefin;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #292E36;
+    border-top: 1px solid #E1B168;
+    border-bottom: 1px solid #E1B168;
+    margin: 0 0 10px 0;
+    padding: 5px 0 0 0;
+    height: fit-content;
+    width: fit-content;
+  }
+
+  &__content {
+    display: flex;
+    gap: 55px;
+  }
+
+  &__special {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+  }
+}
+
+.b-menuSpecial {
+
+  &__title {
+    font-family: $Cormorant;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+    color: #292E36;
+    margin: 0 0 15px 0;
+    padding: 0;
+  }
+
+  &__text {
+    font-family: $Josefin;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #555555;
+    padding: 0;
+    margin: 0 0 45px 0;
+  }
+
+  &__img {
+    width: 100%;
+    max-width: 398px;
+    height: 100%;
+    max-height: 548px;
+    padding: 0;
+    margin: 0 0 60px 0;
+  }
+
+  &__button {
+    margin: 0;
+    padding: 20px 57px;
+    border: 2px solid #E1B168;
+    background: #FFFFFF;
+    width: 100%;
+    max-width: 255px;
+    font-family: $Josefin;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #E1B168;
+    transition: all .3s ease;
+
+    &:hover {
+      border-color: #292E36;
+      color: #292E36;
+      background: #E1B168;
+      cursor: pointer;
+      transition: all .3s ease;
+    }
+  }
+}
+
+.b-contentMenu__list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.b-menuList {
+  &__title {
+    font-family: $Cormorant;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: #292E36;
+    margin: 0 0 40px 0;
+    padding: 0;
+  }
+
+  &__list {
+    padding: 0;
+    margin: 0 0 75px 0;
+    list-style-type: none;
+  }
+
+  &__item {
+    margin: 0 0 50px 0;
+    padding: 0;
+    display: flex;
+    &::before {
+      content: "";
+      background-repeat: no-repeat;
+      width: 100%;
+      max-width: 84px;
+      aspect-ratio: 1/1;
+      display: block;
+      margin-right: 20px;
+    }
+
+    &.-raw_scallops::before {
+      background-image: url('../../../../assets/img/blocks/contentMenu/raw-scallops.svg');
+    }
+
+    &.-spring_roll::before {
+      background-image: url('../../../../assets/img/blocks/contentMenu/spring-roll.svg');
+    }
+
+    &.-french_onion::before {
+      background-image: url('../../../../assets/img/blocks/contentMenu/french-onion.svg');
+    }
+
+    &.-tomato_bruschetta::before {
+      background-image: url('../../../../assets/img/blocks/contentMenu/tomato-bruschetta.svg');
+    }
+
+    &.-grilled_salmon::before {
+      background-image: url('../../../../assets/img/blocks/contentMenu/grilled-salmon.svg');
+    }
+
+    &.-roast_beef::before {
+      background-image: url('../../../../assets/img/blocks/contentMenu/roast-beef.svg');
+    }
+
+    &.-marrkesh_curruy::before {
+      background-image: url('../../../../assets/img/blocks/contentMenu/marrkesh-curruy.svg');
+    }
+
+    &.-spicy_potato::before {
+      background-image: url('../../../../assets/img/blocks/contentMenu/spicy-potato.svg');
+    }
+
+    &.-apple_pie::before {
+      background-image: url('../../../../assets/img/blocks/contentMenu/apple-pie.svg');
+    }
+
+    &.-lemon_pie::before {
+      background-image: url('../../../../assets/img/blocks/contentMenu/lemon-pie.svg');
+    }
+  }
+}
+
+.b-listItem__text {
+  margin: 0;
+  padding: 0;
+}
+
+.b-itemText__title {
+  font-family: $Cormorant;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 42px;
+  letter-spacing: 0.2px;
+  color: #292E36;
+  margin: 0;
+  padding: 0;
+}
+
+.b-itemText__text {
+  font-family: $Josefin;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #555555;
+  margin: 0;
+  padding: 0;
+
+  span {
+    font-family: Arial;
+  }
+}
+
