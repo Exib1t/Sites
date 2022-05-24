@@ -1,0 +1,132 @@
+.l-contentComments {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #292E36;
+}
+
+.b-contentComments {
+  width: 100%;
+  max-width: 1400px;
+  box-sizing: border-box;
+  padding: 140px 20px 120px 20px;
+  display: flex;
+  flex-direction: column;
+
+  &__title {
+    padding: 5px 0 0 0;
+    margin: 0 0 10px 0;
+    height: fit-content;
+    width: fit-content;
+    font-family: $Josefin;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-top: 1px solid #E1B168;
+    border-bottom: 1px solid #E1B168;
+  }
+
+  &__subtitle {
+    font-family: $Cormorant;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0 0 8px 0;
+  }
+
+  &__text {
+    font-family: $Josefin;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin: 0 0 80px 0;
+    padding: 0;
+  }
+
+  &__reviews {
+    display: flex;
+    gap: 30px;
+    overflow: hidden;
+    margin-bottom: 80px;
+  }
+}
+
+.b-commentsReview {
+
+  &__review {
+    background: #343942;
+    width: 100%;
+    min-width: 544px;
+    box-sizing: border-box;
+    padding: 20px 40px;
+  }
+
+  &__about {
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #797E89;
+  }
+
+  &__avatar {
+    width: 100%;
+    max-width: 113px;
+    aspect-ratio: 1/1;
+    margin-right: 30px;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__name {
+    font-family: $Cormorant;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 42px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__place {
+    font-family: $Josefin;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #E1B168;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__text {
+    font-family: $Cormorant;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.25px;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+  }
+}

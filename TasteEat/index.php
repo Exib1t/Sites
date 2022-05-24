@@ -166,9 +166,57 @@ require( 'inc/header.php' );
           </ul>
         </div>
       </div>
-
     </div>
   </section>
+
+  <section class="l-contentComments">
+    <div class="b-contentComments">
+      <h2 class="b-contentComments__title">Testimonial</h2>
+
+      <h3 class="b-contentComments__subtitle">our clients say</h3>
+      <p class="b-contentComments__text b-text">We love to hear from customers, so please leave a comment or say hello in an email.</p>
+
+      <div class="b-contentComments__reviews">
+        <div class="b-commentsReview__review">
+          <div class="b-commentsReview__about">
+            <img src="assets/img/blocks/contentComments/natashaD.svg" alt="" class="b-commentsReview__avatar">
+            <div class="b-commentsReview__info">
+              <p class="b-commentsReview__name">Natasha D</p>
+              <p class="b-commentsReview__place">Newyork</p>
+            </div>
+          </div>
+
+          <p class="b-commentsReview__text b-text">They known for its fabulous taste and food. Anywhere you go your hunger is satisfied. The best chicken & burgers those are yummy.</p>
+        </div>
+
+        <div class="b-commentsReview__review">
+          <div class="b-commentsReview__about">
+            <img src="assets/img/blocks/contentComments/JackS.svg" alt="" class="b-commentsReview__avatar">
+            <div class="b-commentsReview__info">
+              <p class="b-commentsReview__name">Jack Sparrow</p>
+              <p class="b-commentsReview__place">Salt Lake City</p>
+            </div>
+          </div>
+
+          <p class="b-commentsReview__text b-text">I have visited this fantastic restaurant on several occasions, food is absolutely outstanding & attention to detail is in league of its own.</p>
+        </div>
+
+        <div class="b-commentsReview__review">
+          <div class="b-commentsReview__about">
+            <img src="assets/img/blocks/contentComments/Martin.svg" alt="" class="b-commentsReview__avatar">
+            <div class="b-commentsReview__info">
+              <p class="b-commentsReview__name">Martin</p>
+              <p class="b-commentsReview__place">San Diego</p>
+            </div>
+          </div>
+
+          <p class="b-commentsReview__text b-text">Perfectly known for its fabulous taste and food. Anywhere your hunger is satisfied. They give best fried chicken and burgers those are yummy.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="l-contentImage"></section>
 </main>
 
 <?php require( 'inc/footer.php' ); ?>
