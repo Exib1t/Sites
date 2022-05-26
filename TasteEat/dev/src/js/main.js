@@ -2,6 +2,7 @@
 
 $(function() {
   // initFunctionExample();
+  slider();
 });
 
 $(window).on('resize', function() {
@@ -17,3 +18,7 @@ function initFunctionExample() {
 
 }
 */
+
+function slider() {
+  $('.b-contentComments__reviews').slick();
+}
