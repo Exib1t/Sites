@@ -216,7 +216,85 @@ require( 'inc/header.php' );
     </div>
   </section>
 
-  <section class="l-contentImage"></section>
+  <section class="l-contentImage" style="background-image: url('assets/img/blocks/contentBG/background_1.svg')"></section>
+
+  <section class="l-contentOffers">
+    <div class="b-contentOffers">
+      <h2 class="b-contentOffers__title">offers</h2>
+      <h3 class="b-contentOffers__subtitle">Our Offer dishes</h3>
+      <div class="b-contentOffers__text b-text">Our chefs create melt-in-your-mouth dishes that'll satiate even the fussiest eaters now the dishes are in offers use it based on hunger.</div>
+
+      <div class="b-contentOffers__dishes">
+        <div class="b-contentOffers__dish" style="background-image: url('assets/img/blocks/contentOffers/hamburger__bg.svg')">
+          <div class="b-contentOffers__dishSide">
+            <div class="b-contentOffers__dishPrice -hamburger"><p>Only</p><span>$10</span></div>
+            <h4 class="b-contentOffers__dishTitle">50% Offer Going</h4>
+            <h3 class="b-contentOffers__dishSubtitle">Chicken Burger</h3>
+            <p class="b-contentOffers__dishText">Chicken burger with the tasty toppings and leaves.</p>
+          </div>
+          <div class="b-contentOffers__dishSide">
+            <img src="assets/img/blocks/contentOffers/hamburger__img.svg" alt="" class="b-contentOffers__dishImage">
+          </div>
+        </div>
+        <div class="b-contentOffers__dish" style="background-image: url('assets/img/blocks/contentOffers/pizza__bg.svg')">
+          <div class="b-contentOffers__dishSide">
+            <div class="b-contentOffers__dishPrice -pizza"><p>Only</p><span>$9</span></div>
+            <h4 class="b-contentOffers__dishTitle">50% Offer Going</h4>
+            <h3 class="b-contentOffers__dishSubtitle">Chicken Pizza</h3>
+            <p class="b-contentOffers__dishText">Pizza with multiple flavor and the toping are mixed.</p>
+          </div>
+          <div class="b-contentOffers__dishSide">
+            <img src="assets/img/blocks/contentOffers/pizza__img.svg" alt="" class="b-contentOffers__dishImage">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="l-contentPopularDishes">
+    <div class="b-contentPopularDishes">
+      <h2 class="b-contentPopularDishes__title">menu</h2>
+      <h3 class="b-contentPopularDishes__subtitle">Popular Dishes</h3>
+      <div class="b-contentPopularDishes__text b-text">There is a game between the waiters in restaurant to see who serves the food to each table fastest. That led to attempting the Guinness Record.</div>
+
+      <div class="b-contentPopularDishes__menu">
+        <div class="b-contentPopularDishes__dish">
+          <img src="assets/img/blocks/contentPopularDishes/chicken.svg" alt="" class="b-contentPopularDishes__dishImage">
+          <div class="b-contentPopularDishes__nameAndPrice -bold">
+            <h4 class="b-contentPopularDishes__dishName">Chicken Manjoori</h4>
+            <p class="b-contentPopularDishes__dishPrice">$15</p>
+          </div>
+          <div class="b-contentPopularDishes__dishText b-text">Dish relished by all age groups as a starter dish at parties.</div>
+        </div>
+        <div class="b-contentPopularDishes__dish">
+          <img src="assets/img/blocks/contentPopularDishes/hotdog.svg" alt="" class="b-contentPopularDishes__dishImage">
+          <div class="b-contentPopularDishes__nameAndPrice">
+            <h4 class="b-contentPopularDishes__dishName">Hotdog</h4>
+            <p class="b-contentPopularDishes__dishPrice">$10</p>
+          </div>
+          <div class="b-contentPopularDishes__dishText b-text">Grilled sausage served in the slit of a partially sliced bun.</div>
+        </div>
+        <div class="b-contentPopularDishes__dish">
+          <img src="assets/img/blocks/contentPopularDishes/solmon.svg" alt="" class="b-contentPopularDishes__dishImage">
+          <div class="b-contentPopularDishes__nameAndPrice">
+            <h4 class="b-contentPopularDishes__dishName">Fresh Salmon</h4>
+            <p class="b-contentPopularDishes__dishPrice">$5</p>
+          </div>
+          <div class="b-contentPopularDishes__dishText b-text">Beat the health blues with our Super Immune Blue Juice Recipe.</div>
+        </div>
+        <div class="b-contentPopularDishes__dish">
+          <img src="assets/img/blocks/contentPopularDishes/burger.svg" alt="" class="b-contentPopularDishes__dishImage">
+          <div class="b-contentPopularDishes__nameAndPrice">
+            <h4 class="b-contentPopularDishes__dishName">Veg Burger</h4>
+            <p class="b-contentPopularDishes__dishPrice">$10</p>
+          </div>
+          <div class="b-contentPopularDishes__dishText b-text">Burgers may be made from ingredients like beans.</div>
+        </div>
+      </div>
+
+      <button class="b-contentPopularDishes__button">See all dishes</button>
+    </div>
+  </section>
 </main>
 
 <?php require( 'inc/footer.php' ); ?>

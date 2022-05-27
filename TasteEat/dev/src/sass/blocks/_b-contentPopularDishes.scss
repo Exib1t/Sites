@@ -1,0 +1,162 @@
+.l-contentPopularDishes {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: #FFFFFF;
+}
+
+.b-contentPopularDishes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1400px;
+  box-sizing: border-box;
+  padding: 60px 20px 70px 20px;
+
+  &__title {
+    font-family: $Josefin;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #292E36;
+    border-top: 1px solid #E1B168;
+    border-bottom: 1px solid #E1B168;
+    margin: 0 0 10px 0;
+    padding: 5px 0 0 0;
+    height: fit-content;
+    width: fit-content;
+  }
+
+  &__subtitle {
+    font-family: $Cormorant;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+    color: #292E36;
+    padding: 0;
+    margin: 0 0 8px 0;
+  }
+
+  &__text {
+    width: 100%;
+    max-width: 813px;
+    font-family: $Josefin;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #555555;
+    padding: 0;
+    margin: 0 0 50px 0;
+  }
+
+  &__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    padding: 0;
+    margin: 0 0 65px 0;
+  }
+
+  &__dish {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__dishImage {
+    width: 318px;
+    height: 307px;
+    padding: 0;
+    margin: 0 0 9px 0;
+  }
+
+  &__nameAndPrice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 0 26px 0;
+    padding: 0;
+  }
+
+  &__dishName {
+    font-family: $Cormorant;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 42px;
+    letter-spacing: 0.2px;
+    color: #292E36;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__nameAndPrice.-bold {
+    .b-contentPopularDishes__dishName, .b-contentPopularDishes__dishPrice {
+      font-weight: 700;
+    }
+  }
+
+  &__dishPrice {
+    font-family: $Cormorant;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 42px;
+    letter-spacing: 0.2px;
+    color: #292E36;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__dishText {
+    font-family: $Josefin;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #555555;
+  }
+
+  &__button {
+    padding: 20px 57px;
+    margin: 0;
+    border: 2px solid #E1B168;
+    background: #FFFFFF;
+    width: 100%;
+    max-width: 255px;
+    font-family: $Josefin;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #E1B168;
+    transition: all .3s ease;
+
+    &:hover {
+      border-color: #292E36;
+      color: #292E36;
+      background: #E1B168;
+      cursor: pointer;
+      transition: all .3s ease;
+    }
+  }
+}
