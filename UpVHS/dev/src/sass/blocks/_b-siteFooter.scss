@@ -32,6 +32,10 @@
     text-transform: uppercase;
     color: #FFFFFF;
     margin: 0px;
+
+    @media only screen and (min-width: 0px) and (max-width: 740px){
+      text-align: center;
+    }
   }
   ul {
     list-style-type: none;
@@ -46,6 +50,10 @@
     font-size: 16px;
     line-height: 32px;
     color: #FFFFFF;
+
+    @media only screen and (min-width: 0px) and (max-width: 740px){
+      justify-content: center;
+    }
   }
 
   @media only screen and (min-width: 0px) and (max-width: 740px){

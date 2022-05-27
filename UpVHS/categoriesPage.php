@@ -101,27 +101,100 @@ require( 'inc/header.php' );
   <section class="l-contentTable">
     <div class="b-contentTable">
       <table class="b-contentTable__table">
-        <caption class="b-contentTable__tableCaption">gsa</caption>
-        <tr class="b-contentTable__tableRow">
-          <td class="b-contentTable__tableData">
-            <img src="assets/img/userfiles/innerPage/contentLogo.svg" alt="" class="b-contentTable__tableDataImage">
-          </td>
-          <td class="b-contentTable__tableData">
-            <img src="" alt="" class="b-contentTable__tableDataImage">
-          </td>
-          <td class="b-contentTable__tableData">
-            <img src="" alt="" class="b-contentTable__tableDataImage">
-          </td>
-          <td class="b-contentTable__tableData">
-            <img src="" alt="" class="b-contentTable__tableDataImage">
-          </td>
-          <td class="b-contentTable__tableData">
-            <img src="" alt="" class="b-contentTable__tableDataImage">
-          </td>
-          <td class="b-contentTable__tableData">
-            <img src="" alt="" class="b-contentTable__tableDataImage">
-          </td>
-        </tr>
+        <thead>
+          <tr>
+            <th></th>
+            <th>Titel</th>
+            <th>Datum</th>
+            <th>Kursort</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <img src="assets/img/blocks/contentTable/logo_1.svg" alt="" class="b-contentTable__dataImage">
+            </td>
+            <td>
+              <p class="b-contentTable__textTitle"><b>Word für Migranten</b> Christine Rindlisbacher</p>
+            </td>
+            <td>
+              <p class="b-contentTable__textDate">Mi 20.10.2021 18:00 12x</p>
+            </td>
+            <td>
+              <p class="b-contentTable__textLocation">Solothurn</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="assets/img/blocks/contentTable/logo_2.svg" alt="" class="b-contentTable__dataImage">
+            </td>
+            <td>
+              <p class="b-contentTable__textTitle"><b>Apple Mac-Kurs für Alle</b> Emmanuel Urtuzuástegui</p>
+            </td>
+            <td>
+              <p class="b-contentTable__textDate">Fr 22.10.2021 18:00 4x</p>
+            </td>
+            <td>
+              <p class="b-contentTable__textLocation">Bern</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="assets/img/blocks/contentTable/logo_3.svg" alt="" class="b-contentTable__dataImage">
+            </td>
+            <td>
+              <p class="b-contentTable__textTitle"><b>Word für Migranten am Samstag</b> Christine Rindlisbacher</p>
+            </td>
+            <td>
+              <p class="b-contentTable__textDate">Mo 25.10.2021 18:00 3x</p>
+            </td>
+            <td>
+              <p class="b-contentTable__textLocation">Solothurn</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="assets/img/blocks/contentTable/logo_4.svg" alt="" class="b-contentTable__dataImage">
+            </td>
+            <td>
+              <p class="b-contentTable__textTitle"><b>Microsoft Teams für Einsteiger/innen</b> Sonja Hubl</p>
+            </td>
+            <td>
+              <p class="b-contentTable__textDate">Mi 27.10.2021 17:30 4x</p>
+            </td>
+            <td>
+              <p class="b-contentTable__textLocation">Bern</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="assets/img/blocks/contentTable/logo_5.svg" alt="" class="b-contentTable__dataImage">
+            </td>
+            <td>
+              <p class="b-contentTable__textTitle"><b>Word für Migranten</b> Christine Rindlisbacher</p>
+            </td>
+            <td>
+              <p class="b-contentTable__textDate">Fr 22.10.2021 18:00 4x</p>
+            </td>
+            <td>
+              <p class="b-contentTable__textLocation">Grenchen</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="assets/img/blocks/contentTable/logo_6.svg" alt="" class="b-contentTable__dataImage">
+            </td>
+            <td>
+              <p class="b-contentTable__textTitle"><b>Apple Mac-Kurs für Alle</b> Emmanuel Urtuzuástegui</p>
+            </td>
+            <td>
+              <p class="b-contentTable__textDate">Mi 27.10.2021 17:30 4x</p>
+            </td>
+            <td>
+              <p class="b-contentTable__textLocation">Solothurn</p>
+            </td>
+          </tr>
+        </tbody>
       </table>
     </div>
   </section>
