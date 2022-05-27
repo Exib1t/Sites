@@ -57,9 +57,6 @@
   }
 
   &__reviews {
-    display: flex;
-    gap: 30px;
-    overflow: hidden;
     margin-bottom: 80px;
   }
 }
@@ -69,7 +66,6 @@
   &__review {
     background: #343942;
     width: 100%;
-    min-width: 544px;
     box-sizing: border-box;
     padding: 20px 40px;
   }

@@ -176,7 +176,7 @@ require( 'inc/header.php' );
       <h3 class="b-contentComments__subtitle">our clients say</h3>
       <p class="b-contentComments__text b-text">We love to hear from customers, so please leave a comment or say hello in an email.</p>
 
-      <div class="b-contentComments__reviews">
+      <div class="b-contentComments__reviews js-testimonials">
         <div class="b-commentsReview__review">
           <div class="b-commentsReview__about">
             <img src="assets/img/blocks/contentComments/natashaD.svg" alt="" class="b-commentsReview__avatar">

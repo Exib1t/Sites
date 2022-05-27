@@ -20,5 +20,11 @@ function initFunctionExample() {
 */
 
 function slider() {
-  $('.b-contentComments__reviews').slick();
+  $('.js-testimonials').slick({
+    infinite: true,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    arrows: false,
+    dots: true,
+  });
 }

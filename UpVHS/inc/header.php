@@ -55,11 +55,11 @@
             <li class="b-mainNavigation__item<?php echo ( $uri == 'home' ) ? ' -state_active' : ''; ?>">
               <a class="b-mainNavigation__link hvr-underline-from-center" href="index.html">Kurse</a>
             </li>
-            <li class="b-mainNavigation__item<?php echo ( $uri == 'home' ) ? ' -state_active' : ''; ?>">
-              <a class="b-mainNavigation__link hvr-underline-from-center" href="index.html">Verband</a>
+            <li class="b-mainNavigation__item<?php echo ( $uri == 'inner' ) ? ' -state_active' : ''; ?>">
+              <a class="b-mainNavigation__link hvr-underline-from-center" href="../innerPage.php">Verband</a>
             </li>
-            <li class="b-mainNavigation__item<?php echo ( $uri == 'home' ) ? ' -state_active' : ''; ?>">
-              <a class="b-mainNavigation__link hvr-underline-from-center" href="index.html">Grundkompetenzen</a>
+            <li class="b-mainNavigation__item<?php echo ( $uri == 'categories' ) ? ' -state_active' : ''; ?>">
+              <a class="b-mainNavigation__link hvr-underline-from-center" href="../categoriesPage.php">Grundkompetenzen</a>
             </li>
           </ul>
         </nav>
