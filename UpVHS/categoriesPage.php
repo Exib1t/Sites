@@ -42,31 +42,45 @@ require( 'inc/header.php' );
           <div class="b-contentForm__checkboxes -wochentag">
             <div class="b-contentForm__checkboxGroup">
               <p class="b-contentForm__checkboxTitle">Mo</p>
-              <input type="checkbox" class="b-contentForm__checkbox" checked>
+              <label for="" class="b-contentForm__label">
+                <input type="checkbox" class="b-contentForm__checkbox" checked>
+              </label>
             </div>
             <div class="b-contentForm__checkboxGroup">
               <p class="b-contentForm__checkboxTitle">Di</p>
-              <input type="checkbox" class="b-contentForm__checkbox">
+              <label for="" class="b-contentForm__label">
+                <input type="checkbox" class="b-contentForm__checkbox">
+              </label>
             </div>
             <div class="b-contentForm__checkboxGroup">
               <p class="b-contentForm__checkboxTitle">Mi</p>
-              <input type="checkbox" class="b-contentForm__checkbox">
+              <label for="" class="b-contentForm__label">
+                <input type="checkbox" class="b-contentForm__checkbox">
+              </label>
             </div>
             <div class="b-contentForm__checkboxGroup">
               <p class="b-contentForm__checkboxTitle">Do</p>
-              <input type="checkbox" class="b-contentForm__checkbox">
+              <label for="" class="b-contentForm__label">
+                <input type="checkbox" class="b-contentForm__checkbox">
+              </label>
             </div>
             <div class="b-contentForm__checkboxGroup">
               <p class="b-contentForm__checkboxTitle">Fr</p>
-              <input type="checkbox" class="b-contentForm__checkbox">
+              <label for="" class="b-contentForm__label">
+                <input type="checkbox" class="b-contentForm__checkbox">
+              </label>
             </div>
             <div class="b-contentForm__checkboxGroup">
               <p class="b-contentForm__checkboxTitle">Sa</p>
-              <input type="checkbox" class="b-contentForm__checkbox">
+              <label for="" class="b-contentForm__label">
+                <input type="checkbox" class="b-contentForm__checkbox">
+              </label>
             </div>
             <div class="b-contentForm__checkboxGroup">
               <p class="b-contentForm__checkboxTitle">So</p>
-              <input type="checkbox" class="b-contentForm__checkbox">
+              <label for="" class="b-contentForm__label">
+                <input type="checkbox" class="b-contentForm__checkbox">
+              </label>
             </div>
           </div>
 
@@ -81,6 +95,34 @@ require( 'inc/header.php' );
           <button class="b-contentForm__button hvr-shutter-out-horizontal">Suchen</button>
         </div>
       </form>
+    </div>
+  </section>
+
+  <section class="l-contentTable">
+    <div class="b-contentTable">
+      <table class="b-contentTable__table">
+        <caption class="b-contentTable__tableCaption">gsa</caption>
+        <tr class="b-contentTable__tableRow">
+          <td class="b-contentTable__tableData">
+            <img src="assets/img/userfiles/innerPage/contentLogo.svg" alt="" class="b-contentTable__tableDataImage">
+          </td>
+          <td class="b-contentTable__tableData">
+            <img src="" alt="" class="b-contentTable__tableDataImage">
+          </td>
+          <td class="b-contentTable__tableData">
+            <img src="" alt="" class="b-contentTable__tableDataImage">
+          </td>
+          <td class="b-contentTable__tableData">
+            <img src="" alt="" class="b-contentTable__tableDataImage">
+          </td>
+          <td class="b-contentTable__tableData">
+            <img src="" alt="" class="b-contentTable__tableDataImage">
+          </td>
+          <td class="b-contentTable__tableData">
+            <img src="" alt="" class="b-contentTable__tableDataImage">
+          </td>
+        </tr>
+      </table>
     </div>
   </section>
 
