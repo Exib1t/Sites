@@ -362,6 +362,37 @@ require( 'inc/header.php' );
       </div>
     </div>
   </section>
+
+  <section class="l-contentReservation" style="background-image: url('assets/img/blocks/contentReservation/background.svg')">
+    <div class="b-contentReservation">
+      <div class="b-contentReservation__wrapper">
+        <h2 class="b-contentReservation__title">reservation</h2>
+        <h3 class="b-contentReservation__subtitle">Book Your Table</h3>
+        <form action="" class="b-contentReservation__form">
+          <div class="b-contentReservation__formRow">
+            <label for="">
+              <input type="text" placeholder="Name">
+            </label>
+            <label for="">
+              <input type="email" placeholder="Email">
+            </label>
+          </div>
+          <div class="b-contentReservation__formRow">
+            <label for="">
+              <input type="number" placeholder="Persons">
+            </label>
+            <label for="">
+              <input type="time" placeholder="Timing">
+            </label>
+            <label for="">
+              <input type="date" placeholder="Date">
+            </label>
+          </div>
+          <button class="b-contentReservation__button">Book A Table</button>
+        </form>
+      </div>
+    </div>
+  </section>
 </main>
 
 <?php require( 'inc/footer.php' ); ?>

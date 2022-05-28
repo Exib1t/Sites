@@ -1,0 +1,127 @@
+.l-contentReservation {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 140px 0;
+}
+
+.b-contentReservation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 960px;
+  box-sizing: border-box;
+  padding: 0 20px;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 140px 140px 150px 140px;
+    background: rgba(41, 46, 54, 0.95);
+  }
+
+  &__title {
+    font-family: $Josefin;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-top: 1px solid #E1B168;
+    border-bottom: 1px solid #E1B168;
+    margin: 0 0 10px 0;
+    padding: 5px 0 0 0;
+    height: fit-content;
+    width: fit-content;
+  }
+
+  &__subtitle {
+    font-family: $Cormorant;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0 0 40px 0;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    label {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      border: 1px solid #858585;
+      padding: 18px 23px;
+    }
+
+    input {
+      width: 100%;
+      height: 100%;
+      background: none;
+      border: 0;
+      font-family: $Josefin;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 33px;
+      letter-spacing: 0.2px;
+      color: #FFFFFF;
+      outline: none;
+
+      &::placeholder {
+        color: #FFFFFF;
+      }
+    }
+  }
+
+  &__formRow {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 30px;
+  }
+
+  &__button {
+    border: 2px solid #FFFFFF;
+    background: #FFFFFF;
+    padding: 20px;
+    margin: 0;
+    width: 100%;
+    max-width: 295px;
+    font-size: 22px;
+    color: #000000;
+    transition: all .3s ease;
+    font-family: $Josefin;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.44px;
+
+    &:hover {
+      border-color: #858585;
+      background: #292E36F2;
+      color: #FFFFFF;
+      transition: all .3s ease;
+      cursor: pointer;
+    }
+  }
+}
