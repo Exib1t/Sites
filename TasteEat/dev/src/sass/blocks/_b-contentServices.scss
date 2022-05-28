@@ -1,0 +1,111 @@
+.l-contentServices {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: #292E36;
+  padding: 0;
+}
+
+.b-contentServices {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1400px;
+  box-sizing: border-box;
+  padding: 140px 20px;
+
+  &__textSide {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__textSideTitle {
+    font-family: $Josefin;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-top: 1px solid #E1B168;
+    border-bottom: 1px solid #E1B168;
+    margin: 0 0 10px 0;
+    padding: 5px 0 0 0;
+    height: fit-content;
+    width: fit-content;
+  }
+
+  &__textSideSubtitle {
+    font-family: $Cormorant;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0 0 13px 0;
+  }
+
+  &__textSideText {
+    width: 100%;
+    max-width: 438px;
+    font-family: $Josefin;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__imageSide {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__imageSideBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 234px;
+    height: 100%;
+    max-height: 215px;
+    border: 20px solid #323841;
+  }
+
+  &__imageSideBlockImage {
+    display: block;
+    width: 100%;
+    max-width: 60px;
+    height: 100%;
+    max-height: 60px;
+    padding: 0;
+    margin: 0 0 15px 0;
+  }
+
+  &__imageSideBlockText {
+    font-family: $Cormorant;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+  }
+}

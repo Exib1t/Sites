@@ -295,6 +295,73 @@ require( 'inc/header.php' );
       <button class="b-contentPopularDishes__button">See all dishes</button>
     </div>
   </section>
+
+  <section class="l-contentServices">
+    <div class="b-contentServices">
+      <div class="b-contentServices__textSide">
+        <h3 class="b-contentServices__textSideTitle">What we offer</h3>
+        <h4 class="b-contentServices__textSideSubtitle">Our Great Services</h4>
+        <div class="b-contentServices__textSideText b-text">The atmosphere set the stage. It’s about more than just a dining room away from your home. food takes the spotlight as guests.</div>
+      </div>
+      <div class="b-contentServices__imageSide">
+        <div class="b-contentServices__imageSideBlock">
+          <img src="assets/img/blocks/contentServices/calendar.svg" alt="" class="b-contentServices__imageSideBlockImage">
+          <p class="b-contentServices__imageSideBlockText">Opened 24/7</p>
+        </div>
+        <div class="b-contentServices__imageSideBlock">
+          <img src="assets/img/blocks/contentServices/menu.svg" alt="" class="b-contentServices__imageSideBlockImage">
+          <p class="b-contentServices__imageSideBlockText">Special Menus</p>
+        </div>
+        <div class="b-contentServices__imageSideBlock">
+          <img src="assets/img/blocks/contentServices/delivery.svg" alt="" class="b-contentServices__imageSideBlockImage">
+          <p class="b-contentServices__imageSideBlockText">Home Delivery</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="l-contentBlog">
+    <div class="b-contentBlog">
+      <h3 class="b-contentBlog__title">Blog</h3>
+      <h4 class="b-contentBlog__subtitle">Be First Who Read News</h4>
+      <div class="b-contentBlog__text b-text">Explore the latest stories about our dishes, offers, events and future plans here.</div>
+
+      <div class="b-contentBlog__newsBlock">
+        <div class="b-contentBlog__news">
+          <div class="b-contentBlog__newsImageWrapper">
+            <img src="assets/img/blocks/contentBlog/image_1.svg" alt="" class="b-contentBlog__newsImage">
+            <button class="b-contentBlog__newsButton">View More</button>
+          </div>
+          <div class="b-contentBlog__newsText">
+            <div class="b-contentBlog__newsTextTop">
+              <h3 class="b-contentBlog__newsTextTopTitle">Delicious</h3>
+              <h3 class="b-contentBlog__newsTextTopDate">March 19, 2022</h3>
+            </div>
+            <div class="b-contentBlog__newsTextBottom">
+              <h4 class="b-contentBlog__newsTextBottomTitle">The Legend of US Cuisine: The Story of Hungry People</h4>
+              <div class="b-contentBlog__newsTextBottomText b-text">Capitalize on low-hanging fruit to identify a ballpark value added matrix economically and the creative activity to beta test override the food quality.</div>
+            </div>
+          </div>
+        </div>
+        <div class="b-contentBlog__news">
+          <div class="b-contentBlog__newsImageWrapper">
+            <img src="assets/img/blocks/contentBlog/image_2.svg" alt="" class="b-contentBlog__newsImage">
+            <button class="b-contentBlog__newsButton">View More</button>
+          </div>
+          <div class="b-contentBlog__newsText">
+            <div class="b-contentBlog__newsTextTop">
+              <h3 class="b-contentBlog__newsTextTopTitle">Cooking</h3>
+              <h3 class="b-contentBlog__newsTextTopDate">March 19, 2022</h3>
+            </div>
+            <div class="b-contentBlog__newsTextBottom">
+              <h4 class="b-contentBlog__newsTextBottomTitle">The Most Popular Delicious Food of Mediterranean Cuisine</h4>
+              <div class="b-contentBlog__newsTextBottomText b-text">Strategies on low-hanging fruit to identify a ballpark value added matrix economically and the creative activity to beta test override the food quality.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </main>
 
 <?php require( 'inc/footer.php' ); ?>
