@@ -45,15 +45,15 @@
         <!--        SITE LOGO         -->
         <div class="l-siteLogo">
           <?php
-          $siteLogo__tag  = $isHomepage ? 'h1' : 'div';
-          $siteLogo__link = $isHomepage ? '' : ' href="index.html"';
-          ?>
+            $siteLogo__tag  = $isHomepage ? 'h1' : 'div';
+            $siteLogo__link = $isHomepage ? '' : ' href="index.html"';
+            ?>
           <<?php echo $siteLogo__tag; ?> class="b-siteLogo" itemscope itemtype="http://schema.org/Organization">
-          <a class="b-siteLogo__link"<?php echo $siteLogo__link; ?> itemprop="url">
-            <img class="b-siteLogo__icon" src="assets/img/blocks/siteLogo/siteLogo-logo.svg" alt="<?php echo $siteName; ?>" title="<?php echo $siteName; ?>" itemprop="logo" />
-          </a>
-        </<?php echo $siteLogo__tag; ?>>
-      </div>
+            <a class="b-siteLogo__link"<?php echo $siteLogo__link; ?> itemprop="url">
+              <img class="b-siteLogo__icon" src="assets/img/blocks/siteLogo/siteLogo-logo.svg" alt="<?php echo $siteName; ?>" title="<?php echo $siteName; ?>" itemprop="logo" />
+            </a>
+          </<?php echo $siteLogo__tag; ?>>
+        </div>
 
         <button class="b-siteHeaderTop__button">Reservation</button>
       </div>

@@ -2,20 +2,83 @@
 
     <footer class="l-siteFooter">
       <div class="b-siteFooter">
-        <div class="l-bottomNavigation" role="navigation">
-          <ul class="b-bottomNavigation">
-            <li class="b-bottomNavigation__item<?php echo ( $uri == 'home' ) ? ' -state_active' : ''; ?>">
-              <a class="b-bottomNavigation__link" href="index.html">Home</a>
+        <div class="b-siteFooter__column">
+          <div class="b-siteFooter__columnHashtag b-text">#TheTastEat</div>
+
+          <h3 class="b-siteFooter__columnTitle">Contact</h3>
+          <ul class="b-siteFooter__columnList">
+            <li class="b-siteFooter__columnItem">
+              <a href="#" class="b-siteFooter__columnLink -whiteText">5 Rue Dalou, 75015 Paris</a>
+            </li>
+            <li class="b-siteFooter__columnItem">
+              <a href="#" class="b-siteFooter__columnLink g-tel">+123 456 789</a>
+            </li>
+            <li class="b-siteFooter__columnItem">
+              <a href="#" class="b-siteFooter__columnLink">josefin@gmail.com</a>
             </li>
           </ul>
         </div>
 
-        <address class="l-siteCopyright vcard" itemscope itemtype="http://schema.org/Organization">
-          <div class="b-siteCopyright">© <?php echo date( 'Y' ); ?> <a rel="me" itemprop="name" class="b-siteCopyright__link fn n org url work" href="<?php echo "http://" . $_SERVER['HTTP_HOST']; ?>">%clientName%</a>. Все права защищены</div>
-          <div class="b-developerCopyright">Разработано в <a class="b-developerCopyright__link" href="https://ideus.biz/" rel="friend" target="_blank">iDeus</a></div>
-        </address>
+        <div class="b-siteFooter__column -centerColumn">
+          <div class="l-siteLogo">
+            <?php
+              $siteLogo__tag  = $isHomepage ? 'h1' : 'div';
+              $siteLogo__link = $isHomepage ? '' : ' href="index.html"';
+              ?>
+            <<?php echo $siteLogo__tag; ?> class="b-siteLogo" itemscope itemtype="http://schema.org/Organization">
+              <a class="b-siteLogo__link"<?php echo $siteLogo__link; ?> itemprop="url">
+                <img class="b-siteLogo__icon" src="assets/img/blocks/siteLogo/siteLogo-logo.svg" alt="<?php echo $siteName; ?>" title="<?php echo $siteName; ?>" itemprop="logo" />
+              </a>
+            </<?php echo $siteLogo__tag; ?>>
+          </div>
+
+          <div class="b-siteFooter__columnText b-text">Join our mailing list for updates, Get news & offers events.</div>
+
+          <form action="" class="b-siteFooter__form">
+            <label for="">
+              <input type="email" placeholder="Email">
+              <button>Subscribe</button>
+            </label>
+          </form>
+        </div>
+
+        <div class="b-siteFooter__column -lastColumn">
+          <h3 class="b-siteFooter__columnTitle">Working Hours</h3>
+          <ul class="b-siteFooter__columnList">
+            <li class="b-siteFooter__columnItem">
+              <p class="b-siteFooter__columnLink">Mon – Fri: <span class="-whiteText">7.00am – 6.00pm</span></p>
+            </li>
+            <li class="b-siteFooter__columnItem">
+              <p class="b-siteFooter__columnLink">Sat: <span class="-whiteText">7.00am – 6.00pm</span></p>
+            </li>
+            <li class="b-siteFooter__columnItem">
+              <p class="b-siteFooter__columnLink">Sun: <span class="-whiteText">8.00am – 6.00pm</span></p>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
+
+    <div class="l-bottomNavigation">
+      <div class="b-bottomNavigation">
+        <div class="b-bottomNavigation__text b-text">© Copyright - TastEat | Designed by <a href="#" class="-yellowText">VictorFlow</a> - Powered by <a href="#" class="-yellowText">Webflow</a></div>
+
+        <ul class="b-bottomNavigation__list">
+          <li class="b-bottomNavigation__item">
+            <a href="#" class="b-bottomNavigation__link">Styleguide</a>
+          </li>
+          <li class="b-bottomNavigation__item">
+            <a href="#" class="b-bottomNavigation__link">Licenses</a>
+          </li>
+          <li class="b-bottomNavigation__item">
+            <a href="#" class="b-bottomNavigation__link">Protected</a>
+          </li>
+          <li class="b-bottomNavigation__item">
+            <a href="#" class="b-bottomNavigation__link">Not Found</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </div><!--wrapper-->
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>

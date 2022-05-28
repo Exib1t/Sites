@@ -366,8 +366,8 @@ require( 'inc/header.php' );
   <section class="l-contentReservation" style="background-image: url('assets/img/blocks/contentReservation/background.svg')">
     <div class="b-contentReservation">
       <div class="b-contentReservation__wrapper">
-        <h2 class="b-contentReservation__title">reservation</h2>
-        <h3 class="b-contentReservation__subtitle">Book Your Table</h3>
+        <h3 class="b-contentReservation__title">reservation</h3>
+        <h4 class="b-contentReservation__subtitle">Book Your Table</h4>
         <form action="" class="b-contentReservation__form">
           <div class="b-contentReservation__formRow">
             <label for="">

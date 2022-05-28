@@ -2,16 +2,34 @@
  * @section bottomNavigation
  */
 .l-bottomNavigation {
-
+  width: 100%;
+  background-color: #292E36;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  border-top: 1px solid #575B62;
 }
 .b-bottomNavigation {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1400px;
+  box-sizing: border-box;
+  padding: 25px 20px;
   margin: 0;
-  padding: 0;
-  list-style: none;
+
+  &__list {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
 
   &__item {
-    color: #464646;
-
+    padding: 0;
+    margin: 0;
     &.-state_active {
 
     }
@@ -19,6 +37,34 @@
 
   &__link {
     @include hover-underline;
-    color: inherit;
+    font-family: $Josefin;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #E1B168;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__text {
+    font-family: $Josefin;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+
+    a {
+      @include hover-underline;
+    }
+  }
+
+  .-yellowText {
+    color: #E1B168;
   }
 }
