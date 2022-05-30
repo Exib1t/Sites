@@ -171,10 +171,11 @@ require( 'inc/header.php' );
 
   <section class="l-contentComments">
     <div class="b-contentComments">
-      <h2 class="b-contentComments__title">Testimonial</h2>
-
-      <h3 class="b-contentComments__subtitle">our clients say</h3>
-      <p class="b-contentComments__text b-text">We love to hear from customers, so please leave a comment or say hello in an email.</p>
+      <div class="b-contentComments__top">
+        <h2 class="b-contentComments__title">Testimonial</h2>
+        <h3 class="b-contentComments__subtitle">our clients say</h3>
+        <p class="b-contentComments__text b-text">We love to hear from customers, so please leave a comment or say hello in an email.</p>
+      </div>
 
       <div class="b-contentComments__reviews js-testimonials">
         <div class="b-commentsReview__review">

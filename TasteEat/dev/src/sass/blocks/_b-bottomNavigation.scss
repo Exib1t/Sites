@@ -19,12 +19,23 @@
   padding: 25px 20px;
   margin: 0;
 
+  @media screen and (max-width: 1330px) {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+
   &__list {
     display: flex;
     gap: 20px;
     list-style: none;
     padding: 0;
     margin: 0;
+
+    @media screen and (max-width: 1330px) {
+      flex-direction: column;
+      align-items: center;
+    }
   }
 
   &__item {
@@ -58,6 +69,7 @@
     color: #FFFFFF;
     padding: 0;
     margin: 0;
+    text-align: center;
 
     a {
       @include hover-underline;

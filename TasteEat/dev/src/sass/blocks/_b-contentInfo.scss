@@ -14,6 +14,11 @@
   padding: 0 20px;
   width: 100%;
   max-width: 1400px;
+  gap: 20px;
+
+  @media screen and (max-width: 1024px) {
+    flex-direction: column;
+  }
 }
 
 .b-contentInfo__block {
@@ -22,13 +27,20 @@
   margin: 0;
   padding: 100px 0 60px 0;
 
+  @media screen and (max-width: 1024px) {
+    justify-content: center;
+  }
+
   &.-location {
     &::before {
       content: "";
       display: block;
       background-image: url('../../../../assets/img/blocks/contentInfo/Location.svg');
+      background-size: cover;
+      background-repeat: no-repeat;
       width: 100%;
       max-width: 83px;
+      max-height: 83px;
       aspect-ratio: 1/1;
       margin-right: 20px;
     }
@@ -39,8 +51,11 @@
       content: "";
       display: block;
       background-image: url('../../../../assets/img/blocks/contentInfo/TimeOpen.svg');
+      background-size: cover;
+      background-repeat: no-repeat;
       width: 100%;
       max-width: 83px;
+      max-height: 83px;
       aspect-ratio: 1/1;
       margin-right: 20px;
     }
@@ -51,8 +66,11 @@
       content: "";
       display: block;
       background-image: url('../../../../assets/img/blocks/contentInfo/Reservation.svg');
+      background-size: cover;
+      background-repeat: no-repeat;
       width: 100%;
       max-width: 83px;
+      max-height: 83px;
       aspect-ratio: 1/1;
       margin-right: 20px;
     }
@@ -69,6 +87,10 @@
   letter-spacing: 0.2px;
   font-family: $Cormorant;
   color: #292E36;
+
+  //@media screen and (max-width: 1330px) {
+  //  font-size: 20px;
+  //}
 }
 
 .b-infoBlock__text {
@@ -81,4 +103,8 @@
   font-family: $Josefin;
   letter-spacing: 0.2px;
   color: #555555;
+
+  //@media screen and (max-width: 1330px) {
+  //  font-size: 12px;
+  //}
 }

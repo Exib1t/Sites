@@ -15,6 +15,10 @@
   padding: 145px 20px 200px 20px;
   margin: 0;
 
+  @media screen and (max-width: 1024px) {
+    align-items: center;
+  }
+
   &__title {
     font-family: $Josefin;
     font-style: normal;
@@ -35,6 +39,11 @@
   &__content {
     display: flex;
     gap: 55px;
+
+    @media screen and (max-width: 1024px) {
+      flex-direction: column;
+      align-items: center;
+    }
   }
 
   &__special {
@@ -42,6 +51,10 @@
     flex-direction: column;
     width: 100%;
     max-width: 500px;
+
+    @media screen and (max-width: 1024px) {
+      align-items: center;
+    }
   }
 }
 
@@ -70,6 +83,10 @@
     color: #555555;
     padding: 0;
     margin: 0 0 45px 0;
+
+    @media screen and (max-width: 1024px) {
+      text-align: center;
+    }
   }
 
   &__img {
@@ -140,8 +157,10 @@
     &::before {
       content: "";
       background-repeat: no-repeat;
+      background-size: cover;
       width: 100%;
       max-width: 84px;
+      max-height: 84px;
       aspect-ratio: 1/1;
       display: block;
       margin-right: 20px;

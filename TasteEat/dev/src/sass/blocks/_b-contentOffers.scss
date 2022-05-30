@@ -67,6 +67,10 @@
     align-items: center;
     width: 100%;
     gap: 30px;
+
+    @media screen and (max-width: 1330px) {
+      flex-direction: column;
+    }
   }
 
   &__dish {
@@ -76,15 +80,24 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+    max-width: 665px;
     min-height: 409px;
     box-sizing: border-box;
     padding: 20px 40px;
+
+    @media screen and (max-width: 678px) {
+      flex-direction: column;
+    }
   }
 
   &__dishSide {
     display: flex;
     flex-direction: column;
     width: 100%;
+
+    @media screen and (max-width: 678px) {
+      align-items: center;
+    }
   }
 
   &__dishPrice {
@@ -223,6 +236,7 @@
   }
 
   &__dishImage {
-
+    width: 100%;
+    max-width: 307px;
   }
 }

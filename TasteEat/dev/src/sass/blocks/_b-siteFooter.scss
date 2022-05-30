@@ -18,6 +18,11 @@
   box-sizing: border-box;
   padding: 130px 20px 25px 20px;
 
+  @media screen and (max-width: 1330px) {
+    flex-direction: column;
+    gap: 50px;
+  }
+
   &__column {
     display: flex;
     flex-direction: column;
@@ -25,17 +30,38 @@
     width: 100%;
     min-height: 400px;
 
+    @media screen and (max-width: 1330px) {
+      align-items: center;
+    }
+
     &.-centerColumn {
       min-width: 664px;
       align-items: center;
+
+      @media screen and (max-width: 1330px) {
+        order: 1;
+        min-width: auto;
+      }
     }
 
     &.-lastColumn {
       justify-content: flex-end;
       align-items: flex-end;
 
+      @media screen and (max-width: 1330px) {
+        justify-content: center;
+        align-items: center;
+        order: 3;
+      }
+
       .b-siteFooter__columnItem {
         text-align: right;
+      }
+    }
+
+    &.-firstColumn {
+      @media screen and (max-width: 1330px) {
+        order: 2;
       }
     }
   }
@@ -78,6 +104,10 @@
 
   &__columnItem {
     width: 100%;
+
+    @media screen and (max-width: 1330px) {
+      text-align: center;
+    }
   }
 
   &__columnLink {
@@ -110,6 +140,7 @@
 
   &__form {
     width: 100%;
+    max-width: 664px;
     height: 68px;
 
     label {

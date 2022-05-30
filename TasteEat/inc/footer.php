@@ -2,7 +2,7 @@
 
     <footer class="l-siteFooter">
       <div class="b-siteFooter">
-        <div class="b-siteFooter__column">
+        <div class="b-siteFooter__column -firstColumn">
           <div class="b-siteFooter__columnHashtag b-text">#TheTastEat</div>
 
           <h3 class="b-siteFooter__columnTitle">Contact</h3>

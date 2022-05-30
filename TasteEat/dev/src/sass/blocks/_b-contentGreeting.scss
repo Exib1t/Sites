@@ -14,10 +14,22 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 20px;
+
+  @media screen and (max-width: 1024px) {
+    flex-direction: column;
+    gap: 50px;
+  }
 }
 
 .b-contentGreetingText {
+  display: flex;
+  flex-direction: column;
   width: 50%;
+
+  @media screen and (max-width: 1024px) {
+    align-items: center;
+  }
 }
 
 .b-contentGreetingText__title {
@@ -29,6 +41,11 @@
   color: #FFFFFF;
   font-family: $Cormorant;
   margin: 0 0 25px 0;
+
+  @media screen and (max-width: 1024px) {
+    font-size: 70px;
+    text-align: center;
+  }
 }
 
 .b-contentGreetingText__text {
@@ -42,9 +59,15 @@
   margin: 0 0 35px 0;
   width: 100%;
   max-width: 616px;
+
+  @media screen and (max-width: 1024px) {
+    font-size: 14px;
+    text-align: center;
+  }
 }
 
 .b-contentGreetingText__button {
+  width: max-content;
   border: 2px solid #E1B168;
   background: #292E36;
   padding: 20px 57px;
@@ -77,5 +100,10 @@
     max-width: 595px;
     height: 100%;
     max-height: 740px;
+    object-fit: cover;
+  }
+
+  @media screen and (max-width: 1024px) {
+    padding: 0;
   }
 }

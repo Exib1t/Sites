@@ -66,35 +66,42 @@
               <li class="b-mainNavigation__item<?php echo ( $uri == 'home' ) ? ' -state_active' : ''; ?>">
                 <a class="b-mainNavigation__link" href="index.html">Home</a>
               </li>
-              <li class="b-mainNavigation__item<?php echo ( $uri == 'home' ) ? ' -state_active' : ''; ?>">
+              <li class="b-mainNavigation__item<?php echo ( $uri == 'inner' ) ? ' -state_active' : ''; ?>">
                 <a class="b-mainNavigation__link" href="index.html">About Us</a>
               </li>
-              <li class="b-mainNavigation__item<?php echo ( $uri == 'home' ) ? ' -state_active' : ''; ?>">
+              <li class="b-mainNavigation__item<?php echo ( $uri == 'inner' ) ? ' -state_active' : ''; ?>">
                 <a class="b-mainNavigation__link" href="index.html">Our Menu</a>
               </li>
-              <li class="b-mainNavigation__item<?php echo ( $uri == 'home' ) ? ' -state_active' : ''; ?>">
+              <li class="b-mainNavigation__item<?php echo ( $uri == 'inner' ) ? ' -state_active' : ''; ?>">
                 <a class="b-mainNavigation__link" href="index.html">Pages</a>
               </li>
-              <li class="b-mainNavigation__item<?php echo ( $uri == 'home' ) ? ' -state_active' : ''; ?>">
+              <li class="b-mainNavigation__item<?php echo ( $uri == 'inner' ) ? ' -state_active' : ''; ?>">
                 <a class="b-mainNavigation__link" href="index.html">Blog</a>
               </li>
-              <li class="b-mainNavigation__item<?php echo ( $uri == 'home' ) ? ' -state_active' : ''; ?>">
+              <li class="b-mainNavigation__item<?php echo ( $uri == 'inner' ) ? ' -state_active' : ''; ?>">
                 <a class="b-mainNavigation__link" href="index.html">Contact Us</a>
               </li>
             </ul>
 
+            <button class="hamburger hamburger--collapse" type="button">
+              <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+              </span>
+              <span class="hamburger__text">Menu</span>
+            </button>
+
             <ul class="b-navigationSocial">
               <li class="b-navigationSocial__item<?php echo ( $uri == 'home' ) ? ' -state_active' : ''; ?>">
-                <a class="b-navigationSocial__link" href="index.html"><img src="assets/img/blocks/siteHeaderBottom/socials/instagram-logo.svg" alt="" class="b-mainNavigationSocials__img"></a>
+                <a class="b-navigationSocial__link" href="index.html"><img src="../assets/img/blocks/siteHeaderBottom/socials/instagram-logo.svg" alt="" class="b-mainNavigationSocials__img"></a>
               </li>
               <li class="b-navigationSocial__item<?php echo ( $uri == 'home' ) ? ' -state_active' : ''; ?>">
-                <a class="b-navigationSocial__link" href="index.html"><img src="assets/img/blocks/siteHeaderBottom/socials/facebook-logo.svg" alt="" class="b-mainNavigationSocials__img"></a>
+                <a class="b-navigationSocial__link" href="index.html"><img src="../assets/img/blocks/siteHeaderBottom/socials/facebook-logo.svg" alt="" class="b-mainNavigationSocials__img"></a>
               </li>
               <li class="b-navigationSocial__item<?php echo ( $uri == 'home' ) ? ' -state_active' : ''; ?>">
-                <a class="b-navigationSocial__link" href="index.html"><img src="assets/img/blocks/siteHeaderBottom/socials/twitter-logo.svg" alt="" class="b-mainNavigationSocials__img"></a>
+                <a class="b-navigationSocial__link" href="index.html"><img src="../assets/img/blocks/siteHeaderBottom/socials/twitter-logo.svg" alt="" class="b-mainNavigationSocials__img"></a>
               </li>
               <li class="b-navigationSocial__item<?php echo ( $uri == 'home' ) ? ' -state_active' : ''; ?>">
-                <a class="b-navigationSocial__link" href="index.html"><img src="assets/img/blocks/siteHeaderBottom/socials/pinterest-logo.svg" alt="" class="b-mainNavigationSocials__img"></a>
+                <a class="b-navigationSocial__link" href="index.html"><img src="../assets/img/blocks/siteHeaderBottom/socials/pinterest-logo.svg" alt="" class="b-mainNavigationSocials__img"></a>
               </li>
             </ul>
           </nav>
