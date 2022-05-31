@@ -36,6 +36,14 @@
     @media only screen and (min-width: 0px) and (max-width: 740px){
       text-align: center;
     }
+
+    @media only screen and (min-width: 0px) and (max-width: 576px){
+      font-size: 18px;
+    }
+
+    @media only screen and (min-width: 0px) and (max-width: 340px){
+      font-size: 16px;
+    }
   }
   ul {
     list-style-type: none;
@@ -53,6 +61,14 @@
 
     @media only screen and (min-width: 0px) and (max-width: 740px){
       justify-content: center;
+    }
+
+    @media only screen and (min-width: 0px) and (max-width: 576px){
+      font-size: 14px;
+    }
+
+    @media only screen and (min-width: 0px) and (max-width: 340px){
+      font-size: 12px;
     }
   }
 
@@ -158,6 +174,14 @@
   color: #FFFFFF;
   padding: 20px 0px;
   border-top: 1px solid rgba($color: #fff, $alpha: 0.31);
+
+  @media only screen and (min-width: 0px) and (max-width: 576px){
+    font-size: 10px;
+  }
+
+  @media only screen and (min-width: 0px) and (max-width: 340px){
+    font-size: 8px;
+  }
   a {
     font-weight: 700;
     color: #fff;

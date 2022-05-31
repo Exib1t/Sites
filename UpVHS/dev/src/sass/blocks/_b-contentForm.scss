@@ -47,6 +47,14 @@
     margin: 0 0 13px 0;
     padding: 0;
 
+    @media only screen and (min-width: 0px) and (max-width: 576px){
+      font-size: 16px;
+    }
+
+    @media only screen and (min-width: 0px) and (max-width: 340px){
+      font-size: 14px;
+    }
+
     &.-wochentag {
       margin-bottom: 10px;
     }
@@ -75,6 +83,14 @@
     line-height: 21px;
     color: #262626;
 
+    @media only screen and (min-width: 0px) and (max-width: 576px){
+      font-size: 14px;
+    }
+
+    @media only screen and (min-width: 0px) and (max-width: 340px){
+      font-size: 12px;
+    }
+
     &:focus {
       outline: 1px solid #18B0B6;
     }
@@ -92,6 +108,14 @@
     line-height: 21px;
     color: #262626;
     margin-bottom: 8px;
+
+    @media only screen and (min-width: 0px) and (max-width: 576px){
+      font-size: 14px;
+    }
+
+    @media only screen and (min-width: 0px) and (max-width: 340px){
+      font-size: 12px;
+    }
 
     &:hover {
       cursor: pointer;
@@ -135,6 +159,14 @@
     color: #18B0B6;
     margin: 0;
     padding: 0;
+
+    @media only screen and (min-width: 0px) and (max-width: 576px){
+      font-size: 12px;
+    }
+
+    @media only screen and (min-width: 0px) and (max-width: 340px){
+      font-size: 10px;
+    }
   }
 
   &__checkbox {
@@ -166,8 +198,16 @@
     text-transform: uppercase;
     color: #FFFFFF;
 
-    @media screen and (max-width: 576px) {
+    @media screen and (max-width: 768px) {
       width: 100%;
+    }
+
+    @media only screen and (min-width: 0px) and (max-width: 576px){
+      font-size: 14px;
+    }
+
+    @media only screen and (min-width: 0px) and (max-width: 340px){
+      font-size: 12px;
     }
 
     &:hover {
