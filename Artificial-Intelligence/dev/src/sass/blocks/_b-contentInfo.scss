@@ -1,0 +1,103 @@
+.l-contentInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: $secondBG;
+  overflow: hidden;
+}
+
+.b-contentInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1185px;
+  box-sizing: border-box;
+  padding: 130px 20px 0 20px;
+
+  @media screen and (max-width: 992px) {
+    justify-content: center;
+  }
+
+  &__imgHolder {
+    width: 825px;
+    height: 669px;
+    position: relative;
+    display: block;
+    padding: 0;
+    margin: 0;
+
+    @media screen and (max-width: 992px) {
+      display: none;
+    }
+  }
+
+  &__imgHolderImg {
+    position: absolute;
+    right: 100px;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 725px;
+    height: 669px;
+  }
+
+  &__side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 484px;
+
+    @media screen and (max-width: 992px) {
+      align-items: center;
+      box-sizing: border-box;
+      padding: 0 20px;
+    }
+  }
+
+  &__sideTitle {
+    @include openSans(normal, 700, 40px, 130%, $textWhite);
+    padding: 0;
+    margin: 0 0 30px 0;
+    width: 100%;
+
+    @media screen and (max-width: 992px) {
+      text-align: center;
+    }
+  }
+
+  &__sideText {
+    @include openSans(normal, 600, 16px, 160%, $textWhite)
+    opacity: 0.7;
+    padding: 0;
+    margin: 0 0 50px 0;
+    width: 100%;
+    max-width: 460px;
+
+    @media screen and (max-width: 992px) {
+      text-align: center;
+    }
+  }
+
+  &__sideButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include openSans(normal, 600, 16px, 22px, $textWhite);
+    text-decoration: none;
+    background: $textBlue;
+    width: max-content;
+    margin: 0;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-align: center;
+
+    @media screen and (max-width: 992px) {
+      width: 100%;
+    }
+  }
+}

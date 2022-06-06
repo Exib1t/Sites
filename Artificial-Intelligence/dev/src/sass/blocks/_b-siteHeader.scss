@@ -1,0 +1,20 @@
+/**
+ * @section siteHeader
+ */
+.l-siteHeader {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 100%;
+  background-color: #0f122d;
+}
+.b-siteHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1185px;
+  box-sizing: border-box;
+  padding: 25px 20px;
+}

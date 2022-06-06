@@ -1,0 +1,41 @@
+.l-mainAuth {
+  clear: both;
+  width: max-content;
+  height: 100%;
+}
+.b-mainAuth {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  list-style: none;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    color: #000;
+
+    &.-state_active {
+
+    }
+  }
+
+  &__link {
+    @include hover-underline;
+    @include openSans(normal, 600, 16px, 22px, $textWhite);
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    background: $buttonBG;
+    border-radius: 5px;
+  }
+}
