@@ -47,6 +47,61 @@ require( 'inc/header.php' );
     </div>
   </section>
 
+  <section class="l-contentSlider">
+    <div class="b-contentSlider js-slider">
+      <div class="b-contentSlider__slide">
+        <img src="assets/img/blocks/contentSlider/image_1.svg" alt="" class="b-contentSlider__slideImg">
+        <h3 class="b-contentSlider__slideTitle">Naxly as the Winners in Global Agency Awards</h3>
+        <div class="b-contentSlider__slideText b-text">Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.</div>
+      </div>
+      <div class="b-contentSlider__slide">
+        <img src="assets/img/blocks/contentSlider/image_2.svg" alt="" class="b-contentSlider__slideImg">
+        <h3 class="b-contentSlider__slideTitle">Expert Prespective Agency Awards</h3>
+        <div class="b-contentSlider__slideText b-text">Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.</div>
+      </div>
+      <div class="b-contentSlider__slide">
+        <img src="assets/img/blocks/contentSlider/image_3.svg" alt="" class="b-contentSlider__slideImg">
+        <h3 class="b-contentSlider__slideTitle">Business Prespective Global Agency Awards</h3>
+        <div class="b-contentSlider__slideText b-text">Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.</div>
+      </div>
+      <div class="b-contentSlider__slide">
+        <img src="assets/img/blocks/contentSlider/image_4.svg" alt="" class="b-contentSlider__slideImg">
+        <h3 class="b-contentSlider__slideTitle">Value for Results in Global Agency Awards</h3>
+        <div class="b-contentSlider__slideText b-text">Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.</div>
+      </div>
+      <div class="b-contentSlider__slide">
+        <img src="assets/img/blocks/contentSlider/image_5.svg" alt="" class="b-contentSlider__slideImg">
+        <h3 class="b-contentSlider__slideTitle">Global Experience in Agency Awards</h3>
+        <div class="b-contentSlider__slideText b-text">Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.</div>
+      </div>
+      <div class="b-contentSlider__slide">
+        <img src="assets/img/blocks/contentSlider/image_5.svg" alt="" class="b-contentSlider__slideImg">
+        <h3 class="b-contentSlider__slideTitle">Global Experience in Agency Awards</h3>
+        <div class="b-contentSlider__slideText b-text">Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.</div>
+      </div>
+      <div class="b-contentSlider__slide">
+        <img src="assets/img/blocks/contentSlider/image_5.svg" alt="" class="b-contentSlider__slideImg">
+        <h3 class="b-contentSlider__slideTitle">Global Experience in Agency Awards</h3>
+        <div class="b-contentSlider__slideText b-text">Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="l-contentTestimonials">
+    <div class="b-contentTestimonials">
+      <div class="b-contentTestimonials__side">
+        <h3 class="b-contentTestimonials__sideTitle">What our clients say about our awesome solutions</h3>
+        <div class="b-contentTestimonials__sideText b-text">To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it who do not know.</div>
+        <div class="b-contentTestimonials__sideText b-text">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing .</div>
+        <div class="b-contentTestimonials__sideText b-text">Lorem ipsum is placeholder previewing layouts and visual mockups.</div>
+        <div class="b-contentTestimonials__sideText b-text">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</div>
+      </div>
+      <div class="b-contentTestimonials__imgWrapper">
+        <img src="assets/img/blocks/contentTestimonials/image_1.svg" alt="" class="b-contentTestimonials__sideImg">
+      </div>
+    </div>
+  </section>
+
 </main>
 
 <?php require( 'inc/footer.php' ); ?>

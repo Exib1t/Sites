@@ -5,6 +5,10 @@
   width: 100%;
   background: linear-gradient(180deg, #0f122d 50%, #05071a 100%);
   overflow: hidden;
+
+  @media screen and (max-width: 768px) {
+    overflow: clip;
+  }
 }
 
 .b-firstScreen {

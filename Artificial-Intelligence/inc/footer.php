@@ -2,18 +2,131 @@
 
     <footer class="l-siteFooter">
       <div class="b-siteFooter">
-        <div class="l-bottomNavigation" role="navigation">
-          <ul class="b-bottomNavigation">
-            <li class="b-bottomNavigation__item<?php echo ( $uri == 'home' ) ? ' -state_active' : ''; ?>">
-              <a class="b-bottomNavigation__link" href="index.html">Home</a>
+        <div class="b-siteFooter__column">
+          <ul class="b-siteFooter__columnList">
+            <li class="b-siteFooter__columnListItem -logo">
+              <img src="../assets/img/blocks/siteFooter/logo.svg" alt="" class="b-siteFooter__columnListLogo">
+            </li>
+            <li class="b-siteFooter__columnListItem -textFirst">
+              <p class="b-siteFooter__columnListText b-text">Lorem ipsum is placeholder text commonly used in the graphic, print, and layouts and visual mockups.</p>
+            </li>
+            <li class="b-siteFooter__columnListItem">
+              <a href="#" class="b-siteFooter__columnListLink -email">Company@gmail.com.com</a>
+            </li>
+            <li class="b-siteFooter__columnListItem">
+              <a href="#" class="b-siteFooter__columnListLink -phone">Phone: (064) 332-1233</a>
+            </li>
+            <li class="b-siteFooter__columnListItem">
+              <a href="#" class="b-siteFooter__columnListLink -position">450 Wall Street, USA, New York</a>
             </li>
           </ul>
         </div>
-
-        <address class="l-siteCopyright vcard" itemscope itemtype="http://schema.org/Organization">
-          <div class="b-siteCopyright">© <?php echo date( 'Y' ); ?> <a rel="me" itemprop="name" class="b-siteCopyright__link fn n org url work" href="<?php echo "http://" . $_SERVER['HTTP_HOST']; ?>">%clientName%</a>. Все права защищены</div>
-          <div class="b-developerCopyright">Разработано в <a class="b-developerCopyright__link" href="https://ideus.biz/" rel="friend" target="_blank">iDeus</a></div>
-        </address>
+        <div class="b-siteFooter__column">
+          <h3 class="b-siteFooter__columnTitle">INFORMATION</h3>
+          <ul class="b-siteFooter__columnList">
+            <li class="b-siteFooter__columnListItem">
+              <a href="#" class="b-siteFooter__columnListLink">New Collection</a>
+            </li>
+            <li class="b-siteFooter__columnListItem">
+              <a href="#" class="b-siteFooter__columnListLink">About Store</a>
+            </li>
+            <li class="b-siteFooter__columnListItem">
+              <a href="#" class="b-siteFooter__columnListLink">Contact Us</a>
+            </li>
+            <li class="b-siteFooter__columnListItem">
+              <a href="#" class="b-siteFooter__columnListLink">Latest News</a>
+            </li>
+            <li class="b-siteFooter__columnListItem">
+              <a href="#" class="b-siteFooter__columnListLink">Our Sitemap</a>
+            </li>
+            <li class="b-siteFooter__columnListItem">
+              <a href="#" class="b-siteFooter__columnListLink">Orders History</a>
+            </li>
+          </ul>
+        </div>
+        <div class="b-siteFooter__column">
+          <h3 class="b-siteFooter__columnTitle">FOOTER MENU</h3>
+          <ul class="b-siteFooter__columnList">
+            <li class="b-siteFooter__columnListItem">
+              <a href="#" class="b-siteFooter__columnListLink">Instagram profile</a>
+            </li>
+            <li class="b-siteFooter__columnListItem">
+              <a href="#" class="b-siteFooter__columnListLink">New Collection</a>
+            </li>
+            <li class="b-siteFooter__columnListItem">
+              <a href="#" class="b-siteFooter__columnListLink">Contact Us</a>
+            </li>
+            <li class="b-siteFooter__columnListItem">
+              <a href="#" class="b-siteFooter__columnListLink">Latest News</a>
+            </li>
+            <li class="b-siteFooter__columnListItem">
+              <a href="#" class="b-siteFooter__columnListLink">Terms & Conditions</a>
+            </li>
+            <li class="b-siteFooter__columnListItem">
+              <a href="#" class="b-siteFooter__columnListLink">Purchase Theme</a>
+            </li>
+          </ul>
+        </div>
+        <div class="b-siteFooter__column">
+          <h3 class="b-siteFooter__columnTitle">USEFUL LINKS</h3>
+          <ul class="b-siteFooter__columnList">
+            <li class="b-siteFooter__columnListItem">
+              <a href="#" class="b-siteFooter__columnListLink">Instagram profile</a>
+            </li>
+            <li class="b-siteFooter__columnListItem">
+              <a href="#" class="b-siteFooter__columnListLink">New Collection</a>
+            </li>
+            <li class="b-siteFooter__columnListItem">
+              <a href="#" class="b-siteFooter__columnListLink">Contact Us</a>
+            </li>
+            <li class="b-siteFooter__columnListItem">
+              <a href="#" class="b-siteFooter__columnListLink">Latest News</a>
+            </li>
+            <li class="b-siteFooter__columnListItem">
+              <a href="#" class="b-siteFooter__columnListLink">Terms & Conditions</a>
+            </li>
+            <li class="b-siteFooter__columnListItem">
+              <a href="#" class="b-siteFooter__columnListLink">Purchase Theme</a>
+            </li>
+          </ul>
+        </div>
+        <div class="b-siteFooter__column">
+          <h3 class="b-siteFooter__columnTitle">ABOUT THE STORE</h3>
+          <ul class="b-siteFooter__columnList">
+            <li class="b-siteFooter__columnListItem -textSecond">
+              <p class="b-siteFooter__columnListText b-text">Lorem ipsum is placeholder text commonly used in the graphic, print, and layouts and visual mockups.</p>
+            </li>
+            <li class="b-siteFooter__columnListItem">
+              <a href="#" class="b-siteFooter__columnListLink -company">www.company.com</a>
+            </li>
+            <li class="b-siteFooter__columnListItem -socialList">
+              <a href="#" class="b-siteFooter__columnListLink">
+                <img src="../assets/img/blocks/siteFooter/facebook.svg" alt="" class="b-siteFooter__columnListLinkImg">
+              </a>
+              <a href="#" class="b-siteFooter__columnListLink">
+                <img src="../assets/img/blocks/siteFooter/instagram.svg" alt="" class="b-siteFooter__columnListLinkImg">
+              </a>
+              <a href="#" class="b-siteFooter__columnListLink">
+                <img src="../assets/img/blocks/siteFooter/twitter.svg" alt="" class="b-siteFooter__columnListLinkImg">
+              </a>
+              <a href="#" class="b-siteFooter__columnListLink">
+                <img src="../assets/img/blocks/siteFooter/linkedin.svg" alt="" class="b-siteFooter__columnListLinkImg">
+              </a>
+              <a href="#" class="b-siteFooter__columnListLink">
+                <img src="../assets/img/blocks/siteFooter/youtube.svg" alt="" class="b-siteFooter__columnListLinkImg">
+              </a>
+            </li>
+            <li class="b-siteFooter__columnListItem">
+              <label for="selectLang">
+                <select name="selectLang">
+                  <option value="en">English</option>
+                  <option value="ua">Ukrainian</option>
+                  <option value="ru">Russian</option>
+                </select>
+              </label>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </div><!--wrapper-->

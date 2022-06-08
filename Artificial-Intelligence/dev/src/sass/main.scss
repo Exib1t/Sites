@@ -15,6 +15,7 @@
 
 /* Plugins */
 @import 'plugins/hamburgers/hamburgers';
+@import 'plugins/slick/slick';
 
 /* ==|== primary styles =====================================================
    Authors: %Author Name%
@@ -39,7 +40,8 @@
 @import 'blocks/b-firstScreen';
 @import 'blocks/b-contentLogo';
 @import 'blocks/b-contentInfo';
-
+@import 'blocks/b-contentSlider';
+@import 'blocks/b-contentTestimonials';
 
 /**
  * Print styles
