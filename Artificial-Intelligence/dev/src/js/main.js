@@ -2,6 +2,7 @@
 
 $(function() {
   slider();
+  hamburger();
 });
 
 $(window).on('resize', function() {
@@ -50,4 +51,23 @@ function slider() {
       }
     ]
   });
+}
+
+function hamburger() {
+  const hamburger = document.querySelector('.hamburger');
+  const list = document.querySelector('.l-mainNavigation');
+
+  hamburger.addEventListener('click', toggleClass);
+
+  function toggleClass() {
+    hamburger.classList.toggle('is-active');
+    list.classList.toggle('-state-open');
+  }
+
+  window.onresize = function () {
+    if (window.innerWidth > 992) {
+      document.querySelector('.hamburger').classList.remove('is-active');
+      document.querySelector('.l-mainNavigation').classList.remove('-state-open');
+    }
+  };
 }

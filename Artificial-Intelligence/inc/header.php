@@ -73,7 +73,7 @@
           <div class="l-mainAuth">
             <ul class="b-mainAuth">
               <li class="b-mainAuth__item<?php echo ( $uri == 'contact' ) ? ' -state_active' : ''; ?>">
-                <a class="b-mainAuth__link" href="index.html">Sign In</a>
+                <button class="b-mainAuth__link">Sign In</button>
               </li>
             </ul>
           </div>

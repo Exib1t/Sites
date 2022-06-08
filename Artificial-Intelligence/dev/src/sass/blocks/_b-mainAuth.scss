@@ -21,10 +21,6 @@
     padding: 0;
     height: 100%;
     color: #000;
-
-    &.-state_active {
-
-    }
   }
 
   &__link {
@@ -37,5 +33,6 @@
     padding: 15px 30px;
     background: $buttonBG;
     border-radius: 5px;
+    border: 0;
   }
 }
