@@ -12,7 +12,7 @@ require( 'inc/header.php' );
 
   <section class="b-contentText -innerPage__content">
     <div class="b-contentText__images">
-      <img src="assets/img/userfiles/innerPage/contentLogo.svg"alt="logo" class="b-contentText__img">
+      <img src="assets/img/userfiles/innerPage/contentLogo.png"alt="logo" class="b-contentText__img">
     </div>
     <div class="b-contentText__content">
       <h2 class="b-contentText__title -blueBorder">Apple Mac-Kurs für Alle</h2>

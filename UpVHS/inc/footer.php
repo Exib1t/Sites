@@ -16,9 +16,9 @@
           <div class="b-footerInfo__column">
             <h3>Kontakt</h3>
             <ul>
-              <li><a href="#" class="b-footerInfo__email">office@vhs.ch</a></li>
-              <li class="b-footerInfo__phoneTop">+41 44 211 97 71</li>
-              <li class="b-footerInfo__phoneBottom">+41 44 211 97 72</li>
+              <li><a href="mailto: office@vhs.ch" class="b-footerInfo__email">office@vhs.ch</a></li>
+              <li><a class="b-footerInfo__phoneTop g-tel" href="tel: +41 44 211 97 71">+41 44 211 97 71</a></li>
+              <li><a class="b-footerInfo__phoneBottom g-tel" href="tel: +41 44 211 97 72">+41 44 211 97 72</a></li>
             </ul>
           </div>
           <div class="b-footerInfo__column">

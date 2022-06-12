@@ -112,7 +112,7 @@ require( 'inc/header.php' );
         <tbody>
           <tr>
             <td>
-              <img src="assets/img/blocks/contentTable/logo_1.svg" alt="" class="b-contentTable__dataImage">
+              <img src="assets/img/blocks/contentTable/logo_1.png" alt="" class="b-contentTable__dataImage">
             </td>
             <td>
               <p class="b-contentTable__textTitle"><b>Word für Migranten</b> Christine Rindlisbacher</p>
@@ -126,7 +126,7 @@ require( 'inc/header.php' );
           </tr>
           <tr>
             <td>
-              <img src="assets/img/blocks/contentTable/logo_2.svg" alt="" class="b-contentTable__dataImage">
+              <img src="assets/img/blocks/contentTable/logo_2.png" alt="" class="b-contentTable__dataImage">
             </td>
             <td>
               <p class="b-contentTable__textTitle"><b>Apple Mac-Kurs für Alle</b> Emmanuel Urtuzuástegui</p>
@@ -140,7 +140,7 @@ require( 'inc/header.php' );
           </tr>
           <tr>
             <td>
-              <img src="assets/img/blocks/contentTable/logo_3.svg" alt="" class="b-contentTable__dataImage">
+              <img src="assets/img/blocks/contentTable/logo_3.png" alt="" class="b-contentTable__dataImage">
             </td>
             <td>
               <p class="b-contentTable__textTitle"><b>Word für Migranten am Samstag</b> Christine Rindlisbacher</p>
@@ -154,7 +154,7 @@ require( 'inc/header.php' );
           </tr>
           <tr>
             <td>
-              <img src="assets/img/blocks/contentTable/logo_4.svg" alt="" class="b-contentTable__dataImage">
+              <img src="assets/img/blocks/contentTable/logo_4.png" alt="" class="b-contentTable__dataImage">
             </td>
             <td>
               <p class="b-contentTable__textTitle"><b>Microsoft Teams für Einsteiger/innen</b> Sonja Hubl</p>
@@ -168,7 +168,7 @@ require( 'inc/header.php' );
           </tr>
           <tr>
             <td>
-              <img src="assets/img/blocks/contentTable/logo_5.svg" alt="" class="b-contentTable__dataImage">
+              <img src="assets/img/blocks/contentTable/logo_5.png" alt="" class="b-contentTable__dataImage">
             </td>
             <td>
               <p class="b-contentTable__textTitle"><b>Word für Migranten</b> Christine Rindlisbacher</p>
@@ -182,7 +182,7 @@ require( 'inc/header.php' );
           </tr>
           <tr>
             <td>
-              <img src="assets/img/blocks/contentTable/logo_6.svg" alt="" class="b-contentTable__dataImage">
+              <img src="assets/img/blocks/contentTable/logo_6.png" alt="" class="b-contentTable__dataImage">
             </td>
             <td>
               <p class="b-contentTable__textTitle"><b>Apple Mac-Kurs für Alle</b> Emmanuel Urtuzuástegui</p>

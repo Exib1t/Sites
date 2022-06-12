@@ -57,110 +57,25 @@
     color: #fff;
     cursor: pointer;
     border: 1px solid #803c91;
-    &:nth-child(2) {
-      &::before {
-        background-blend-mode: difference;
+
+    .b-contentCategories__linkImg {
+      opacity: 0;
+
+      &.-active {
+        opacity: 1;
       }
     }
   }
-  &:nth-child(1) {
-    &::before {
-      content: "";
-      background: url('../../../../assets/img/userfiles/contentCategoriesIcons/Grundlagen.svg'), linear-gradient(180deg, #31CDD1 0%, #169EA4 100%);
-      width: 100%;
-      max-width: 28px;
-      aspect-ratio: 1/1;
-      margin: 0 10px 0 25px;
-    }
-  }
-  &:nth-child(2) {
-    &::before {
-      content: "";
-      background-image: url('../../../../assets/img/userfiles/contentCategoriesIcons/Gesellschaft.svg');
-      width: 100%;
-      max-width: 28px;
-      aspect-ratio: 1/1;
-      margin: 0 10px 0 25px;
-    }
-  }
-  &:nth-child(3) {
-    &::before {
-      content: "";
-      background-image: url('../../../../assets/img/userfiles/contentCategoriesIcons/Sprachen.svg');
-      width: 100%;
-      max-width: 28px;
-      aspect-ratio: 1/1;
-      margin: 0 10px 0 25px;
-    }
-  }
-  &:nth-child(4) {
-    &::before {
-      content: "";
-      background-image: url('../../../../assets/img/userfiles/contentCategoriesIcons/Gestalten.svg');
-      width: 100%;
-      max-width: 28px;
-      aspect-ratio: 1/1;
-      margin: 0 10px 0 25px;
-    }
-  }
-  &:nth-child(5) {
-    &::before {
-      content: "";
-      background-image: url('../../../../assets/img/userfiles/contentCategoriesIcons/Beruf.svg');
-      width: 100%;
-      max-width: 28px;
-      aspect-ratio: 1/1;
-      margin: 0 10px 0 25px;
-    }
-  }
-  &:nth-child(6) {
-    &::before {
-      content: "";
-      background-image: url('../../../../assets/img/userfiles/contentCategoriesIcons/Kultur.svg');
-      width: 100%;
-      max-width: 28px;
-      aspect-ratio: 1/1;
-      margin: 0 10px 0 25px;
-    }
-  }
-  &:nth-child(7) {
-    &::before {
-      content: "";
-      background-image: url('../../../../assets/img/userfiles/contentCategoriesIcons/Gemeinschaft.svg');
-      width: 100%;
-      max-width: 28px;
-      aspect-ratio: 1/1;
-      margin: 0 8px 0 25px;
-    }
-  }
-  &:nth-child(8) {
-    &::before {
-      content: "";
-      background-image: url('../../../../assets/img/userfiles/contentCategoriesIcons/Natur.svg');
-      width: 100%;
-      max-width: 28px;
-      aspect-ratio: 1/1;
-      margin: 0 10px 0 25px;
-    }
-  }
-  &:nth-child(9) {
-    &::before {
-      content: "";
-      background-image: url('../../../../assets/img/userfiles/contentCategoriesIcons/Gesundheit.svg');
-      width: 100%;
-      max-width: 28px;
-      aspect-ratio: 1/1;
-      margin: 0 10px 0 25px;
-    }
-  }
-  &:nth-child(10) {
-    &::before {
-      content: "";
-      background-image: url('../../../../assets/img/userfiles/contentCategoriesIcons/Technik.svg');
-      width: 100%;
-      max-width: 28px;
-      aspect-ratio: 1/1;
-      margin: 0 10px 0 25px;
+
+  &Img {
+    width: 100%;
+    max-width: 28px;
+    aspect-ratio: 1/1;
+    margin: 0 10px 0 25px;
+
+    &.-active {
+      position: absolute;
+      opacity: 0;
     }
   }
 }

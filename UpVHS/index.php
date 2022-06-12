@@ -25,16 +25,56 @@ require( 'inc/header.php' );
   <div class="b-contentText">
     <div class="l-contentCategories">
       <div class="b-contentCategories">
-        <a href="#" class="b-contentCategories__link">Grundlagen</a>
-        <a href="#" class="b-contentCategories__link">Gesellschaft</a>
-        <a href="#" class="b-contentCategories__link">Sprachen</a>
-        <a href="#" class="b-contentCategories__link">Gestalten</a>
-        <a href="#" class="b-contentCategories__link">Beruf</a>
-        <a href="#" class="b-contentCategories__link">Kultur</a>
-        <a href="#" class="b-contentCategories__link">Gemeinschaft</a>
-        <a href="#" class="b-contentCategories__link">Natur</a>
-        <a href="#" class="b-contentCategories__link">Gesundheit</a>
-        <a href="#" class="b-contentCategories__link">Technik</a>
+        <a href="#" class="b-contentCategories__link">
+          <img src="assets/img/userfiles/contentCategoriesIcons/Grundlagen.png" alt="" class="b-contentCategories__linkImg">
+          <img src="assets/img/userfiles/contentCategoriesIcons/Grundlagen-active.png" alt="" class="b-contentCategories__linkImg -active">
+          Grundlagen
+        </a>
+        <a href="#" class="b-contentCategories__link">
+          <img src="assets/img/userfiles/contentCategoriesIcons/Gesellschaft.png" alt="" class="b-contentCategories__linkImg">
+          <img src="assets/img/userfiles/contentCategoriesIcons/Gesellschaft-active.png" alt="" class="b-contentCategories__linkImg -active">
+          Gesellschaft
+        </a>
+        <a href="#" class="b-contentCategories__link">
+          <img src="assets/img/userfiles/contentCategoriesIcons/Sprachen.png" alt="" class="b-contentCategories__linkImg">
+          <img src="assets/img/userfiles/contentCategoriesIcons/Sprachen-active.png" alt="" class="b-contentCategories__linkImg -active">
+          Sprachen
+        </a>
+        <a href="#" class="b-contentCategories__link">
+          <img src="assets/img/userfiles/contentCategoriesIcons/Gestalten.png" alt="" class="b-contentCategories__linkImg">
+          <img src="assets/img/userfiles/contentCategoriesIcons/Gestalten-active.png" alt="" class="b-contentCategories__linkImg -active">
+          Gestalten
+        </a>
+        <a href="#" class="b-contentCategories__link">
+          <img src="assets/img/userfiles/contentCategoriesIcons/Beruf.png" alt="" class="b-contentCategories__linkImg">
+          <img src="assets/img/userfiles/contentCategoriesIcons/Beruf-active.png" alt="" class="b-contentCategories__linkImg -active">
+          Beruf
+        </a>
+        <a href="#" class="b-contentCategories__link">
+          <img src="assets/img/userfiles/contentCategoriesIcons/Kultur.png" alt="" class="b-contentCategories__linkImg">
+          <img src="assets/img/userfiles/contentCategoriesIcons/Kultur-active.png" alt="" class="b-contentCategories__linkImg -active">
+          Kultur
+        </a>
+        <a href="#" class="b-contentCategories__link">
+          <img src="assets/img/userfiles/contentCategoriesIcons/Gemeinschaft.png" alt="" class="b-contentCategories__linkImg">
+          <img src="assets/img/userfiles/contentCategoriesIcons/Gemeinschaft-active.png" alt="" class="b-contentCategories__linkImg -active">
+          Gemeinschaft
+        </a>
+        <a href="#" class="b-contentCategories__link">
+          <img src="assets/img/userfiles/contentCategoriesIcons/Natur.png" alt="" class="b-contentCategories__linkImg">
+          <img src="assets/img/userfiles/contentCategoriesIcons/Natur-active.png" alt="" class="b-contentCategories__linkImg -active">
+          Natur
+        </a>
+        <a href="#" class="b-contentCategories__link">
+          <img src="assets/img/userfiles/contentCategoriesIcons/Gesundheit.png" alt="" class="b-contentCategories__linkImg">
+          <img src="assets/img/userfiles/contentCategoriesIcons/Gesundheit-active.png" alt="" class="b-contentCategories__linkImg -active">
+          Gesundheit
+        </a>
+        <a href="#" class="b-contentCategories__link">
+          <img src="assets/img/userfiles/contentCategoriesIcons/Technik.png" alt="" class="b-contentCategories__linkImg">
+          <img src="assets/img/userfiles/contentCategoriesIcons/Technik-active.png" alt="" class="b-contentCategories__linkImg -active">
+          Technik
+        </a>
       </div>
     </div>
     <div class="l-contentNews">
@@ -87,7 +127,7 @@ require( 'inc/header.php' );
         <div class="b-contentNews__block">
           <h2 class="b-contentNews__title -purpleBorder">Mitteilungen</h2>
           <a href="#" class="b-articleCard">
-              <img class="b-articleCard__img" src="assets/img/userfiles/contentNews/CoronaSieg.svg" alt="corona">
+              <img class="b-articleCard__img" src="assets/img/userfiles/contentNews/CoronaSieg.png" alt="corona">
               <div class="b-articleCard__titleAndDate">
                 <h3 class="b-titleAndDate__title">Corona - neue Normalität</h3>
                 <span class="b-titleAndDate__data">24.06.2020</span>
@@ -95,7 +135,7 @@ require( 'inc/header.php' );
               <p class="b-articleCard__text b-text">Am 19. Juni hat der Bundesrat weitgehende Lockerungen beschlossen, die vor allem den Weiterbildungsbereich betreffen. Damit kehrt an vielen Schulen so…</p>
           </a>
           <a href="#" class="b-articleCard">
-              <img class="b-articleCard__img"  src="assets/img/userfiles/contentNews/Coroanavirus-1024x768-1.svg" alt="corona">
+              <img class="b-articleCard__img"  src="assets/img/userfiles/contentNews/Coroanavirus-1024x768-1.png" alt="corona">
               <div class="b-articleCard__titleAndDate">
                 <h3 class="b-titleAndDate__title">Schutzkonzepte</h3>
                 <span class="b-titleAndDate__data">24.06.2020</span>
@@ -103,7 +143,7 @@ require( 'inc/header.php' );
               <p class="b-articleCard__text b-text">Am 19. Juni hat der Bundesrat weitgehende Lockerungen beschlossen, die vor allem den Weiterbildungsbereich betreffen. Damit kehrt an vielen Schulen so…</p>
           </a>
           <a href="#" class="b-articleCard">
-              <img class="b-articleCard__img"  src="assets/img/userfiles/contentNews/virus-617x416-1.svg" alt="corona">
+              <img class="b-articleCard__img"  src="assets/img/userfiles/contentNews/virus-617x416-1.png" alt="corona">
               <div class="b-articleCard__titleAndDate">
                 <h3 class="b-titleAndDate__title">Schutzkonzepte</h3>
                 <span class="b-titleAndDate__data">24.06.2020</span>
@@ -111,7 +151,7 @@ require( 'inc/header.php' );
               <p class="b-articleCard__text b-text">Am 19. Juni hat der Bundesrat weitgehende Lockerungen beschlossen, die vor allem den Weiterbildungsbereich betreffen. Damit kehrt an vielen Schulen so…</p>
           </a>
           <a href="#" class="b-articleCard">
-              <img class="b-articleCard__img"  src="assets/img/userfiles/contentNews/CoronaCrisis.svg" alt="corona">
+              <img class="b-articleCard__img"  src="assets/img/userfiles/contentNews/CoronaCrisis.png" alt="corona">
               <div class="b-articleCard__titleAndDate">
                 <h3 class="b-titleAndDate__title">Corona: Forderungen des SVEB</h3>
                 <span class="b-titleAndDate__data">24.06.2020</span>
@@ -119,7 +159,7 @@ require( 'inc/header.php' );
               <p class="b-articleCard__text b-text">Am 19. Juni hat der Bundesrat weitgehende Lockerungen beschlossen, die vor allem den Weiterbildungsbereich betreffen. Damit kehrt an vielen Schulen so…</p>
           </a>
           <a href="#" class="b-articleCard">
-              <img class="b-articleCard__img"  src="assets/img/userfiles/contentNews/CoronaSieg.svg" alt="corona">
+              <img class="b-articleCard__img"  src="assets/img/userfiles/contentNews/CoronaSieg.png" alt="corona">
               <div class="b-articleCard__titleAndDate">
                 <h3 class="b-titleAndDate__title">Corona - neue Normalität</h3>
                 <span class="b-titleAndDate__data">24.06.2020</span>
