@@ -13,6 +13,14 @@
   padding: 106px 20px;
   overflow: auto;
 
+  @media screen and (max-width: 768px) {
+    padding: 60px 20px;
+  }
+
+  @media screen and (max-width: 576px){
+    padding: 40px 20px;
+  }
+
   &__table {
     background: #FFFFFF;
     box-shadow: 0 6px 20px rgba(214, 214, 214, 0.284167);

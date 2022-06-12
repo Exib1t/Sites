@@ -1,0 +1,283 @@
+.l-contentNews {
+  width: 100%;
+  background: #F6F8FC;
+  display: flex;
+  justify-content: center;
+}
+
+.b-contentNews {
+  width: 100%;
+  max-width: 1210px;
+  justify-content: space-between;
+  padding: 90px 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+
+  @media only screen and (min-width: 0px) and (max-width: 1110px){
+    flex-direction: column;
+    align-items: center;
+  }
+
+  @media only screen and (min-width: 0px) and (max-width: 768px){
+    padding: 40px 20px;
+  }
+
+  @media only screen and (min-width: 0px) and (max-width: 340px){
+    padding: 30px 20px;
+  }
+}
+
+.b-contentNews__title {
+  font-size: 32px;
+  font-family: $Inter;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 42px;
+  color: #343434;
+  margin: 0 0 40px 0;
+  overflow: auto;
+
+  @media only screen and (min-width: 0px) and (max-width: 1110px){
+    text-align: center;
+  }
+
+  @media only screen and (min-width: 0px) and (max-width: 768px){
+    line-height: 30px;
+  }
+
+  @media only screen and (min-width: 0px) and (max-width: 576px){
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  @media only screen and (min-width: 0px) and (max-width: 340px){
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+.b-contentNews__block {
+  width: 100%;
+  max-width: 550px;
+
+  .b-articleCard__img {
+    width: 100%;
+    max-width: 515px;
+
+    @media only screen and (min-width: 0px) and (max-width: 1110px){
+      max-width: none;
+    }
+  }
+
+  @media only screen and (min-width: 0px) and (max-width: 1110px){
+    max-width: none;
+  }
+}
+
+.-purpleBorder {
+  padding-bottom: 20px;
+  border-bottom: 3px solid #964EA9;
+
+  @media only screen and (min-width: 0px) and (max-width: 576px){
+    padding-bottom: 10px;
+  }
+
+  @media only screen and (min-width: 0px) and (max-width: 340px){
+    padding-bottom: 0;
+  }
+}
+
+.-blueBorder {
+  padding-bottom: 20px;
+  border-bottom: 3px solid #18B0B6;
+
+  @media only screen and (min-width: 0px) and (max-width: 576px){
+    padding-bottom: 10px;
+  }
+
+  @media only screen and (min-width: 0px) and (max-width: 340px){
+    padding-bottom: 0;
+  }
+}
+
+.b-articleCard {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  transition: all .3s ease;
+  @include first-last-margin();
+
+  @media only screen and (min-width: 0px) and (max-width: 1110px){
+    text-align: center;
+    align-items: center;
+  }
+
+  &:hover {
+    box-shadow: 0 5px 15px 3px #aaaaaa;
+    transition: all .3s ease;
+  }
+
+  background: #FFFFFF;
+  box-shadow: 0 4px 20px rgba(214, 214, 214, 0.3);
+  border-radius: 7px;
+  .b-articleCard__date {
+    font-family: $Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #8C569C;
+
+    @media only screen and (min-width: 0px) and (max-width: 576px){
+      font-size: 12px;
+      line-height: 17px;
+    }
+
+    @media only screen and (min-width: 0px) and (max-width: 340px){
+      font-size: 10px;
+      line-height: 15px;
+    }
+  }
+  .b-articleCard__title {
+    font-family: $Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #262626;
+    margin: 5px 0 17px 0;
+    width: 100%;
+    max-width: 508px;
+    text-align: left;
+    overflow: auto;
+
+    @media only screen and (min-width: 0px) and (max-width: 1110px){
+      text-align: center;
+      max-width: none;
+    }
+
+    @media only screen and (min-width: 0px) and (max-width: 576px){
+      font-size: 16px;
+      line-height: 10px;
+    }
+
+    @media only screen and (min-width: 0px) and (max-width: 340px){
+      font-size: 14px;
+      line-height: 15px;
+    }
+  }
+
+  .b-articleCard__referent {
+    font-family: $Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #262626;
+    margin: 0 0 17px 0;
+    width: 100%;
+    max-width: 210px;
+    text-align: left;
+    overflow: auto;
+
+    @media only screen and (min-width: 0px) and (max-width: 1110px){
+      text-align: center;
+      max-width: none;
+    }
+
+    @media only screen and (min-width: 0px) and (max-width: 576px){
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    @media only screen and (min-width: 0px) and (max-width: 340px){
+      font-size: 12px;
+      line-height: 15px;
+    }
+  }
+
+  .b-articleCard__text {
+    font-family: $Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #262626;
+    margin: 0;
+    width: 100%;
+    max-width: 480px;
+    text-align: left;
+    overflow: auto;
+
+    @media only screen and (min-width: 0px) and (max-width: 1110px){
+      text-align: center;
+      max-width: none;
+    }
+
+    @media only screen and (min-width: 0px) and (max-width: 576px){
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    @media only screen and (min-width: 0px) and (max-width: 340px){
+      font-size: 12px;
+      line-height: 15px;
+    }
+  }
+}
+
+.b-articleCard__titleAndDate {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: auto;
+
+  @media only screen and (min-width: 0px) and (max-width: 1110px){
+    width: 100%;
+  }
+
+  @media only screen and (min-width: 0px) and (max-width: 340px){
+    flex-direction: column;
+  }
+  .b-titleAndDate__title {
+    font-family: $Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #262626;
+
+    @media only screen and (min-width: 0px) and (max-width: 576px){
+      font-size: 16px;
+    }
+
+    @media only screen and (min-width: 0px) and (max-width: 340px){
+      font-size: 14px;
+    }
+  }
+  .b-titleAndDate__data {
+    font-family: $Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #8C569C;
+
+    @media only screen and (min-width: 0px) and (max-width: 576px){
+      font-size: 14px;
+    }
+
+    @media only screen and (min-width: 0px) and (max-width: 340px){
+      font-size: 12px;
+    }
+  }
+}

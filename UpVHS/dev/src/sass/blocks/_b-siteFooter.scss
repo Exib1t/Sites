@@ -12,17 +12,28 @@
   width: 100%;
   max-width: 1210px;
   box-sizing: border-box;
-  padding: 0px 20px;
-  padding-top: 59px;
+  padding: 59px 20px 0 20px;
   display: flex;
   justify-content: center;
   flex-direction: column;
+
+  @media screen and (max-width: 768px) {
+    padding-top: 40px;
+  }
+
+  @media screen and (max-width: 340px) {
+    padding-top: 30px;
+  }
 }
 
 .b-footerInfo {
   display: flex;
   justify-content: space-between;
   margin-bottom: 60px;
+
+  @media screen and (max-width: 768px) {
+    margin-bottom: 20px;
+  }
   h3 {
     font-family: $Inter;
     font-style: normal;
@@ -47,8 +58,12 @@
   }
   ul {
     list-style-type: none;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 17px 0 0 0;
+
+    @media screen and (max-width: 768px) {
+      padding-top: 10px;
+    }
   }
   li {
     display: flex;
@@ -65,6 +80,7 @@
 
     @media only screen and (min-width: 0px) and (max-width: 576px){
       font-size: 14px;
+      line-height: 25px;
     }
 
     @media only screen and (min-width: 0px) and (max-width: 340px){
@@ -143,10 +159,6 @@
     }
   }
 
-  ul {
-    padding-top: 17px;
-  }
-
   .b-footerInfo__address::before {
     content: "";
     display: block;
@@ -172,11 +184,12 @@
   line-height: 21px;
   text-align: center;
   color: #FFFFFF;
-  padding: 20px 0px;
+  padding: 20px 0;
   border-top: 1px solid rgba($color: #fff, $alpha: 0.31);
 
   @media only screen and (min-width: 0px) and (max-width: 576px){
     font-size: 10px;
+    padding: 10px 0;
   }
 
   @media only screen and (min-width: 0px) and (max-width: 340px){

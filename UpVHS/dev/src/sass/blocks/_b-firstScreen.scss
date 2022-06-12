@@ -1,0 +1,158 @@
+.l-firstScreen {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.b-firstScreen {
+  padding: 155px 20px 0 20px;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1210px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+
+  @media screen and (max-width: 768px) {
+    padding-top: 125px;
+  }
+
+  @media screen and (max-width: 576px) {
+    padding-top: 100px;
+  }
+}
+
+.-innerPage {
+  padding: 270px 20px 0 20px;
+}
+
+.l-firstScreen__content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 87px;
+  gap: 83px;
+  flex-direction: row;
+
+  @media only screen and (min-width: 0px) and (max-width: 1070px){
+    flex-direction: column;
+  }
+
+  @media screen and (max-width: 768px) {
+    gap: 40px;
+  }
+
+  @media screen and (max-width: 576px) {
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+}
+
+.b-firstScreen__article {
+  color: #fff;
+  font-size: 30px;
+  line-height: 42px;
+  margin: 0;
+  text-align: start;
+  font-family: $Inter;
+  font-weight: 700;
+
+  @media only screen and (min-width: 0px) and (max-width: 1070px){
+    text-align: center;
+  }
+
+  @media only screen and (min-width: 0px) and (max-width: 576px){
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  @media only screen and (min-width: 0px) and (max-width: 340px){
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+
+
+.b-searchForm {
+  width: 100%;
+  max-width: 810px;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 85px;
+  box-sizing: border-box;
+  padding: 0 20px;
+
+  @media only screen and (min-width: 0px) and (max-width: 810px){
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 50px;
+  }
+
+  @media only screen and (min-width: 0px) and (max-width: 340px){
+    margin-bottom: 25px;
+  }
+}
+
+.b-searchForm__label {
+  width: 100%;
+  margin-right: 20px;
+  display: block;
+
+  @media only screen and (min-width: 0px) and (max-width: 810px){
+    margin-right: 0;
+  }
+}
+
+.b-searchForm__input {
+  font-size: 18px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 5px;
+  padding: 0 21px;
+  height: 48px;
+  font-family: $Inter;
+  font-weight: 400;
+  &::placeholder {
+    color: #B5B8B9;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+.b-searchForm__button {
+  padding: 13px 27px 13px 31px;
+  border: 0;
+  border-radius: 5px;
+  background: linear-gradient(180deg, #1CD2D6 0%, #18B0B6 100%);
+  box-shadow: 0 2px 15px rgba(60, 60, 60, 0.393284);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: $Inter;
+  &:hover {
+    cursor: pointer;
+  }
+
+  @media only screen and (min-width: 0px) and (max-width: 810px){
+    width: 100%;
+  }
+}
+
+.b-contentText {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
