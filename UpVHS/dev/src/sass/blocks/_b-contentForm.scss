@@ -109,17 +109,6 @@
   }
 
   &__select {
-    width: 100%;
-    border: 1px solid #CAE5E6;
-    border-radius: 3px;
-    padding: 12px 15px;
-    font-family: $Inter;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 21px;
-    color: #262626;
-    margin-bottom: 8px;
 
     @media only screen and (min-width: 0px) and (max-width: 576px){
       font-size: 14px;
@@ -225,16 +214,31 @@
   }
 
   .jq-checkbox {
-    background: #a41313;
+    background: #FFFFFF;
     border: 1px solid #CAE5E6;
     border-radius: 3px;
+    box-sizing: border-box;
 
     &.checked {
-      border: 1px solid black;
+      background-image: url(../../assets/img/blocks/contentForm/checkbox.png);
+      background-repeat: no-repeat;
+      background-position: center;
     }
+  }
 
-    &__div {
-      background: #000;
+  .jq-selectbox__trigger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    width: max-content;
+
+    &-arrow {
+      background-image: url(../../assets/img/blocks/contentForm/select-arrow.svg);
+      width: 15px;
+      height: 9px;
+      margin: 0;
+      padding: 0;
     }
   }
 }

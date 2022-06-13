@@ -30,6 +30,10 @@
 
 .-innerPage {
   padding: 270px 20px 0 20px;
+
+  @media screen and (max-width: 768px) {
+    padding: 135px 20px 0 20px;
+  }
 }
 
 .l-firstScreen__content {

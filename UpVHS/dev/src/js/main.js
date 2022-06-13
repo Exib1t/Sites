@@ -50,5 +50,5 @@ function hamburger() {
 }
 
 function formStyler() {
-  $('.b-contentForm__checkbox').styler();
+  $('.js-checkbox , .js-select').styler();
 }

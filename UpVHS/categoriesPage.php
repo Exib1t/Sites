@@ -7,7 +7,7 @@ require( 'inc/header.php' );
 
 <main class="l-contentText">
 
-  <section class="l-firstScreen" style="background-image: url('../../../../assets/img/userfiles/headerBG/headerBG2.svg')">
+  <section class="l-firstScreen" style="background-image:linear-gradient(140deg, #0C9398 0%, #744A82 94%), url('../assets/img/userfiles/headerBG/headerBG2.svg'); background-blend-mode: overlay">
     <div class="b-firstScreen -innerPage"></div>
   </section>
 
@@ -23,13 +23,13 @@ require( 'inc/header.php' );
 
           <h3 class="b-contentForm__title">Kategorie</h3>
 
-          <select name="" id="" class="b-contentForm__select">
+          <select name="" id="" class="b-contentForm__select js-select">
             <option value="" class="b-contentForm__selectOption">Grundlagen</option>
             <option value="" class="b-contentForm__selectOption">Grundlagen</option>
             <option value="" class="b-contentForm__selectOption">Grundlagen</option>
           </select>
 
-          <select name="" id="" class="b-contentForm__select">
+          <select name="" id="" class="b-contentForm__select js-select">
             <option value="" class="b-contentForm__selectOption">Alle</option>
             <option value="" class="b-contentForm__selectOption">Alle</option>
             <option value="" class="b-contentForm__selectOption">Alle</option>
@@ -43,50 +43,50 @@ require( 'inc/header.php' );
             <div class="b-contentForm__checkboxGroup">
               <p class="b-contentForm__checkboxTitle">Mo</p>
               <label for="" class="b-contentForm__label">
-                <input type="checkbox" class="b-contentForm__checkbox" checked>
+                <input type="checkbox" class="b-contentForm__checkbox js-checkbox" checked>
               </label>
             </div>
             <div class="b-contentForm__checkboxGroup">
               <p class="b-contentForm__checkboxTitle">Di</p>
               <label for="" class="b-contentForm__label">
-                <input type="checkbox" class="b-contentForm__checkbox">
+                <input type="checkbox" class="b-contentForm__checkbox js-checkbox">
               </label>
             </div>
             <div class="b-contentForm__checkboxGroup">
               <p class="b-contentForm__checkboxTitle">Mi</p>
               <label for="" class="b-contentForm__label">
-                <input type="checkbox" class="b-contentForm__checkbox">
+                <input type="checkbox" class="b-contentForm__checkbox js-checkbox">
               </label>
             </div>
             <div class="b-contentForm__checkboxGroup">
               <p class="b-contentForm__checkboxTitle">Do</p>
               <label for="" class="b-contentForm__label">
-                <input type="checkbox" class="b-contentForm__checkbox">
+                <input type="checkbox" class="b-contentForm__checkbox js-checkbox">
               </label>
             </div>
             <div class="b-contentForm__checkboxGroup">
               <p class="b-contentForm__checkboxTitle">Fr</p>
               <label for="" class="b-contentForm__label">
-                <input type="checkbox" class="b-contentForm__checkbox">
+                <input type="checkbox" class="b-contentForm__checkbox js-checkbox">
               </label>
             </div>
             <div class="b-contentForm__checkboxGroup">
               <p class="b-contentForm__checkboxTitle">Sa</p>
               <label for="" class="b-contentForm__label">
-                <input type="checkbox" class="b-contentForm__checkbox">
+                <input type="checkbox" class="b-contentForm__checkbox js-checkbox">
               </label>
             </div>
             <div class="b-contentForm__checkboxGroup">
               <p class="b-contentForm__checkboxTitle">So</p>
               <label for="" class="b-contentForm__label">
-                <input type="checkbox" class="b-contentForm__checkbox">
+                <input type="checkbox" class="b-contentForm__checkbox js-checkbox">
               </label>
             </div>
           </div>
 
           <h3 class="b-contentForm__title">Tageszeit</h3>
 
-          <select name="" id="" class="b-contentForm__select">
+          <select name="" id="" class="b-contentForm__select js-select">
             <option value="" class="b-contentForm__selectOption">Vormittag</option>
             <option value="" class="b-contentForm__selectOption">Vormittag</option>
             <option value="" class="b-contentForm__selectOption">Vormittag</option>

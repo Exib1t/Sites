@@ -85,43 +85,43 @@ require( 'inc/header.php' );
             <span class="b-articleCard__date">Di 19.10.2021 08:30</span>
             <h3 class="b-articleCard__title">214-41711 Deutsch als Fremdsprache B2/1 - Semesterkurs</h3>
             <p class="b-articleCard__referent"><b>Referent/in:</b> Elvira Canova Volkshochschule Bern</p>
-            <p class="b-articleCard__text b-text">Der Kurs findet 2 × wöchentlich statt und erlaubt Ihnen in einem semi-intensiven Lerntempo voranzukommen. Nut...</p>
+            <div class="b-articleCard__text b-text"><p>Der Kurs findet 2 × wöchentlich statt und erlaubt Ihnen in einem semi-intensiven Lerntempo voranzukommen. Nut...</p></div>
           </a>
           <a href="#" class="b-articleCard">
               <span class="b-articleCard__date">Di 19.10.2021 08:30</span>
               <h3 class="b-articleCard__title">21-2-4601 Blockflötenorchester der Volkshochschule Region Thun</h3>
               <p class="b-articleCard__referent"><b>Referent/in:</b> Elvira Canova Volkshochschule Bern</p>
-              <p class="b-articleCard__text b-text">Der Kurs findet 2 × wöchentlich statt und erlaubt Ihnen in einem semi-intensiven Lerntempo voranzukommen. Nut...</p>
+              <div class="b-articleCard__text b-text"><p>Der Kurs findet 2 × wöchentlich statt und erlaubt Ihnen in einem semi-intensiven Lerntempo voranzukommen. Nut...</p></div>
           </a>
           <a href="#" class="b-articleCard">
               <span class="b-articleCard__date">Di 19.10.2021 08:30</span>
               <h3 class="b-articleCard__title">21W-4410 C1/C2: Englische Lektüre</h3>
               <p class="b-articleCard__referent"><b>Referent/in:</b> Elvira Canova Volkshochschule Bern</p>
-              <p class="b-articleCard__text b-text">Der Kurs findet 2 × wöchentlich statt und erlaubt Ihnen in einem semi-intensiven Lerntempo voranzukommen. Nut...</p>
+              <div class="b-articleCard__text b-text"><p>Der Kurs findet 2 × wöchentlich statt und erlaubt Ihnen in einem semi-intensiven Lerntempo voranzukommen. Nut...</p></div>
           </a>
           <a href="#" class="b-articleCard">
               <span class="b-articleCard__date">Di 19.10.2021 08:30</span>
               <h3 class="b-articleCard__title">21W-626 AROHA – ein einfaches Tanz-Workout</h3>
               <p class="b-articleCard__referent"><b>Referent/in:</b> Elvira Canova Volkshochschule Bern</p>
-              <p class="b-articleCard__text b-text">Der Kurs findet 2 × wöchentlich statt und erlaubt Ihnen in einem semi-intensiven Lerntempo voranzukommen. Nut...</p>
+              <div class="b-articleCard__text b-text"><p>Der Kurs findet 2 × wöchentlich statt und erlaubt Ihnen in einem semi-intensiven Lerntempo voranzukommen. Nut...</p></div>
           </a>
           <a href="#" class="b-articleCard">
               <span class="b-articleCard__date">Di 19.10.2021 08:30</span>
               <h3 class="b-articleCard__title">21W-4516-2 C1: Spanisch</h3>
               <p class="b-articleCard__referent"><b>Referent/in:</b> Elvira Canova Volkshochschule Bern</p>
-              <p class="b-articleCard__text b-text">Der Kurs findet 2 × wöchentlich statt und erlaubt Ihnen in einem semi-intensiven Lerntempo voranzukommen. Nut...</p>
+              <div class="b-articleCard__text b-text"><p>Der Kurs findet 2 × wöchentlich statt und erlaubt Ihnen in einem semi-intensiven Lerntempo voranzukommen. Nut...</p></div>
           </a>
           <a href="#" class="b-articleCard">
               <span class="b-articleCard__date">Di 19.10.2021 08:30</span>
               <h3 class="b-articleCard__title">214-41711 Deutsch als Fremdsprache B2/1 - Semesterkurs</h3>
               <p class="b-articleCard__referent"><b>Referent/in:</b> Elvira Canova Volkshochschule Bern</p>
-              <p class="b-articleCard__text b-text">Der Kurs findet 2 × wöchentlich statt und erlaubt Ihnen in einem semi-intensiven Lerntempo voranzukommen. Nut...</p>
+              <div class="b-articleCard__text b-text"><p>Der Kurs findet 2 × wöchentlich statt und erlaubt Ihnen in einem semi-intensiven Lerntempo voranzukommen. Nut...</p></div>
           </a>
           <a href="#" class="b-articleCard">
               <span class="b-articleCard__date">Di 19.10.2021 08:30</span>
               <h3 class="b-articleCard__title">21-2-4601 Blockflötenorchester der Volkshochschule Region Thun</h3>
               <p class="b-articleCard__referent"><b>Referent/in:</b> Elvira Canova Volkshochschule Bern</p>
-              <p class="b-articleCard__text b-text">Der Kurs findet 2 × wöchentlich statt und erlaubt Ihnen in einem semi-intensiven Lerntempo voranzukommen. Nut...</p>
+              <div class="b-articleCard__text b-text"><p>Der Kurs findet 2 × wöchentlich statt und erlaubt Ihnen in einem semi-intensiven Lerntempo voranzukommen. Nut...</p></div>
           </a>
         </div>
         <div class="b-contentNews__block">
@@ -132,7 +132,7 @@ require( 'inc/header.php' );
                 <h3 class="b-titleAndDate__title">Corona - neue Normalität</h3>
                 <span class="b-titleAndDate__data">24.06.2020</span>
               </div>
-              <p class="b-articleCard__text b-text">Am 19. Juni hat der Bundesrat weitgehende Lockerungen beschlossen, die vor allem den Weiterbildungsbereich betreffen. Damit kehrt an vielen Schulen so…</p>
+              <div class="b-articleCard__text b-text"><p>Am 19. Juni hat der Bundesrat weitgehende Lockerungen beschlossen, die vor allem den Weiterbildungsbereich betreffen. Damit kehrt an vielen Schulen so…</p></div>
           </a>
           <a href="#" class="b-articleCard">
               <img class="b-articleCard__img"  src="assets/img/userfiles/contentNews/Coroanavirus-1024x768-1.png" alt="corona">
@@ -140,7 +140,7 @@ require( 'inc/header.php' );
                 <h3 class="b-titleAndDate__title">Schutzkonzepte</h3>
                 <span class="b-titleAndDate__data">24.06.2020</span>
               </div>
-              <p class="b-articleCard__text b-text">Am 19. Juni hat der Bundesrat weitgehende Lockerungen beschlossen, die vor allem den Weiterbildungsbereich betreffen. Damit kehrt an vielen Schulen so…</p>
+              <div class="b-articleCard__text b-text"><p>Am 19. Juni hat der Bundesrat weitgehende Lockerungen beschlossen, die vor allem den Weiterbildungsbereich betreffen. Damit kehrt an vielen Schulen so…</p></div>
           </a>
           <a href="#" class="b-articleCard">
               <img class="b-articleCard__img"  src="assets/img/userfiles/contentNews/virus-617x416-1.png" alt="corona">
@@ -148,7 +148,7 @@ require( 'inc/header.php' );
                 <h3 class="b-titleAndDate__title">Schutzkonzepte</h3>
                 <span class="b-titleAndDate__data">24.06.2020</span>
               </div>
-              <p class="b-articleCard__text b-text">Am 19. Juni hat der Bundesrat weitgehende Lockerungen beschlossen, die vor allem den Weiterbildungsbereich betreffen. Damit kehrt an vielen Schulen so…</p>
+              <div class="b-articleCard__text b-text"><p>Am 19. Juni hat der Bundesrat weitgehende Lockerungen beschlossen, die vor allem den Weiterbildungsbereich betreffen. Damit kehrt an vielen Schulen so…</p></div>
           </a>
           <a href="#" class="b-articleCard">
               <img class="b-articleCard__img"  src="assets/img/userfiles/contentNews/CoronaCrisis.png" alt="corona">
@@ -156,7 +156,7 @@ require( 'inc/header.php' );
                 <h3 class="b-titleAndDate__title">Corona: Forderungen des SVEB</h3>
                 <span class="b-titleAndDate__data">24.06.2020</span>
               </div>
-              <p class="b-articleCard__text b-text">Am 19. Juni hat der Bundesrat weitgehende Lockerungen beschlossen, die vor allem den Weiterbildungsbereich betreffen. Damit kehrt an vielen Schulen so…</p>
+              <div class="b-articleCard__text b-text"><p>Am 19. Juni hat der Bundesrat weitgehende Lockerungen beschlossen, die vor allem den Weiterbildungsbereich betreffen. Damit kehrt an vielen Schulen so…</p></div>
           </a>
           <a href="#" class="b-articleCard">
               <img class="b-articleCard__img"  src="assets/img/userfiles/contentNews/CoronaSieg.png" alt="corona">
@@ -164,7 +164,7 @@ require( 'inc/header.php' );
                 <h3 class="b-titleAndDate__title">Corona - neue Normalität</h3>
                 <span class="b-titleAndDate__data">24.06.2020</span>
               </div>
-              <p class="b-articleCard__text b-text">Am 19. Juni hat der Bundesrat weitgehende Lockerungen beschlossen, die vor allem den Weiterbildungsbereich betreffen. Damit kehrt an vielen Schulen so…</p>
+              <div class="b-articleCard__text b-text"><p>Am 19. Juni hat der Bundesrat weitgehende Lockerungen beschlossen, die vor allem den Weiterbildungsbereich betreffen. Damit kehrt an vielen Schulen so…</p></div>
           </a>
         </div>
       </div>

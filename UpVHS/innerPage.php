@@ -6,7 +6,7 @@ require( 'inc/header.php' );
 ?>
 
 <main class="l-contentText">
-  <section class="l-firstScreen" style="background-image: url('../../../../assets/img/userfiles/headerBG/headerBG2.svg')">
+  <section class="l-firstScreen" style="background-image:linear-gradient(140deg, #0C9398 0%, #744A82 94%), url('../assets/img/userfiles/headerBG/headerBG2.svg'); background-blend-mode: overlay">
     <div class="b-firstScreen -innerPage"></div>
   </section>
 
@@ -16,7 +16,7 @@ require( 'inc/header.php' );
     </div>
     <div class="b-contentText__content">
       <h2 class="b-contentText__title -blueBorder">Apple Mac-Kurs für Alle</h2>
-      <p class="b-contentText__text b-text">Machen Sie sich in kurzer Zeit mit den Einstellungen Ihres Macs vertraut. In diesem Kurs erlernen Sie die Bedienung des Apple Computers und erhalten einen Überblick zu den wichtigen Programmen. Dieser Kurs eignet sich für Personen, die wenig oder noch nie mit einem Mac gearbeitet haben und die Grundfunktionen ihres Macbooks ohne Zeitdruck erlernen und ausführlich erläutern möchten. Im Kurs angesprochen:</p>
+      <div class="b-contentText__text b-text"><p>Machen Sie sich in kurzer Zeit mit den Einstellungen Ihres Macs vertraut. In diesem Kurs erlernen Sie die Bedienung des Apple Computers und erhalten einen Überblick zu den wichtigen Programmen. Dieser Kurs eignet sich für Personen, die wenig oder noch nie mit einem Mac gearbeitet haben und die Grundfunktionen ihres Macbooks ohne Zeitdruck erlernen und ausführlich erläutern möchten. Im Kurs angesprochen:</p></div>
       <ul class="b-contentText__list">
         <li class="b-contentText__listRow">Wesentliche Funktionen (macOS-Basics) lernen</li>
         <li class="b-contentText__listRow">Trackpad-Gestensteuerung und Tastatur (Sondertasten) kennen</li>
