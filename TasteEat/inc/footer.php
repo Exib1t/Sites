@@ -32,7 +32,7 @@
             </<?php echo $siteLogo__tag; ?>>
           </div>
 
-          <div class="b-siteFooter__columnText b-text">Join our mailing list for updates, Get news & offers events.</div>
+          <div class="b-siteFooter__columnText b-text"><p>Join our mailing list for updates, Get news & offers events.</p></div>
 
           <form action="" class="b-siteFooter__form">
             <label for="">
@@ -46,13 +46,13 @@
           <h3 class="b-siteFooter__columnTitle">Working Hours</h3>
           <ul class="b-siteFooter__columnList">
             <li class="b-siteFooter__columnItem">
-              <p class="b-siteFooter__columnLink">Mon – Fri: <span class="-whiteText">7.00am – 6.00pm</span></p>
+              <p class="b-siteFooter__columnItemText">Mon – Fri: <span class="-whiteText">7.00am – 6.00pm</span></p>
             </li>
             <li class="b-siteFooter__columnItem">
-              <p class="b-siteFooter__columnLink">Sat: <span class="-whiteText">7.00am – 6.00pm</span></p>
+              <p class="b-siteFooter__columnItemText">Sat: <span class="-whiteText">7.00am – 6.00pm</span></p>
             </li>
             <li class="b-siteFooter__columnItem">
-              <p class="b-siteFooter__columnLink">Sun: <span class="-whiteText">8.00am – 6.00pm</span></p>
+              <p class="b-siteFooter__columnItemText">Sun: <span class="-whiteText">8.00am – 6.00pm</span></p>
             </li>
           </ul>
         </div>

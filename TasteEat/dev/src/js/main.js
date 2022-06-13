@@ -4,6 +4,7 @@ $(function() {
   // initFunctionExample();
   hamburger();
   slider();
+  imageOpacity();
 });
 
 $(window).on('resize', function() {
@@ -45,5 +46,14 @@ function slider() {
     slidesToScroll: 1,
     arrows: false,
     dots: true,
+  });
+}
+
+function ImageOpacity() {
+  const imageWrapper = $('.b-contentBlog__newsImageWrapper');
+  const button = $('.b-contentBlog__newsButton');
+
+  button.addEventListener('mouseover', function () {
+    imageWrapper.before
   });
 }
