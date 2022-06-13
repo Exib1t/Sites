@@ -31,49 +31,13 @@
     justify-content: center;
   }
 
-  &.-location {
-    &::before {
-      content: "";
-      display: block;
-      background-image: url('../../../../assets/img/blocks/contentInfo/Location.svg');
-      background-size: cover;
-      background-repeat: no-repeat;
-      width: 100%;
-      max-width: 83px;
-      max-height: 83px;
-      aspect-ratio: 1/1;
-      margin-right: 20px;
-    }
-  }
 
-  &.-hours {
-    &::before {
-      content: "";
-      display: block;
-      background-image: url('../../../../assets/img/blocks/contentInfo/TimeOpen.svg');
-      background-size: cover;
-      background-repeat: no-repeat;
-      width: 100%;
-      max-width: 83px;
-      max-height: 83px;
-      aspect-ratio: 1/1;
-      margin-right: 20px;
-    }
-  }
-
-  &.-reservation {
-    &::before {
-      content: "";
-      display: block;
-      background-image: url('../../../../assets/img/blocks/contentInfo/Reservation.svg');
-      background-size: cover;
-      background-repeat: no-repeat;
-      width: 100%;
-      max-width: 83px;
-      max-height: 83px;
-      aspect-ratio: 1/1;
-      margin-right: 20px;
-    }
+  &Img {
+    width: 100%;
+    max-width: 83px;
+    max-height: 83px;
+    aspect-ratio: 1/1;
+    margin-right: 20px;
   }
 }
 

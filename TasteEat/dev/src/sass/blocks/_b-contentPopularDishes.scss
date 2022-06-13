@@ -143,6 +143,10 @@
   }
 
   &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
     padding: 20px 57px;
     margin: 0;
     border: 2px solid #E1B168;

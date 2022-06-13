@@ -34,6 +34,19 @@
     }
   }
 
+  &Socials__img {
+    path {
+      transition: all .3s ease;
+    }
+
+    &:hover {
+      path {
+        fill: #E1B168;
+        transition: all .3s ease;
+      }
+    }
+  }
+
   &__link {
     display: block;
     font-style: normal;

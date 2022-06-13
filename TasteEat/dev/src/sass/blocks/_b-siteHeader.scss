@@ -28,6 +28,10 @@
 }
 
 .b-siteHeaderTop__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
   border: 2px solid #E1B168;
   background: #292E36;
   padding: 20px;

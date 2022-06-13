@@ -73,6 +73,21 @@
 
   &__reviews {
     margin-bottom: 80px;
+
+    .slick-dots {
+      font-size: 0;
+      margin: 80px 0 0 0;
+      padding: 0;
+
+      button {
+        width: 20px;
+        height: 20px;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
   }
 }
 

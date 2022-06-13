@@ -11,10 +11,10 @@
               <a href="#" class="b-siteFooter__columnLink -whiteText">5 Rue Dalou, 75015 Paris</a>
             </li>
             <li class="b-siteFooter__columnItem">
-              <a href="#" class="b-siteFooter__columnLink g-tel">+123 456 789</a>
+              <a href="tel: +123456789" class="b-siteFooter__columnLink g-tel">+123 456 789</a>
             </li>
             <li class="b-siteFooter__columnItem">
-              <a href="#" class="b-siteFooter__columnLink">josefin@gmail.com</a>
+              <a href="mailto: josefin@gmail.com" class="b-siteFooter__columnLink">josefin@gmail.com</a>
             </li>
           </ul>
         </div>

@@ -145,7 +145,6 @@
   &__checkboxes {
     display: flex;
     gap: 23px;
-    overflow: auto;
 
     &.-wochentag {
       margin-bottom: 25px;
@@ -222,6 +221,20 @@
 
     &:hover {
       cursor: pointer;
+    }
+  }
+
+  .jq-checkbox {
+    background: #a41313;
+    border: 1px solid #CAE5E6;
+    border-radius: 3px;
+
+    &.checked {
+      border: 1px solid black;
+    }
+
+    &__div {
+      background: #000;
     }
   }
 }

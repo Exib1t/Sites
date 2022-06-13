@@ -3,6 +3,7 @@
 $(function() {
   // initFunctionExample();
   hamburger();
+  formStyler();
 });
 
 $(window).on('resize', function() {
@@ -46,4 +47,8 @@ function hamburger() {
       document.querySelector('.b-mainNavigation').classList.remove('-state-open');
     }
   };
+}
+
+function formStyler() {
+  $('.b-contentForm__checkbox').styler();
 }

@@ -34,7 +34,7 @@
   @media screen and (max-width: 768px) {
     margin-bottom: 20px;
   }
-  h3 {
+  .b-footerInfo__columnTitle {
     font-family: $Inter;
     font-style: normal;
     font-weight: 700;
@@ -56,7 +56,7 @@
       font-size: 16px;
     }
   }
-  ul {
+  .b-footerInfo__columnList {
     list-style-type: none;
     margin: 0;
     padding: 17px 0 0 0;

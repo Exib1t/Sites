@@ -113,6 +113,10 @@
   }
 
   &__newsButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
     position: absolute;
     top: 50%;
     left: 50%;
