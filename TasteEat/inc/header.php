@@ -78,7 +78,7 @@
         </div>
       </div>
 
-      <div class="l-siteHeaderBottom">
+      <div class="l-siteHeaderBottom" id="hamburger">
         <div class="b-siteHeaderBottom">
           <!--      SITE NAV-->
           <nav class="l-mainNavigation">
@@ -103,12 +103,12 @@
               </li>
             </ul>
 
-            <button class="hamburger hamburger--collapse" type="button">
+            <a href="#hamburger" class="hamburger hamburger--collapse" type="button">
               <span class="hamburger-box">
                 <span class="hamburger-inner"></span>
               </span>
               <span class="hamburger__text">Menu</span>
-            </button>
+            </a>
 
             <ul class="b-navigationSocial">
               <li class="b-navigationSocial__item<?php echo ( $uri == 'home' ) ? ' -state_active' : ''; ?>">

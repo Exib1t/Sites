@@ -59,6 +59,10 @@
     color: #FFFFFF;
     padding: 0;
     margin: 0 0 13px 0;
+
+    @media screen and (max-width: 1330px) {
+      text-align: center;
+    }
   }
 
   &__textSideText {
@@ -86,8 +90,12 @@
     height: 100%;
 
     @media screen and (max-width: 1330px) {
-      flex-direction: column;
       align-items: center;
+      justify-content: center;
+    }
+
+    @media screen and (max-width: 630px) {
+      flex-direction: column;
     }
   }
 
@@ -100,6 +108,10 @@
     max-width: 234px;
     aspect-ratio: 1/1;
     border: 20px solid #323841;
+
+    @media screen and (max-width: 768px) {
+      border: 10px solid #323841;
+    }
   }
 
   &__imageSideBlockImage {

@@ -113,8 +113,8 @@
   align-items: center;
   justify-content: center;
   border-top: 1px solid #5C6168;
-  position: sticky;
-  top: 20px;
+  z-index: 2;
+  position: relative;
 }
 
 .b-siteHeaderBottom {

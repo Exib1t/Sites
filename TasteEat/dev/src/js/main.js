@@ -30,9 +30,19 @@ function hamburger() {
   function toggleClass() {
     hamburger.classList.toggle('is-active');
     list.classList.toggle('-state-open');
+    scrollDisable();
+  }
+
+  function scrollDisable() {
+    if(hamburger.classList.contains('is-active')) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'auto';
+    }
   }
 
   window.onresize = function () {
+    scrollDisable();
     if (window.innerWidth > 992) {
       document.querySelector('.hamburger').classList.remove('is-active');
       document.querySelector('.b-mainNavigation').classList.remove('-state-open');
@@ -47,6 +57,16 @@ function slider() {
     slidesToScroll: 1,
     arrows: false,
     dots: true,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+
+    ]
   });
 }
 

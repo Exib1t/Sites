@@ -15,15 +15,30 @@
   list-style: none;
 
   @media screen and (max-width: 992px) {
-    display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    min-height: 110vh;
+    background: linear-gradient(180deg, #292E36 0%, #3e444d 100%);
+    transition: all .3s ease-in;
   }
 
   &__item {
     position: relative;
-    float: left;
     margin: 0 60px 0 0;
+    float: left;
     padding: 0;
     color: #000;
+
+    @media screen and (max-width: 992px) {
+      margin: 0;
+    }
 
     &:last-child {
       margin-right: 0;
@@ -131,7 +146,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  min-height: 100vh;
+  min-height: 110vh;
   background: linear-gradient(180deg, #292E36 0%, #3e444d 100%);
   transition: all .3s ease-in;
 }

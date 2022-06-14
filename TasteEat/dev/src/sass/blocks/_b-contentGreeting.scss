@@ -10,7 +10,7 @@
   width: 100%;
   max-width: 1400px;
   box-sizing: border-box;
-  padding: 0 20px;
+  padding: 70px 20px 0 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -29,6 +29,7 @@
 
   @media screen and (max-width: 1024px) {
     align-items: center;
+    width: 100%;
   }
 }
 
@@ -45,6 +46,23 @@
   @media screen and (max-width: 1024px) {
     font-size: 70px;
     text-align: center;
+    line-height: 80px;
+    width: 100%;
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  @media screen and (max-width: 606px) {
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  @media screen and (max-width: 340px) {
+    font-size: 40px;
+    line-height: 40px;
   }
 }
 
@@ -61,8 +79,18 @@
   max-width: 616px;
 
   @media screen and (max-width: 1024px) {
-    font-size: 14px;
+    font-size: 18px;
     text-align: center;
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  @media screen and (max-width: 606px) {
+    font-size: 14px;
+    line-height: 20px;
   }
 }
 
@@ -86,6 +114,16 @@
   letter-spacing: 0.2px;
   font-family: $Josefin;
 
+  @media screen and (max-width: 768px) {
+    font-size: 18px;
+    padding: 15px 50px;
+  }
+
+  @media screen and (max-width: 606px) {
+    font-size: 14px;
+    padding: 10px 50px;
+  }
+
   &:hover {
     background: #E1B168;
     color: #292E36;
@@ -95,7 +133,7 @@
 }
 
 .b-contentGreetingImg {
-  padding: 70px 40px 0 0;
+  padding: 0 40px 0 0;
   box-sizing: border-box;
   width: 50%;
 
