@@ -5,6 +5,7 @@ $(function() {
   hamburger();
   slider();
   imageOpacity();
+  dataPicker();
 });
 
 $(window).on('resize', function() {
@@ -49,11 +50,25 @@ function slider() {
   });
 }
 
-function ImageOpacity() {
-  const imageWrapper = $('.b-contentBlog__newsImageWrapper');
-  const button = $('.b-contentBlog__newsButton');
+function imageOpacity() {
+  $('.b-contentBlog__newsButton').each(function () {
 
-  button.addEventListener('mouseover', function () {
-    imageWrapper.before
+    this.addEventListener('mouseover', function () {
+      let elem = this.closest('.b-contentBlog__newsImageWrapper');
+      elem.classList.add('-bright');
+    });
+
+    this.addEventListener('mouseout', function () {
+      let elem = this.closest('.b-contentBlog__newsImageWrapper');
+      elem.classList.remove('-bright');
+    });
+
+  });
+}
+
+function dataPicker() {
+  $('.js-inputData').datepicker({
+    altField: '#actualDate',
+
   });
 }

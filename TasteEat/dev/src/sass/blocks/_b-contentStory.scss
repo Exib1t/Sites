@@ -15,7 +15,7 @@
   padding: 80px 20px 125px 20px;
   gap: 45px;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 992px) {
     flex-direction: column;
     align-items: center;
   }
@@ -26,6 +26,14 @@
   max-width: 743px;
   height: 100%;
   max-height: 519px;
+
+  @media screen and (max-width: 1200px) {
+    max-width: 650px;
+  }
+
+  @media screen and (max-width: 1024px) {
+    max-width: 600px;
+  }
 }
 
 .b-contentStoryText {
@@ -36,7 +44,7 @@
   margin: 0;
   padding: 0;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 992px) {
     align-items: center;
   }
 }
@@ -64,7 +72,7 @@
   margin: 0 0 25px 0;
   padding: 0;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 992px) {
     text-align: center;
   }
 }
@@ -72,12 +80,11 @@
 .b-contentStoryText__dates {
   display: flex;
   justify-content: center;
-  align-items: center;
   margin: 0 0 20px 0;
   padding: 0;
   gap: 10px;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 992px) {
     gap: 100px;
   }
 }
@@ -86,7 +93,7 @@
   display: flex;
   flex-direction: column;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 992px) {
     align-items: center;
   }
 }
@@ -114,7 +121,7 @@
   margin: 0;
   padding: 0;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 992px) {
     text-align: center;
   }
 }

@@ -172,6 +172,7 @@
 .b-listItem__text {
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 .b-itemText__title {
@@ -186,6 +187,24 @@
   padding: 0;
 }
 
+.b-itemTextWrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+    width: 100%;
+    height: 2px;
+    background: #AAAAAA;
+  }
+}
+
 .b-itemText__text {
   display: flex;
   justify-content: space-between;
@@ -197,15 +216,22 @@
   letter-spacing: 0.2px;
   color: #555555;
   margin: 0;
-  padding: 0;
-  width: 700px;
+  padding: 0 10px 0 0;
+  z-index: 1;
+  background: #FFFFFF;
+}
 
-  span {
-    display: block;
-    width: 100%;
-    max-width: 320px;
-    height: 20px;
-    background: #000;
-  }
+.b-itemText__price {
+  font-family: $Josefin;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #555555;
+  margin: 0;
+  padding: 0 0 0 10px;
+  z-index: 1;
+  background: #FFFFFF;
 }
 

@@ -3,4 +3,16 @@
   height: 600px;
   background-size: cover;
   background-repeat: no-repeat;
+
+  @media screen and (max-width: 992px) {
+    height: 450px;
+  }
+
+  @media screen and (max-width: 768px) {
+    height: 300px;
+  }
+
+  @media screen and (max-width: 576px) {
+    display: none;
+  }
 }

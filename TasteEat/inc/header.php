@@ -58,6 +58,26 @@
         <a class="b-siteHeaderTop__button" href="#reservation">Reservation</a>
       </div>
 
+      <div class="b-siteHeaderTop -mobile">
+        <!--        SITE LOGO         -->
+        <div class="l-siteLogo">
+          <?php
+          $siteLogo__tag  = $isHomepage ? 'h1' : 'div';
+          $siteLogo__link = $isHomepage ? '' : ' href="index.html"';
+          ?>
+          <<?php echo $siteLogo__tag; ?> class="b-siteLogo" itemscope itemtype="http://schema.org/Organization">
+          <a class="b-siteLogo__link"<?php echo $siteLogo__link; ?> itemprop="url">
+            <img class="b-siteLogo__icon" src="assets/img/blocks/siteLogo/siteLogo-logo.svg" alt="<?php echo $siteName; ?>" title="<?php echo $siteName; ?>" itemprop="logo" />
+          </a>
+          </<?php echo $siteLogo__tag; ?>>
+        </div>
+
+        <div class="b-siteHeaderTop__buttons">
+          <a class="b-siteHeaderTop__button" href="tel: 123456789">Call - 123 456 789</a>
+          <a class="b-siteHeaderTop__button" href="#reservation">Reservation</a>
+        </div>
+      </div>
+
       <div class="l-siteHeaderBottom">
         <div class="b-siteHeaderBottom">
           <!--      SITE NAV-->

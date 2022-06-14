@@ -18,17 +18,23 @@
 
   @media screen and (max-width: 1024px) {
     flex-direction: column;
+    align-items: flex-start;
+  }
+
+  @media screen and (max-width: 380px) {
+    align-items: center;
   }
 }
 
 .b-contentInfo__block {
-  width: 100%;
+  width: calc(100% - 83px - 20px);
   display: flex;
   margin: 0;
   padding: 100px 0 60px 0;
 
-  @media screen and (max-width: 1024px) {
-    justify-content: center;
+  @media screen and (max-width: 380px) {
+    flex-direction: column;
+    align-items: center;
   }
 
 
@@ -52,9 +58,9 @@
   font-family: $Cormorant;
   color: #292E36;
 
-  //@media screen and (max-width: 1330px) {
-  //  font-size: 20px;
-  //}
+  @media screen and (max-width: 380px) {
+    text-align: center;
+  }
 }
 
 .b-infoBlock__text {
@@ -68,7 +74,7 @@
   letter-spacing: 0.2px;
   color: #555555;
 
-  //@media screen and (max-width: 1330px) {
-  //  font-size: 12px;
-  //}
+  @media screen and (max-width: 380px) {
+    text-align: center;
+  }
 }

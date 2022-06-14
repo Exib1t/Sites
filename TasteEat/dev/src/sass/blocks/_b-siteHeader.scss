@@ -22,8 +22,50 @@
   gap: 20px;
   overflow: auto;
 
-  @media screen and (max-width: 1050px) {
-    flex-direction: column;
+  @media screen and (max-width: 900px) {
+    display: none;
+  }
+
+  .l-siteLogo {
+    @media screen and (max-width: 1136px) {
+      order: 1;
+      width: 100%;
+      max-width: 378px;
+      height: 100%;
+    }
+
+    @media screen and (max-width: 1024px) {
+      max-width: 348px;
+    }
+
+    @media screen and (max-width: 992px) {
+      max-width: 300px;
+    }
+
+    @media screen and (max-width: 768px) {
+      min-width: 240px;
+    }
+  }
+
+  &.-mobile {
+    display: none;
+
+    @media screen and (max-width: 900px) {
+      display: flex;
+    }
+
+    @media screen and (max-width: 618px) {
+      flex-direction: column;
+    }
+
+    .b-siteHeaderTop__buttons {
+      gap: 25px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      order: 3;
+    }
   }
 }
 
@@ -45,6 +87,17 @@
   line-height: 33px;
   letter-spacing: 0.44px;
   font-family: $Josefin;
+
+  @media screen and (max-width: 1136px) {
+    order: 2;
+    width: auto;
+    padding: 20px 50px;
+  }
+
+  @media screen and (max-width: 900px) {
+    padding: 10px 50px;
+    font-size: 18px;
+  }
 
   &:hover {
     background: #E1B168;

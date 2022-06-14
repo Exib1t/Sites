@@ -95,7 +95,10 @@ require( 'inc/header.php' );
               <img src="assets/img/blocks/contentMenu/raw-scallops.png" alt="" class="b-menuList__img">
               <div class="b-listItem__text">
                 <h5 class="b-itemText__title">Raw Scallops from Erquy</h5>
-                <p class="b-itemText__text">Shuck the scallop to that used for oysters <span></span> $40</p>
+                <div class="b-itemTextWrapper">
+                  <p class="b-itemText__text">Shuck the scallop to that used for oysters</p>
+                  <p class="b-itemText__price">$40</p>
+                </div>
               </div>
             </li>
 
@@ -103,7 +106,10 @@ require( 'inc/header.php' );
               <img src="assets/img/blocks/contentMenu/spring-roll.png" alt="" class="b-menuList__img">
               <div class="b-listItem__text">
                 <h5 class="b-itemText__title">Spring Roll</h5>
-                <p class="b-itemText__text">Add oil to a hot pan spring onion whites <span></span> $20</p>
+                <div class="b-itemTextWrapper">
+                  <p class="b-itemText__text">Add oil to a hot pan spring onion whites</p>
+                  <p class="b-itemText__price">$20</p>
+                </div>
               </div>
             </li>
 
@@ -111,7 +117,10 @@ require( 'inc/header.php' );
               <img src="assets/img/blocks/contentMenu/french-onion.png" alt="" class="b-menuList__img">
               <div class="b-listItem__text">
                 <h5 class="b-itemText__title">French Onion Soup</h5>
-                <p class="b-itemText__text">Wheat flour, apple cider vinegar, bread <span></span> $25</p>
+                <div class="b-itemTextWrapper">
+                  <p class="b-itemText__text">Wheat flour, apple cider vinegar, bread</p>
+                  <p class="b-itemText__price">$25</p>
+                </div>
               </div>
             </li>
 
@@ -119,7 +128,10 @@ require( 'inc/header.php' );
               <img src="assets/img/blocks/contentMenu/tomato-bruschetta.png" alt="" class="b-menuList__img">
               <div class="b-listItem__text">
                 <h5 class="b-itemText__title">Tomato Bruschetta</h5>
-                <p class="b-itemText__text">Bread, olive oil, garlic, black pepper <span></span> $30</p>
+                <div class="b-itemTextWrapper">
+                  <p class="b-itemText__text">Bread, olive oil, garlic, black pepper</p>
+                  <p class="b-itemText__price">$30</p>
+                </div>
               </div>
             </li>
           </ul>
@@ -130,7 +142,10 @@ require( 'inc/header.php' );
               <img src="assets/img/blocks/contentMenu/grilled-salmon.png" alt="" class="b-menuList__img">
               <div class="b-listItem__text">
                 <h5 class="b-itemText__title">Grilled Salmon with Dill Sauce</h5>
-                <p class="b-itemText__text">Brown sugar, salmon fillet, Dijon mustard <span></span> $40</p>
+                <div class="b-itemTextWrapper">
+                  <p class="b-itemText__text">Brown sugar, salmon fillet, Dijon mustard</p>
+                  <p class="b-itemText__price">$40</p>
+                </div>
               </div>
             </li>
 
@@ -138,7 +153,10 @@ require( 'inc/header.php' );
               <img src="assets/img/blocks/contentMenu/roast-beef.png" alt="" class="b-menuList__img">
               <div class="b-listItem__text">
                 <h5 class="b-itemText__title">Roast Beef with Vegetable</h5>
-                <p class="b-itemText__text">Green beans, rib eye, olive oil, beef <span></span> $20</p>
+                <div class="b-itemTextWrapper">
+                  <p class="b-itemText__text">Green beans, rib eye, olive oil, beef</p>
+                  <p class="b-itemText__price">$20</p>
+                </div>
               </div>
             </li>
 
@@ -146,7 +164,10 @@ require( 'inc/header.php' );
               <img src="assets/img/blocks/contentMenu/marrkesh-curruy.png" alt="" class="b-menuList__img">
               <div class="b-listItem__text">
                 <h5 class="b-itemText__title">Marrkesh Vegetetarian Curruy</h5>
-                <p class="b-itemText__text">Sweet potato, eggplant, garbanzo bean <span></span> $25</p>
+                <div class="b-itemTextWrapper">
+                  <p class="b-itemText__text">Sweet potato, eggplant, garbanzo bean</p>
+                  <p class="b-itemText__price">$25</p>
+                </div>
               </div>
             </li>
 
@@ -154,7 +175,10 @@ require( 'inc/header.php' );
               <img src="assets/img/blocks/contentMenu/spicy-potato.png" alt="" class="b-menuList__img">
               <div class="b-listItem__text">
                 <h5 class="b-itemText__title">Spicy Vegan Potato Curry</h5>
-                <p class="b-itemText__text">Coconut milk, beans, potatoes, curry powder <span></span> $35</p>
+                <div class="b-itemTextWrapper">
+                  <p class="b-itemText__text">Coconut milk, beans, potatoes, curry powder</p>
+                  <p class="b-itemText__price">$35</p>
+                </div>
               </div>
             </li>
           </ul>
@@ -165,7 +189,10 @@ require( 'inc/header.php' );
               <img src="assets/img/blocks/contentMenu/apple-pie.png" alt="" class="b-menuList__img">
               <div class="b-listItem__text">
                 <h5 class="b-itemText__title">Apple Pie with Cream</h5>
-                <p class="b-itemText__text">Whipping cream, egg white, cinnamon <span></span> $15</p>
+                <div class="b-itemTextWrapper">
+                  <p class="b-itemText__text">Whipping cream, egg white, cinnamon</p>
+                  <p class="b-itemText__price">$15</p>
+                </div>
               </div>
             </li>
 
@@ -173,7 +200,10 @@ require( 'inc/header.php' );
               <img src="assets/img/blocks/contentMenu/lemon-pie.png" alt="" class="b-menuList__img">
               <div class="b-listItem__text">
                 <h5 class="b-itemText__title">Lemon Meringue Pie</h5>
-                <p class="b-itemText__text">Frozen pie crust, meringue, lemon <span></span> $30</p>
+                <div class="b-itemTextWrapper">
+                  <p class="b-itemText__text">Frozen pie crust, meringue, lemon</p>
+                  <p class="b-itemText__price">$30</p>
+                </div>
               </div>
             </li>
           </ul>
@@ -399,7 +429,7 @@ require( 'inc/header.php' );
               <input type="time" placeholder="Timing">
             </label>
             <label for="">
-              <input type="date" placeholder="Date">
+              <input type="text" placeholder="Date" class="js-inputData">
             </label>
           </div>
           <button class="b-contentReservation__button">Book A Table</button>
