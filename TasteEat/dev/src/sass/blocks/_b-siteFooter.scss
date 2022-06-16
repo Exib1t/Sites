@@ -23,6 +23,10 @@
     gap: 50px;
   }
 
+  @media screen and (max-width: 768px) {
+    padding: 50px 20px 25px 20px;
+  }
+
   &__column {
     display: flex;
     flex-direction: column;
@@ -32,6 +36,10 @@
 
     @media screen and (max-width: 1330px) {
       align-items: center;
+    }
+
+    @media screen and (max-width: 768px) {
+      min-height: auto;
     }
 
     &.-centerColumn {
@@ -76,6 +84,12 @@
     color: #FFFFFF;
     margin: 0;
     padding: 90px 0 130px 0;
+
+    @media screen and (max-width: 768px) {
+      font-size: 18px;
+      line-height: 24px;
+      padding: 0 0 20px 0;
+    }
   }
 
   &__columnTitle {
@@ -121,6 +135,11 @@
     color: #E1B168;
     padding: 0;
     margin: 0 0 5px 0;
+
+    @media screen and (max-width: 768px) {
+      font-size: 16px;
+      line-height: 18px;
+    }
   }
 
   &__columnItemText {
@@ -133,6 +152,11 @@
     color: #E1B168;
     padding: 0;
     margin: 0 0 5px 0;
+
+    @media screen and (max-width: 768px) {
+      font-size: 16px;
+      line-height: 18px;
+    }
   }
 
   &__columnText {
@@ -148,6 +172,11 @@
     color: #FFFFFF;
     padding: 0;
     margin: 10px 0 25px 0;
+
+    @media screen and (max-width: 768px) {
+      font-size: 16px;
+      line-height: 18px;
+    }
   }
 
   &__form {
@@ -182,6 +211,11 @@
       padding: 17px 24px;
       margin: 0;
 
+      @media screen and (max-width: 768px) {
+        font-size: 18px;
+        line-height: 20px;
+      }
+
       &::placeholder {
         color: #FFFFFF;
       }
@@ -201,6 +235,10 @@
       color: #000000;
       transition: all .3s ease;
       margin: 0;
+
+      @media screen and (max-width: 420px) {
+        padding: 17px 20px 16px 20px;
+      }
 
       &:hover {
         cursor: pointer;

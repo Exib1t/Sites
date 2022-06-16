@@ -14,6 +14,10 @@
   display: flex;
   flex-direction: column;
 
+  @media screen and (max-width: 768px) {
+    padding: 50px 20px;
+  }
+
   &__top {
     display: flex;
     flex-direction: column;
@@ -22,6 +26,10 @@
 
     @media screen and (max-width: 1024px) {
       align-items: center;
+    }
+
+    @media screen and (max-width: 768px) {
+      margin: 0 0 30px 0;
     }
   }
 
@@ -53,6 +61,11 @@
     color: #FFFFFF;
     padding: 0;
     margin: 0 0 8px 0;
+
+    @media screen and (max-width: 768px) {
+      font-size: 32px;
+      line-height: 40px;
+    }
   }
 
   &__text {
@@ -69,15 +82,28 @@
     @media screen and (max-width: 1024px) {
       text-align: center;
     }
+
+    @media screen and (max-width: 768px) {
+      font-size: 16px;
+      line-height: 18px;
+    }
   }
 
   &__reviews {
     margin-bottom: 80px;
 
+    @media screen and (max-width: 768px) {
+      margin: 0;
+    }
+
     .slick-dots {
       font-size: 0;
       margin: 80px 0 0 0;
       padding: 0;
+
+      @media screen and (max-width: 768px) {
+        margin: 20px 0 0 0;
+      }
 
       button {
         width: 20px;
@@ -99,6 +125,10 @@
     max-width: 650px;
     box-sizing: border-box;
     padding: 20px 40px;
+
+    @media screen and (max-width: 768px) {
+      padding: 20px;
+    }
   }
 
   &__about {
@@ -107,6 +137,11 @@
     padding-bottom: 30px;
     margin-bottom: 30px;
     border-bottom: 1px solid #797E89;
+
+    @media screen and (max-width: 400px) {
+      padding-bottom: 15px;
+      margin-bottom: 15px;
+    }
   }
 
   &__avatar {
@@ -114,6 +149,11 @@
     max-width: 113px;
     aspect-ratio: 1/1;
     margin-right: 30px;
+
+    @media screen and (max-width: 400px) {
+      margin-right: 20px;
+      max-width: 90px;
+    }
   }
 
   &__info {
@@ -131,6 +171,11 @@
     color: #FFFFFF;
     margin: 0;
     padding: 0;
+
+    @media screen and (max-width: 768px) {
+      font-size: 24px;
+      line-height: 30px;
+    }
   }
 
   &__place {
@@ -143,6 +188,11 @@
     color: #E1B168;
     margin: 0;
     padding: 0;
+
+    @media screen and (max-width: 768px) {
+      font-size: 16px;
+      line-height: 24px;
+    }
   }
 
   &__text {
@@ -156,5 +206,10 @@
     margin: 0;
     padding: 0;
     overflow: auto;
+
+    @media screen and (max-width: 768px) {
+      font-size: 20px;
+      line-height: 30px;
+    }
   }
 }

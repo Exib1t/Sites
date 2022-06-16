@@ -20,6 +20,10 @@
     gap: 50px;
   }
 
+  @media screen and (max-width: 768px) {
+    padding: 50px 20px;
+  }
+
   &__textSide {
     display: flex;
     flex-direction: column;
@@ -63,6 +67,11 @@
     @media screen and (max-width: 1330px) {
       text-align: center;
     }
+
+    @media screen and (max-width: 768px) {
+      font-size: 32px;
+      line-height: 36px;
+    }
   }
 
   &__textSideText {
@@ -77,8 +86,14 @@
     color: #FFFFFF;
     padding: 0;
     margin: 0;
+
     @media screen and (max-width: 1330px) {
       text-align: center;
+    }
+
+    @media screen and (max-width: 768px) {
+      font-size: 16px;
+      line-height: 18px;
     }
   }
 
@@ -111,6 +126,10 @@
 
     @media screen and (max-width: 768px) {
       border: 10px solid #323841;
+    }
+
+    @media screen and (max-width: 340px) {
+      max-width: 180px;
     }
   }
 

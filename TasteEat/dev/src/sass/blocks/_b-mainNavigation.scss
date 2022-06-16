@@ -95,6 +95,10 @@
     padding: 0;
     color: #000;
 
+    @media screen and (max-width: 342px){
+      margin: 0 10px 0 0;
+    }
+
     &:last-child {
       margin: 0;
     }
@@ -106,13 +110,8 @@
 
   &__link {
     display: block;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    letter-spacing: 0.2px;
-    color: #FFFFFF;
-    text-decoration: none;
+    padding: 0;
+    margin: 0;
   }
 }
 

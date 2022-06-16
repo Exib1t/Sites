@@ -17,6 +17,7 @@
 
   @media screen and (max-width: 1200px) {
     align-items: center;
+    padding: 50px 20px;
   }
 
   &__title {
@@ -43,6 +44,10 @@
     @media screen and (max-width: 1200px) {
       flex-direction: column;
       align-items: center;
+    }
+
+    @media screen and (max-width: 768px) {
+      gap: 25px;
     }
   }
 
@@ -76,6 +81,12 @@
     @media screen and (max-width: 1200px) {
       text-align: center;
     }
+
+    @media screen and (max-width: 768px) {
+      font-size: 32px;
+      line-height: 32px;
+      margin: 0 0 10px 0;
+    }
   }
 
   &__text {
@@ -92,6 +103,12 @@
     @media screen and (max-width: 1200px) {
       text-align: center;
     }
+
+    @media screen and (max-width: 768px) {
+      font-size: 16px;
+      line-height: 18px;
+      margin: 0 0 20px 0;
+    }
   }
 
   &__img {
@@ -101,6 +118,10 @@
     max-height: 548px;
     padding: 0;
     margin: 0 0 60px 0;
+
+    @media screen and (max-width: 768px) {
+      margin: 0 0 30px 0;
+    }
   }
 
   &__button {
@@ -122,6 +143,12 @@
     letter-spacing: 0.2px;
     color: #E1B168;
     transition: all .3s ease;
+
+    @media screen and (max-width: 768px) {
+      font-size: 18px;
+      line-height: 28px;
+      padding: 10px 30px;
+    }
 
     &:hover {
       border-color: #292E36;
@@ -150,12 +177,28 @@
     color: #292E36;
     margin: 0 0 40px 0;
     padding: 0;
+
+    @media screen and (max-width: 768px) {
+      margin: 0 0 20px 0;
+      font-size: 30px;
+      line-height: 30px;
+    }
   }
 
   &__list {
     padding: 0;
     margin: 0 0 75px 0;
     list-style-type: none;
+
+    &:last-of-type {
+      margin: 0;
+    }
+
+    .b-menuList__item {
+      &:last-of-type {
+        margin: 0;
+      }
+    }
   }
 
   &__item {
@@ -165,6 +208,7 @@
 
     @media screen and (max-width: 676px) {
       flex-direction: column;
+      gap: 20px;
     }
   }
 
@@ -174,13 +218,24 @@
     max-width: 84px;
     aspect-ratio: 1/1;
     margin-right: 20px;
+
+    @media screen and (max-width: 676px) {
+      margin-right: 0;
+    }
   }
 }
 
 .b-listItem__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin: 0;
   padding: 0;
   width: 100%;
+
+  @media screen and (max-width: 768px) {
+    gap: 5px;
+  }
 }
 
 .b-itemText__title {
@@ -193,6 +248,11 @@
   color: #292E36;
   margin: 0;
   padding: 0;
+
+  @media screen and (max-width: 768px) {
+    font-size: 24px;
+    line-height: 24px;
+  }
 }
 
 .b-itemTextWrapper {
@@ -211,7 +271,7 @@
     height: 2px;
     background: #AAAAAA;
 
-    @media screen and (max-width: 576px) {
+    @media screen and (max-width: 470px) {
       display: none;
     }
   }
@@ -231,6 +291,11 @@
   padding: 0 10px 0 0;
   z-index: 1;
   background: #FFFFFF;
+
+  @media screen and (max-width: 768px) {
+    font-size: 16px;
+    line-height: 16px;
+  }
 }
 
 .b-itemText__price {
@@ -245,5 +310,10 @@
   padding: 0 0 0 10px;
   z-index: 1;
   background: #FFFFFF;
+
+  @media screen and (max-width: 768px) {
+    font-size: 16px;
+    line-height: 16px;
+  }
 }
 
