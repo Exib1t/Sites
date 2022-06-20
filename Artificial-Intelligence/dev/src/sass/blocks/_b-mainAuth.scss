@@ -2,6 +2,10 @@
   clear: both;
   width: max-content;
   height: 100%;
+
+  @media screen and (max-width: 992px) {
+    height: max-content;
+  }
 }
 .b-mainAuth {
   display: flex;
@@ -11,6 +15,10 @@
   padding: 0;
   height: 100%;
   list-style: none;
+
+  @media screen and (max-width: 992px) {
+    height: max-content;
+  }
 
   &__item {
     display: flex;
@@ -24,7 +32,6 @@
   }
 
   &__link {
-    @include hover-underline;
     @include openSans(normal, 600, 16px, 22px, $textWhite);
     width: max-content;
     display: flex;
@@ -34,5 +41,6 @@
     background: $buttonBG;
     border-radius: 5px;
     border: 0;
+    cursor: pointer;
   }
 }

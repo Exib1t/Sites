@@ -54,26 +54,26 @@
         <nav class="l-mainNavigation">
           <ul class="b-mainNavigation">
             <li class="b-mainNavigation__item<?php echo ( $uri == 'home' ) ? ' -state_active' : ''; ?>">
-              <a class="b-mainNavigation__link" href="index.html">Home</a>
+              <a class="b-mainNavigation__link hvr-underline-from-left" href="index.html">Home</a>
             </li>
             <li class="b-mainNavigation__item<?php echo ( $uri == 'about' ) ? ' -state_active' : ''; ?>">
-              <a class="b-mainNavigation__link" href="index.html">About</a>
+              <a class="b-mainNavigation__link hvr-underline-from-left" href="index.html">About</a>
             </li>
             <li class="b-mainNavigation__item<?php echo ( $uri == 'services' ) ? ' -state_active' : ''; ?>">
-              <a class="b-mainNavigation__link" href="index.html">Services</a>
+              <a class="b-mainNavigation__link hvr-underline-from-left" href="index.html">Services</a>
             </li>
             <li class="b-mainNavigation__item<?php echo ( $uri == 'blog' ) ? ' -state_active' : ''; ?>">
-              <a class="b-mainNavigation__link" href="index.html">Blog</a>
+              <a class="b-mainNavigation__link hvr-underline-from-left" href="index.html">Blog</a>
             </li>
             <li class="b-mainNavigation__item<?php echo ( $uri == 'contact' ) ? ' -state_active' : ''; ?>">
-              <a class="b-mainNavigation__link" href="index.html">Contact</a>
+              <a class="b-mainNavigation__link hvr-underline-from-left" href="index.html">Contact</a>
             </li>
           </ul>
 
           <div class="l-mainAuth">
             <ul class="b-mainAuth">
               <li class="b-mainAuth__item<?php echo ( $uri == 'contact' ) ? ' -state_active' : ''; ?>">
-                <button class="b-mainAuth__link">Sign In</button>
+                <button class="b-mainAuth__link hvr-sweep-to-right">Sign In</button>
               </li>
             </ul>
           </div>

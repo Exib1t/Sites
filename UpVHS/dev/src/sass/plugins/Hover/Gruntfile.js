@@ -12,7 +12,7 @@ module.exports = function(grunt) {
               options: {
                 prefix: 'Version[:=]\\s*'
               },
-              src: ['css/hover.css', 'scss/hover.scss', 'less/hover.less']
+              src: ['css/hover.css', 'scss/_hover.scss', 'less/hover.less']
             }
 
         },
@@ -23,7 +23,7 @@ module.exports = function(grunt) {
               style: 'expanded'
             },
             files: {
-              'css/hover.css': 'scss/hover.scss'
+              'css/hover.css': 'scss/_hover.scss'
             }
           }
         },

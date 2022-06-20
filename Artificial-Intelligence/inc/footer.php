@@ -8,7 +8,7 @@
               <img src="../assets/img/blocks/siteFooter/logo.svg" alt="" class="b-siteFooter__columnListLogo">
             </li>
             <li class="b-siteFooter__columnListItem -textFirst">
-              <p class="b-siteFooter__columnListText b-text">Lorem ipsum is placeholder text commonly used in the graphic, print, and layouts and visual mockups.</p>
+              <div class="b-siteFooter__columnListText b-text"><p>Lorem ipsum is placeholder text commonly used in the graphic, print, and layouts and visual mockups.</p></div>
             </li>
             <li class="b-siteFooter__columnListItem">
               <a href="#" class="b-siteFooter__columnListLink -email">Company@gmail.com.com</a>
@@ -94,7 +94,7 @@
           <h3 class="b-siteFooter__columnTitle">ABOUT THE STORE</h3>
           <ul class="b-siteFooter__columnList">
             <li class="b-siteFooter__columnListItem -textSecond">
-              <p class="b-siteFooter__columnListText b-text">Lorem ipsum is placeholder text commonly used in the graphic, print, and layouts and visual mockups.</p>
+              <div class="b-siteFooter__columnListText b-text"><p>Lorem ipsum is placeholder text commonly used in the graphic, print, and layouts and visual mockups.</p></div>
             </li>
             <li class="b-siteFooter__columnListItem">
               <a href="#" class="b-siteFooter__columnListLink -company">www.company.com</a>
@@ -134,7 +134,10 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-3.6.0.min.js"><\/script>')</script>
 
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
   <script src="assets/js/scripts.js?<?php echo filemtime( 'assets/js/scripts.js' ); ?>"></script>
+
 
   <!-- Global site tag (gtag.js) - Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXX-Y"></script>

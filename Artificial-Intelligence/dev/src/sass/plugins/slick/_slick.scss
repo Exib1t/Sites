@@ -102,15 +102,38 @@
 
 .slick-dots {
   display: flex;
-  align-items: center;
   justify-content: center;
   list-style-type: none;
+  font-size: 0;
+  padding: 0;
+  gap: 10px;
   margin: 50px 0 0 0;
 
   li {
-
     button {
       border-radius: 50%;
+      border: 0;
+      background: #2C3647;
+      transition: all .3s ease;
+      width: 15px;
+      height: 15px;
+      opacity: 0.5;
+      cursor: pointer;
     }
   }
+
+  .slick-active {
+    button {
+      opacity: 1;
+      transition: all .3s ease;
+    }
+  }
+}
+
+.slick-track {
+  display: flex;
+}
+.slick-track .slick-slide {
+  display: flex;
+  height: auto;
 }
