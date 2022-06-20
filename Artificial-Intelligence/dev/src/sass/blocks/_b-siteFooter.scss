@@ -22,6 +22,10 @@
     gap: 30px;
   }
 
+  @media screen and (max-width: 768px) {
+    padding: 50px 20px;
+  }
+
   &__column {
     width: max-content;
   }

@@ -18,7 +18,20 @@
   padding: 0 20px 100px 20px;
   overflow: auto;
 
+  @media screen and (max-width: 768px) {
+    gap: 50px;
+    padding: 0 20px 50px 20px;
+  }
+
+  @media screen and (max-width: 576px) {
+    gap: 30px;
+  }
+
   &__logo {
     display: block;
+
+    @media screen and (max-width: 490px) {
+      max-width: 270px;
+    }
   }
 }

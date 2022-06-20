@@ -5,10 +5,6 @@
   width: 100%;
   background: linear-gradient(180deg, #0f122d 50%, #05071a 100%);
   overflow: hidden;
-
-  @media screen and (max-width: 768px) {
-    overflow: clip;
-  }
 }
 
 .b-firstScreen {
@@ -20,11 +16,19 @@
   box-sizing: border-box;
   padding: 50px 20px 100px 20px;
 
+  @media screen and (max-width: 768px) {
+    padding: 0 20px 100px 20px;
+  }
+
+  @media screen and (max-width: 576px) {
+    padding: 50px 20px 50px 20px;
+  }
+
   &__side {
     display: flex;
     flex-direction: column;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 576px) {
       align-items: center;
     }
   }
@@ -35,6 +39,10 @@
     margin: 0 0 10px 0;
 
     @media screen and (max-width: 768px) {
+      font-size: 16px;
+    }
+
+    @media screen and (max-width: 576px) {
       text-align: center;
     }
   }
@@ -46,8 +54,22 @@
     width: 100%;
     max-width: 604px;
 
+    @media screen and (max-width: 1024px) {
+      font-size: 40px;
+      margin: 0 0 30px 0;
+    }
+
     @media screen and (max-width: 768px) {
+      font-size: 32px;
+      margin: 0 0 20px 0;
+    }
+
+    @media screen and (max-width: 576px) {
       text-align: center;
+    }
+
+    @media screen and (max-width: 340px) {
+      font-size: 26px;
     }
   }
 
@@ -57,8 +79,21 @@
     padding: 0;
     margin: 0 0 50px 0;
 
+    @media screen and (max-width: 1024px) {
+      font-size: 16px;
+      margin: 0 0 30px 0;
+    }
+
     @media screen and (max-width: 768px) {
+      margin: 0 0 20px 0;
+    }
+
+    @media screen and (max-width: 576px) {
       text-align: center;
+    }
+
+    @media screen and (max-width: 340px) {
+      font-size: 14px;
     }
   }
 
@@ -68,11 +103,8 @@
     margin: 0;
     padding: 0;
 
-    @media screen and (max-width: 768px) {
-      justify-content: center;
-    }
-
     @media screen and (max-width: 576px) {
+      width: 100%;
       flex-direction: column;
       align-items: center;
       justify-content: center;
@@ -88,11 +120,14 @@
     background: $textBlue;
     width: max-content;
     margin: 0;
+    box-sizing: border-box;
     padding: 15px 30px;
     border-radius: 5px;
 
     @media screen and (max-width: 576px) {
       width: 100%;
+      padding: 10px 30px;
+      font-size: 18px;
     }
 
     span {
@@ -117,7 +152,7 @@
     padding: 0;
     margin: 0;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 576px) {
       display: none;
     }
   }
@@ -128,5 +163,13 @@
     top: 0;
     padding: 0;
     margin: 0;
+
+    @media screen and (max-width: 1024px) {
+      left: 100px;
+    }
+
+    @media screen and (max-width: 768px) {
+      left: 50px;
+    }
   }
 }

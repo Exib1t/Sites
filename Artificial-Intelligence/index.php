@@ -97,7 +97,7 @@ require( 'inc/header.php' );
         <div class="b-contentTestimonials__sideText b-text"><p data-aos="zoom-in">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p></div>
       </div>
       <div class="b-contentTestimonials__imgWrapper" data-aos="fade-up" data-aos-duration="1000">
-        <img src="assets/img/blocks/contentTestimonials/image_1.svg" alt="" class="b-contentTestimonials__sideImg">
+        <img src="assets/img/blocks/contentTestimonials/image_1.png" alt="" class="b-contentTestimonials__sideImg">
       </div>
     </div>
   </section>
