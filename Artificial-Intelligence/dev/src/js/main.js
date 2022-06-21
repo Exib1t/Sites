@@ -4,6 +4,7 @@ $(function() {
   slider();
   hamburger();
   scrollAnimation();
+  formStyler();
 });
 
 $(window).on('resize', function() {
@@ -89,4 +90,8 @@ function classRemover() {
 
 function scrollAnimation() {
   AOS.init();
+}
+
+function formStyler() {
+  $('.js-select').styler();
 }

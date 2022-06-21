@@ -11,3 +11,6 @@ $Arial:       Arial, 'Helvetica Neue', Helvetica, sans-serif;
 $OpenSans:   'Open Sans', sans-serif;
 $Roboto:     'Roboto', sans-serif;
 $RobotoSlab: 'Roboto Slab', serif;
+$Circular: 'Circular Std', sans-serif;
+
+@include font-face('Circular Std', 'CircularStd-Medium', 500)

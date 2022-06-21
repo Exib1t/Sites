@@ -11,10 +11,10 @@
               <div class="b-siteFooter__columnListText b-text"><p>Lorem ipsum is placeholder text commonly used in the graphic, print, and layouts and visual mockups.</p></div>
             </li>
             <li class="b-siteFooter__columnListItem">
-              <a href="#" class="b-siteFooter__columnListLink -email">Company@gmail.com.com</a>
+              <a href="mailto: Company@gmail.com.com" class="b-siteFooter__columnListLink -email">Company@gmail.com.com</a>
             </li>
             <li class="b-siteFooter__columnListItem">
-              <a href="#" class="b-siteFooter__columnListLink -phone">Phone: (064) 332-1233</a>
+              <a href="tel: (064) 332-1233" class="b-siteFooter__columnListLink -phone g-tel">Phone: (064) 332-1233</a>
             </li>
             <li class="b-siteFooter__columnListItem">
               <a href="#" class="b-siteFooter__columnListLink -position">450 Wall Street, USA, New York</a>
@@ -133,7 +133,7 @@
             </li>
             <li class="b-siteFooter__columnListItem">
               <label for="selectLang">
-                <select name="selectLang">
+                <select name="selectLang" class="js-select">
                   <option value="en">English</option>
                   <option value="ua">Ukrainian</option>
                   <option value="ru">Russian</option>
