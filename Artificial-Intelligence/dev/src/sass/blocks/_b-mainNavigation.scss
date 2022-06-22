@@ -76,12 +76,10 @@
     }
 
     &.-state_active {
+      pointer-events: none;
+
       .b-mainNavigation__link {
         border-bottom: 2px solid #FFFFFF;
-      }
-
-      &:hover {
-        transform: rotate(0);
       }
     }
   }

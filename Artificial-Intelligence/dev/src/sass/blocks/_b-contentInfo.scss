@@ -3,7 +3,6 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  background: $secondBG;
   overflow: hidden;
 }
 
@@ -138,6 +137,7 @@
     padding: 15px 30px;
     border-radius: 5px;
     text-align: center;
+    overflow: auto;
 
     @media screen and (max-width: 992px) {
       width: 100%;

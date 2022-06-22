@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  background: linear-gradient(180deg, #0f122d 50%, #05071a 100%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.004) -41.9%, rgba(255, 255, 255, 0.1) 100%);
   overflow: hidden;
 }
 
@@ -123,6 +123,7 @@
     box-sizing: border-box;
     padding: 15px 30px;
     border-radius: 5px;
+    overflow: auto;
 
     @media screen and (max-width: 576px) {
       width: 100%;
