@@ -23,13 +23,15 @@ require( 'inc/header.php' );
 
           <h3 class="b-contentForm__title">Kategorie</h3>
 
-          <select name="" id="" class="b-contentForm__select js-select">
+          <select name="" id="" class="b-contentForm__select js-select" data-placeholder="Select">
+            <option value="" class="b-contentForm__selectOption"></option>
             <option value="" class="b-contentForm__selectOption">Grundlagen</option>
             <option value="" class="b-contentForm__selectOption">Grundlagen</option>
             <option value="" class="b-contentForm__selectOption">Grundlagen</option>
           </select>
 
-          <select name="" id="" class="b-contentForm__select js-select">
+          <select name="" id="" class="b-contentForm__select js-select" data-placeholder="Select">
+            <option value="" class="b-contentForm__selectOption"></option>
             <option value="" class="b-contentForm__selectOption">Alle</option>
             <option value="" class="b-contentForm__selectOption">Alle</option>
             <option value="" class="b-contentForm__selectOption">Alle</option>
@@ -86,7 +88,8 @@ require( 'inc/header.php' );
 
           <h3 class="b-contentForm__title">Tageszeit</h3>
 
-          <select name="" id="" class="b-contentForm__select js-select">
+          <select name="" id="" class="b-contentForm__select js-select" data-placeholder="Select">
+            <option value="" class="b-contentForm__selectOption"></option>
             <option value="" class="b-contentForm__selectOption">Vormittag</option>
             <option value="" class="b-contentForm__selectOption">Vormittag</option>
             <option value="" class="b-contentForm__selectOption">Vormittag</option>
