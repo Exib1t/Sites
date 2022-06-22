@@ -31,7 +31,7 @@
     box-sizing: border-box;
     width: 100%;
     max-width: 732px;
-    overflow: scroll;
+    overflow: auto;
 
     @media screen and (max-width: 576px) {
       padding: 20px;

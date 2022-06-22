@@ -6,7 +6,7 @@
           <div class="b-footerInfo__column">
             <h3 class="b-footerInfo__columnTitle">Adresse</h3>
             <ul class="b-footerInfo__columnList">
-              <li class="b-footerInfo__address">
+              <li class="b-footerInfo__item b-footerInfo__address">
                 <p class="b-footerInfo__addressText">VSV - AUPS
                 <br> Bärengasse 22
                 <br> 8001 Zürich</p>
@@ -16,17 +16,17 @@
           <div class="b-footerInfo__column">
             <h3 class="b-footerInfo__columnTitle">Kontakt</h3>
             <ul class="b-footerInfo__columnList">
-              <li><a href="mailto: office@vhs.ch" class="b-footerInfo__email">office@vhs.ch</a></li>
-              <li><a class="b-footerInfo__phoneTop g-tel" href="tel: +41 44 211 97 71">+41 44 211 97 71</a></li>
-              <li><a class="b-footerInfo__phoneBottom g-tel" href="tel: +41 44 211 97 72">+41 44 211 97 72</a></li>
+              <li class="b-footerInfo__item"><a href="mailto: office@vhs.ch" class="b-footerInfo__email">office@vhs.ch</a></li>
+              <li class="b-footerInfo__item"><a class="b-footerInfo__phoneTop g-tel" href="tel: 41442119771">+41 44 211 97 71</a></li>
+              <li class="b-footerInfo__item"><a class="b-footerInfo__phoneBottom g-tel" href="tel: 41442119772">+41 44 211 97 72</a></li>
             </ul>
           </div>
           <div class="b-footerInfo__column">
             <h3 class="b-footerInfo__columnTitle">Quick Links</h3>
             <ul class="b-footerInfo__columnList">
-              <li><a href="../innerPage.php">Mitglied werden</a></li>
-              <li><a href="#">Statuten</a></li>
-              <li><a href="#">Newsletter abonnieren</a></li>
+              <li class="b-footerInfo__item"><a href="../innerPage.php">Mitglied werden</a></li>
+              <li class="b-footerInfo__item"><a href="#">Statuten</a></li>
+              <li class="b-footerInfo__item"><a href="#">Newsletter abonnieren</a></li>
             </ul>
           </div>
         </div>
