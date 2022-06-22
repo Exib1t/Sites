@@ -18,8 +18,7 @@
     position: relative;
     overflow: hidden;
     display: block;
-    margin: 0 -30px;
-    padding: 0;
+    padding: 0 -30px;
 
     &:focus {
         outline: none;
@@ -65,7 +64,7 @@
     float: left;
     height: 100%;
     min-height: 1px;
-    margin: 0 30px;
+    padding: 0 30px;
     [dir="rtl"] & {
         float: right;
     }

@@ -221,40 +221,46 @@ require( 'inc/header.php' );
       </div>
 
       <div class="b-contentComments__reviews js-testimonials">
-        <div class="b-commentsReview__review">
-          <div class="b-commentsReview__about">
-            <img src="assets/img/blocks/contentComments/natashaD.png" alt="" class="b-commentsReview__avatar">
-            <div class="b-commentsReview__info">
-              <p class="b-commentsReview__name">Natasha D</p>
-              <p class="b-commentsReview__place">Newyork</p>
+        <div class="b-commentsReview__wrapper">
+          <div class="b-commentsReview__review">
+            <div class="b-commentsReview__about">
+              <img src="assets/img/blocks/contentComments/natashaD.png" alt="" class="b-commentsReview__avatar">
+              <div class="b-commentsReview__info">
+                <p class="b-commentsReview__name">Natasha D</p>
+                <p class="b-commentsReview__place">Newyork</p>
+              </div>
             </div>
-          </div>
 
-          <div class="b-commentsReview__text b-text"><p>They known for its fabulous taste and food. Anywhere you go your hunger is satisfied. The best chicken & burgers those are yummy.</p></div>
+            <div class="b-commentsReview__text b-text"><p>They known for its fabulous taste and food. Anywhere you go your hunger is satisfied. The best chicken & burgers those are yummy.</p></div>
+          </div>
         </div>
 
-        <div class="b-commentsReview__review">
-          <div class="b-commentsReview__about">
-            <img src="assets/img/blocks/contentComments/JackS.png" alt="" class="b-commentsReview__avatar">
-            <div class="b-commentsReview__info">
-              <p class="b-commentsReview__name">Jack Sparrow</p>
-              <p class="b-commentsReview__place">Salt Lake City</p>
+        <div class="b-commentsReview__wrapper">
+          <div class="b-commentsReview__review">
+            <div class="b-commentsReview__about">
+              <img src="assets/img/blocks/contentComments/JackS.png" alt="" class="b-commentsReview__avatar">
+              <div class="b-commentsReview__info">
+                <p class="b-commentsReview__name">Jack Sparrow</p>
+                <p class="b-commentsReview__place">Salt Lake City</p>
+              </div>
             </div>
-          </div>
 
-          <div class="b-commentsReview__text b-text"><p>I have visited this fantastic restaurant on several occasions, food is absolutely outstanding & attention to detail is in league of its own.</p></div>
+            <div class="b-commentsReview__text b-text"><p>I have visited this fantastic restaurant on several occasions, food is absolutely outstanding & attention to detail is in league of its own.</p></div>
+          </div>
         </div>
 
-        <div class="b-commentsReview__review">
-          <div class="b-commentsReview__about">
-            <img src="assets/img/blocks/contentComments/Martin.png" alt="" class="b-commentsReview__avatar">
-            <div class="b-commentsReview__info">
-              <p class="b-commentsReview__name">Martin</p>
-              <p class="b-commentsReview__place">San Diego</p>
+        <div class="b-commentsReview__wrapper">
+          <div class="b-commentsReview__review">
+            <div class="b-commentsReview__about">
+              <img src="assets/img/blocks/contentComments/Martin.png" alt="" class="b-commentsReview__avatar">
+              <div class="b-commentsReview__info">
+                <p class="b-commentsReview__name">Martin</p>
+                <p class="b-commentsReview__place">San Diego</p>
+              </div>
             </div>
-          </div>
 
-          <div class="b-commentsReview__text b-text"><p>Perfectly known for its fabulous taste and food. Anywhere your hunger is satisfied. They give best fried chicken and burgers those are yummy.</p></div>
+            <div class="b-commentsReview__text b-text"><p>Perfectly known for its fabulous taste and food. Anywhere your hunger is satisfied. They give best fried chicken and burgers those are yummy.</p></div>
+          </div>
         </div>
       </div>
     </div>
@@ -426,7 +432,7 @@ require( 'inc/header.php' );
               <input type="number" placeholder="Persons">
             </label>
             <label for="">
-              <input type="time" placeholder="Timing">
+              <input type="text" placeholder="Timing" class="js-timePicker">
             </label>
             <label for="">
               <input type="text" placeholder="Date" class="js-inputData">

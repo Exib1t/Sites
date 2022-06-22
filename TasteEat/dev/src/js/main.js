@@ -1,11 +1,11 @@
 // Authors: %Author Name%
 
 $(function() {
-  // initFunctionExample();
   hamburger();
-  slider();
+  sliderInit();
   imageOpacity();
-  dataPicker();
+  dataPickerInit();
+  timePickerInit();
 });
 
 $(window).on('resize', function() {
@@ -50,7 +50,7 @@ function hamburger() {
   };
 }
 
-function slider() {
+function sliderInit() {
   $('.js-testimonials').slick({
     infinite: true,
     slidesToShow: 2,
@@ -86,9 +86,18 @@ function imageOpacity() {
   });
 }
 
-function dataPicker() {
+function dataPickerInit() {
   $('.js-inputData').datepicker({
     altField: '#actualDate',
 
+  });
+}
+
+function timePickerInit() {
+  $('.js-timePicker').timepicker({
+    timeFormat: 'h:mm p',
+    dynamic: true,
+    dropdown: true,
+    scrollbar: false
   });
 }
